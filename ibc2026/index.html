@@ -5,18 +5,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--ground:#FBFAF7;--ink:#1C1B19;--slate:#5B6169;--rule:#E2DFD8;--granata:#7B1B2E;--wash:#F3E7EA;--teal:#1F5A68;--tealwash:#E3EDF0}
+:root{--ground:#FBFAF7;--ink:#1C1B19;--slate:#5B6169;--rule:#E2DFD8;--granata:#B05708;--fill:#E9740F;--wash:#F3E7EA;--teal:#1F5A68;--tealwash:#E3EDF0}
 *{box-sizing:border-box}
 body{margin:0;background:var(--ground);color:var(--ink);font-family:"Archivo",system-ui,sans-serif;
  font-size:15px;line-height:1.5;font-variant-numeric:tabular-nums}
 .wrap{max-width:1180px;margin:0 auto;padding:40px 24px 80px}
-h1{font-size:clamp(27px,4.1vw,43px);font-weight:700;letter-spacing:-.021em;line-height:1.08;margin:0 0 10px;max-width:19ch}
+h1{font-size:clamp(25px,3.5vw,37px);font-weight:700;letter-spacing:-.022em;line-height:1.1;margin:0 0 14px;max-width:24ch;text-wrap:balance}
 p.lede{margin:0 0 26px;max-width:68ch;color:var(--slate);font-size:16px}
 .kicker{font-family:"Archivo Narrow",sans-serif;font-size:13px;font-weight:600;letter-spacing:.08em;
  text-transform:uppercase;color:var(--granata);margin:0 0 6px}
 .strip{display:flex;gap:1px;height:54px;margin:0 0 10px}
 .strip span{flex:1 1 0;border-radius:1px}
-.s0{background:#DEDAD2}.s1{background:#C9A9B0}.s2{background:#A85F72}.s3{background:var(--granata)}
+.s0{background:#E2DED6}.s1{background:#F6CFA8}.s2{background:#EE9A55}.s3{background:#C25C06}
 .striplab{display:flex;flex-wrap:wrap;gap:18px;margin:0 0 12px;font-family:"Archivo Narrow",sans-serif;
  font-size:13px;color:var(--slate)}
 .striplab i{display:inline-block;width:11px;height:11px;margin-right:6px;border-radius:1px;vertical-align:-1px;font-style:normal}
@@ -87,9 +87,9 @@ input[type=search]:focus-visible{outline:2px solid var(--granata);outline-offset
 .promo.sub a.cta{background:#FF6719}
 .promo.sub a.cta:hover{background:#DB5412}
 /* book, A Guy With A Scarf orange */
-.promo.amz .eyebrow{color:#E9740F}
-.promo.amz a.cta{background:#E9740F}
-.promo.amz a.cta:hover{background:#C65F08}
+.promo.amz .eyebrow{color:var(--granata)}
+.promo.amz a.cta{background:var(--fill)}
+.promo.amz a.cta:hover{background:#C25C06}
 /* record headers follow the reading column, not the page */
 .rec header{max-width:760px}
 @media (max-width:1080px){
@@ -103,15 +103,15 @@ input[type=search]:focus-visible{outline:2px solid var(--granata);outline-offset
 .rec{border-top:1px solid var(--rule);padding:30px 0 30px}
 .rec:first-child{border-top:0;padding-top:6px}
 .rec header{max-width:760px;margin:0 0 18px}
-.rec.feat{border-left:2px solid var(--granata);padding-left:20px;margin-left:-22px}
+.rec.feat{border-left:2px solid var(--fill);padding-left:20px;margin-left:-22px}
 section.tier{max-width:760px;padding:46px 0 6px;border-top:2px solid var(--ink);margin-top:34px}
 section.tier h2{font-size:26px;font-weight:700;letter-spacing:-.018em;margin:0 0 10px}
 section.tier p{margin:0;color:var(--slate);font-size:14px;line-height:1.58}
 .srcbox{margin-top:16px;padding-top:11px;border-top:1px solid var(--rule)}
-.rec .acc{display:flex;align-items:center;gap:7px;margin:0 0 5px;
- font-family:"Archivo Narrow",sans-serif;font-size:11.5px;font-weight:700;letter-spacing:.08em;
+.rec .acc{display:flex;align-items:center;gap:5px;margin:0 0 3px;
+ font-family:"Archivo Narrow",sans-serif;font-size:8.5px;font-weight:700;letter-spacing:.09em;
  text-transform:uppercase;color:var(--slate)}
-.rec .acc i{width:8px;height:8px;border-radius:50%;flex:0 0 8px}
+.rec .acc i{width:5px;height:5px;border-radius:50%;flex:0 0 5px}
 .rec .acc.high i{background:#2E7D5B}
 .rec .acc.medium i{background:#C9902B}
 .rec .acc.low i{background:#B3453A}
@@ -127,9 +127,9 @@ section.tier p{margin:0;color:var(--slate);font-size:14px;line-height:1.58}
  text-transform:uppercase;color:#A8A29A;display:flex;align-items:baseline;gap:3px}
 .sc b{font-family:"Archivo",sans-serif;font-size:13px;font-weight:700;letter-spacing:0;color:#CFC9C0;
  min-width:14px;text-align:center;border-bottom:2px solid #E8E4DD;padding-bottom:1px}
-.sc.v1 b{color:#B08592;border-bottom-color:#E4CDD3}
-.sc.v2 b{color:#A85F72;border-bottom-color:#C99AA6}
-.sc.v3 b{color:var(--granata);border-bottom-color:var(--granata)}
+.sc.v1 b{color:#C99A6B;border-bottom-color:#F1DCC3}
+.sc.v2 b{color:#D9812C;border-bottom-color:#EFB77A}
+.sc.v3 b{color:var(--granata);border-bottom-color:#C25C06}
 .rec p.meta{font-family:"Archivo Narrow",sans-serif;font-size:13px;color:var(--slate);margin:9px 0 0}
 .rec .body{padding:0;max-width:760px}
 .rec .body p{margin:0 0 9px;font-size:14.5px;line-height:1.56}
@@ -185,7 +185,7 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);color:v
 <div class="wrap">
 <div class="col">
 <p class="kicker">A Guy With A Scarf</p>
-<h1>IBC2026 vendor scan: Streaming, live sport and AI</h1>
+<h1>IBC2026 vendor scan:<br>Streaming, live sport and AI</h1>
 <p class="lede">One hundred companies scored against the four things I care about: AI, streaming, sport and live sport. One block per company below, shaded by how hard each leans on AI. Seven cloud and platform companies are scored the same way and kept in their own section at the end.</p>
 <div class="strip" aria-hidden="true"><span class="s3" title="AI2 Insights"></span><span class="s3" title="Avid"></span><span class="s3" title="Brightcove"></span><span class="s3" title="Cleeng"></span><span class="s3" title="Cuez"></span><span class="s3" title="CuttingRoom"></span><span class="s3" title="Eluvio"></span><span class="s3" title="EON Media"></span><span class="s3" title="Evergent"></span><span class="s3" title="Kaltura"></span><span class="s3" title="LucidLink"></span><span class="s3" title="Quickplay"></span><span class="s3" title="Saga"></span><span class="s3" title="TwelveLabs"></span><span class="s3" title="Veritone"></span><span class="s3" title="Visionular"></span><span class="s3" title="Vizrt"></span><span class="s3" title="Zentag AI"></span><span class="s2" title="Mercury Intermedia"></span><span class="s2" title="Dolby OptiView"></span><span class="s2" title="Ateme"></span><span class="s2" title="Babeleye"></span><span class="s2" title="Big Blue Marble"></span><span class="s2" title="Bitmovin"></span><span class="s2" title="Comcast Technology Solutions"></span><span class="s2" title="EVS"></span><span class="s2" title="Gcore"></span><span class="s2" title="Junger Audio"></span><span class="s2" title="Magnifi"></span><span class="s2" title="Media Distillery"></span><span class="s2" title="Mediaproxy"></span><span class="s2" title="Profuz Digital"></span><span class="s2" title="Projective"></span><span class="s2" title="Quortex"></span><span class="s2" title="Recombee"></span><span class="s2" title="Small Pixels"></span><span class="s2" title="Stirlitz Media"></span><span class="s2" title="SubtitleNEXT"></span><span class="s2" title="Synamedia"></span><span class="s2" title="SyncWords"></span><span class="s2" title="Telestream"></span><span class="s2" title="Telos Alliance"></span><span class="s2" title="ThinkAnalytics"></span><span class="s2" title="Thol"></span><span class="s2" title="TVU Networks"></span><span class="s2" title="uniqFEED"></span><span class="s2" title="Vela"></span><span class="s2" title="VIDA"></span><span class="s2" title="XroadMedia"></span><span class="s1" title="24i"></span><span class="s1" title="Accedo"></span><span class="s1" title="Actus Digital"></span><span class="s1" title="Agama and Redge"></span><span class="s1" title="Amagi"></span><span class="s1" title="EMAM, PlayBox Neo and SNEWS"></span><span class="s1" title="Grabyo"></span><span class="s1" title="Gracenote"></span><span class="s1" title="Humans Not Robots"></span><span class="s1" title="LiveU"></span><span class="s1" title="M2A Media"></span><span class="s1" title="MNC Software"></span><span class="s1" title="NETINT"></span><span class="s1" title="Planetcast"></span><span class="s1" title="Saranyu"></span><span class="s0" title="1 Legion"></span><span class="s0" title="2Coders"></span><span class="s0" title="Backscreen"></span><span class="s0" title="Broadpeak"></span><span class="s0" title="Dailymotion Pro"></span><span class="s0" title="Deltatre"></span><span class="s0" title="DTVKit"></span><span class="s0" title="DVEO"></span><span class="s0" title="Ease Live"></span><span class="s0" title="EdgeNext"></span><span class="s0" title="Enghouse Networks"></span><span class="s0" title="Haivision"></span><span class="s0" title="Kiloview"></span><span class="s0" title="Konstrukt"></span><span class="s0" title="MainStreaming"></span><span class="s0" title="Media Links"></span><span class="s0" title="MediaKind"></span><span class="s0" title="Monterosa"></span><span class="s0" title="Netskrt"></span><span class="s0" title="Norsk"></span><span class="s0" title="NOVELSAT"></span><span class="s0" title="Ocean Blue Software"></span><span class="s0" title="Simplestream"></span><span class="s0" title="Stats Perform"></span><span class="s0" title="Stream Republic"></span><span class="s0" title="Tiledmedia"></span><span class="s0" title="Touchstream"></span><span class="s0" title="TSL Products"></span><span class="s0" title="VD OTT"></span><span class="s0" title="Verimatrix"></span><span class="s0" title="Veset"></span><span class="s0" title="White Peaks Solutions"></span><span class="s0" title="XGen Network"></span><span class="s0" title="Yospace"></span><span class="s0" title="YourStoryz"></span><span class="s0" title="Zixi"></span></div>
 <div class="striplab">
@@ -201,7 +201,7 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);color:v
 </nav>
 <p class="stripnote">Eighteen make an agentic claim, thirty-one build AI into the product, fifteen mention it in passing and thirty-six use no AI language at all.</p>
 <p class="stripnote halls">Eighty-one of the companies here have a confirmed stand, spread across eight halls: Hall 5 Content Everywhere holds forty-four, Hall 1 holds ten, Hall 7 holds nine, Hall 8 holds five, and the rest are scattered across Halls 2, 6, 10 and 14. Twenty-six took no stand of their own, and each of those records says why. Twenty further companies reached me that I consider out of scope; they are named in a note at the foot of the page and left out of every figure here. Seven cloud and platform companies, among them AWS, Google Cloud and Microsoft, sit in a separate section at the end, because they sell the infrastructure the others build on and counting them alongside a multiview specialist would distort every number. Everything the scan was built from is listed on the sources page, including the three attempts that failed.</p>
-<p class="version" id="version">v. 1.0.4 · updated 18 September 2026</p>
+<p class="version" id="version">v. 1.1.3 · updated 18 September 2026</p>
 <section class="method">
 <h2>What this is, and what it is not</h2>
 <p>This is a scan, dated and bounded, rather than a directory of streaming vendors. Every record comes from
