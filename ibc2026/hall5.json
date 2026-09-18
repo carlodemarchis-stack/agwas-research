@@ -1,0 +1,812 @@
+[
+ {
+  "name": "AgileTV",
+  "booth": "5.D72",
+  "pitched": false
+ },
+ {
+  "name": "Doverunner",
+  "booth": "5.C33",
+  "pitched": false
+ },
+ {
+  "name": "Gcore",
+  "booth": "5.A64",
+  "pitched": true
+ },
+ {
+  "name": "MwareTV",
+  "booth": "5.B37",
+  "pitched": false
+ },
+ {
+  "name": "Rakuten TV Enterprise",
+  "booth": "5.F33",
+  "pitched": false
+ },
+ {
+  "name": "TVU NETWORKS",
+  "booth": "5.B86",
+  "pitched": false
+ },
+ {
+  "name": "24i",
+  "booth": "5.B36",
+  "pitched": true
+ },
+ {
+  "name": "2coders",
+  "booth": "5.F51",
+  "pitched": true
+ },
+ {
+  "name": "3SS",
+  "booth": "5.A85",
+  "pitched": false
+ },
+ {
+  "name": "A1",
+  "booth": "5.F32",
+  "pitched": false
+ },
+ {
+  "name": "Accedo",
+  "booth": "5.D76",
+  "pitched": true
+ },
+ {
+  "name": "Accenture",
+  "booth": "5.G18",
+  "pitched": false
+ },
+ {
+  "name": "ADB SA",
+  "booth": "5.H82",
+  "pitched": false
+ },
+ {
+  "name": "AI-Media",
+  "booth": "5.C34",
+  "pitched": false
+ },
+ {
+  "name": "Allegro DVT",
+  "booth": "5.MR2",
+  "pitched": false
+ },
+ {
+  "name": "alphaott",
+  "booth": "5.F53",
+  "pitched": false
+ },
+ {
+  "name": "Amagi",
+  "booth": "5.B91",
+  "pitched": false
+ },
+ {
+  "name": "Amazon Leo",
+  "booth": "5.C90",
+  "pitched": false
+ },
+ {
+  "name": "Amazon Web Services (AWS)",
+  "booth": "5.C90",
+  "pitched": false
+ },
+ {
+  "name": "androme.tv",
+  "booth": "5.A36",
+  "pitched": false
+ },
+ {
+  "name": "Ant Media",
+  "booth": "5.A83",
+  "pitched": false
+ },
+ {
+  "name": "AppSquadz Software",
+  "booth": "5.A62",
+  "pitched": false
+ },
+ {
+  "name": "Arc XP / The Washington Post",
+  "booth": "5.MR3",
+  "pitched": false
+ },
+ {
+  "name": "Aurora Networks",
+  "booth": "5.MR1",
+  "pitched": false
+ },
+ {
+  "name": "Backscreen",
+  "booth": "5.A37",
+  "pitched": true
+ },
+ {
+  "name": "Bedrock",
+  "booth": "5.C77",
+  "pitched": false
+ },
+ {
+  "name": "Big Blue Marble",
+  "booth": "5.A63",
+  "pitched": true
+ },
+ {
+  "name": "Bitmovin",
+  "booth": "5.F72",
+  "pitched": false
+ },
+ {
+  "name": "Blue Billywig",
+  "booth": "5.C30",
+  "pitched": false
+ },
+ {
+  "name": "BRAHMA AI",
+  "booth": "5.A84",
+  "pitched": false
+ },
+ {
+  "name": "Brightcove",
+  "booth": "5.A90",
+  "pitched": true
+ },
+ {
+  "name": "BT Media and Broadcast",
+  "booth": "5.MR20",
+  "pitched": false
+ },
+ {
+  "name": "CacheFly",
+  "booth": "5.F90",
+  "pitched": false
+ },
+ {
+  "name": "Camb.ai",
+  "booth": "5.C24",
+  "pitched": false
+ },
+ {
+  "name": "CaptionHub",
+  "booth": "5.B42",
+  "pitched": false
+ },
+ {
+  "name": "Castlabs",
+  "booth": "5.F26",
+  "pitched": false
+ },
+ {
+  "name": "CDNetworks",
+  "booth": "5.C42",
+  "pitched": false
+ },
+ {
+  "name": "Ceeblue",
+  "booth": "5.C43",
+  "pitched": false
+ },
+ {
+  "name": "Cisco",
+  "booth": "5.D80",
+  "pitched": false
+ },
+ {
+  "name": "Comcast Technology Solutions",
+  "booth": "5.C80",
+  "pitched": false
+ },
+ {
+  "name": "ContentWise",
+  "booth": "5.G50",
+  "pitched": false
+ },
+ {
+  "name": "Dailymotion Pro",
+  "booth": "5.A38",
+  "pitched": true
+ },
+ {
+  "name": "Deltatre",
+  "booth": "5.B63",
+  "pitched": false
+ },
+ {
+  "name": "Device.io",
+  "booth": "5.B62",
+  "pitched": false
+ },
+ {
+  "name": "DeviceAtlas",
+  "booth": "5.G60",
+  "pitched": false
+ },
+ {
+  "name": "Dolby",
+  "booth": "5.F86",
+  "pitched": true
+ },
+ {
+  "name": "DTS Elektronik (Redline)",
+  "booth": "5.H31",
+  "pitched": false
+ },
+ {
+  "name": "EdgeNext",
+  "booth": "5.G34",
+  "pitched": true
+ },
+ {
+  "name": "Enghouse Networks",
+  "booth": "5.B23",
+  "pitched": true
+ },
+ {
+  "name": "Evergent",
+  "booth": "5.A86",
+  "pitched": false
+ },
+ {
+  "name": "Evrideo",
+  "booth": "5.A26",
+  "pitched": false
+ },
+ {
+  "name": "EZDRM",
+  "booth": "5.A50",
+  "pitched": false
+ },
+ {
+  "name": "Fincons Group",
+  "booth": "5.B25",
+  "pitched": false
+ },
+ {
+  "name": "Fluendo",
+  "booth": "5.B45",
+  "pitched": false
+ },
+ {
+  "name": "Free Stream Technologies",
+  "booth": "5.C13",
+  "pitched": false
+ },
+ {
+  "name": "Frequency",
+  "booth": "5.MR11",
+  "pitched": false
+ },
+ {
+  "name": "FX Digital",
+  "booth": "5.B46",
+  "pitched": false
+ },
+ {
+  "name": "GeoComply",
+  "booth": "5.A24",
+  "pitched": false
+ },
+ {
+  "name": "Glance",
+  "booth": "5.C27",
+  "pitched": false
+ },
+ {
+  "name": "Globant",
+  "booth": "5.MR7",
+  "pitched": false
+ },
+ {
+  "name": "Globecast",
+  "booth": "5.A61",
+  "pitched": false
+ },
+ {
+  "name": "Google Ad Manager",
+  "booth": "5.MR10",
+  "pitched": false
+ },
+ {
+  "name": "Google Cloud",
+  "booth": "5.F23",
+  "pitched": false
+ },
+ {
+  "name": "Grabyo",
+  "booth": "5.A20",
+  "pitched": false
+ },
+ {
+  "name": "Gracenote",
+  "booth": "5.D66",
+  "pitched": false
+ },
+ {
+  "name": "Huawei",
+  "booth": "5.F84",
+  "pitched": false
+ },
+ {
+  "name": "Hypersolid",
+  "booth": "5.F80",
+  "pitched": false
+ },
+ {
+  "name": "Icareus",
+  "booth": "5.C40",
+  "pitched": false
+ },
+ {
+  "name": "Igalia",
+  "booth": "5.A54",
+  "pitched": false
+ },
+ {
+  "name": "Inorain.com",
+  "booth": "5.D39",
+  "pitched": false
+ },
+ {
+  "name": "Intinor",
+  "booth": "5.D61",
+  "pitched": false
+ },
+ {
+  "name": "Invideo",
+  "booth": "5.F27",
+  "pitched": false
+ },
+ {
+  "name": "IO River",
+  "booth": "5.B18",
+  "pitched": false
+ },
+ {
+  "name": "iWedia",
+  "booth": "5.C75",
+  "pitched": false
+ },
+ {
+  "name": "Kaltura",
+  "booth": "5.A68",
+  "pitched": true
+ },
+ {
+  "name": "Lightcast.com",
+  "booth": "5.C14",
+  "pitched": false
+ },
+ {
+  "name": "Lightstreamer",
+  "booth": "5.B10",
+  "pitched": false
+ },
+ {
+  "name": "LOGIC media solutions",
+  "booth": "5.C90",
+  "pitched": false
+ },
+ {
+  "name": "MainStreaming",
+  "booth": "5.F81",
+  "pitched": false
+ },
+ {
+  "name": "MASV",
+  "booth": "5.B40",
+  "pitched": false
+ },
+ {
+  "name": "Media Distillery",
+  "booth": "5.F28",
+  "pitched": false
+ },
+ {
+  "name": "Media Press Metadata",
+  "booth": "5.G65",
+  "pitched": false
+ },
+ {
+  "name": "Mediaproxy",
+  "booth": "5.D74",
+  "pitched": true
+ },
+ {
+  "name": "Merapar",
+  "booth": "5.D73",
+  "pitched": false
+ },
+ {
+  "name": "Middleman Software",
+  "booth": "5.A42",
+  "pitched": false
+ },
+ {
+  "name": "MistServer",
+  "booth": "5.D51",
+  "pitched": false
+ },
+ {
+  "name": "Mnemonica",
+  "booth": "5.A31",
+  "pitched": false
+ },
+ {
+  "name": "Monks",
+  "booth": "5.C90",
+  "pitched": false
+ },
+ {
+  "name": "nanocosmos",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "Netskrt",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "NEXIM",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "Norigin Media",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "Norsk by id3as",
+  "booth": "",
+  "pitched": true
+ },
+ {
+  "name": "NPAW",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "Operative",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "Oracle",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "Orange Wholesale International",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "OvenMedia Labs",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "Pico Immersive",
+  "booth": "",
+  "pitched": false
+ },
+ {
+  "name": "Planetcast Media Services",
+  "booth": "5.G80",
+  "pitched": true
+ },
+ {
+  "name": "PubNub",
+  "booth": "5.F91",
+  "pitched": false
+ },
+ {
+  "name": "Quickplay",
+  "booth": "5.G86",
+  "pitched": false
+ },
+ {
+  "name": "Radix",
+  "booth": "5.D50",
+  "pitched": false
+ },
+ {
+  "name": "Raysync",
+  "booth": "5.A25",
+  "pitched": false
+ },
+ {
+  "name": "Recombee",
+  "booth": "5.F73",
+  "pitched": false
+ },
+ {
+  "name": "REDspace",
+  "booth": "5.MR19",
+  "pitched": false
+ },
+ {
+  "name": "Remotly",
+  "booth": "5.A23",
+  "pitched": false
+ },
+ {
+  "name": "Reuters Imagen",
+  "booth": "5.D44",
+  "pitched": false
+ },
+ {
+  "name": "RevenueCat",
+  "booth": "5.C29",
+  "pitched": false
+ },
+ {
+  "name": "Saranyu Technologies",
+  "booth": "5.C41",
+  "pitched": true
+ },
+ {
+  "name": "Scaleway",
+  "booth": "5.B15",
+  "pitched": false
+ },
+ {
+  "name": "Scalstrm",
+  "booth": "5.G56",
+  "pitched": false
+ },
+ {
+  "name": "SDVI Corporation",
+  "booth": "5.F88",
+  "pitched": false
+ },
+ {
+  "name": "servers.com",
+  "booth": "5.A81",
+  "pitched": false
+ },
+ {
+  "name": "Setplex",
+  "booth": "5.C82",
+  "pitched": false
+ },
+ {
+  "name": "Shade",
+  "booth": "5.A60",
+  "pitched": false
+ },
+ {
+  "name": "Signiant",
+  "booth": "5.C74",
+  "pitched": false
+ },
+ {
+  "name": "Simplestream",
+  "booth": "5.F76",
+  "pitched": false
+ },
+ {
+  "name": "Simply.TV Metadata",
+  "booth": "5.C76",
+  "pitched": false
+ },
+ {
+  "name": "Skreens Entertainment Technologies",
+  "booth": "5.MR18",
+  "pitched": false
+ },
+ {
+  "name": "SmartLabs",
+  "booth": "5.B19",
+  "pitched": false
+ },
+ {
+  "name": "Sohonet",
+  "booth": "5.G38",
+  "pitched": false
+ },
+ {
+  "name": "Stats Perform",
+  "booth": "5.C16",
+  "pitched": true
+ },
+ {
+  "name": "StreamShark",
+  "booth": "5.A56",
+  "pitched": false
+ },
+ {
+  "name": "StreamVX",
+  "booth": "5.A35",
+  "pitched": false
+ },
+ {
+  "name": "swXtch.ai",
+  "booth": "5.MR13",
+  "pitched": false
+ },
+ {
+  "name": "Synapse TV",
+  "booth": "5.D55",
+  "pitched": false
+ },
+ {
+  "name": "Synaptics",
+  "booth": "5.MR24",
+  "pitched": false
+ },
+ {
+  "name": "System73",
+  "booth": "5.MR59",
+  "pitched": false
+ },
+ {
+  "name": "Tata Communications",
+  "booth": "5.B82",
+  "pitched": false
+ },
+ {
+  "name": "Telstra",
+  "booth": "5.C71",
+  "pitched": false
+ },
+ {
+  "name": "Tencent Cloud",
+  "booth": "5.F77",
+  "pitched": false
+ },
+ {
+  "name": "ThinkAnalytics",
+  "booth": "5.B87",
+  "pitched": false
+ },
+ {
+  "name": "Tiledmedia",
+  "booth": "5.G88",
+  "pitched": true
+ },
+ {
+  "name": "Touchstream",
+  "booth": "5.H54",
+  "pitched": true
+ },
+ {
+  "name": "TransPerfect Media",
+  "booth": "5.A11",
+  "pitched": false
+ },
+ {
+  "name": "Tuxera",
+  "booth": "5.A40",
+  "pitched": false
+ },
+ {
+  "name": "TVUP Streaming Media",
+  "booth": "5.C32",
+  "pitched": false
+ },
+ {
+  "name": "TwelveLabs",
+  "booth": "5.D82",
+  "pitched": true
+ },
+ {
+  "name": "Unified Streaming",
+  "booth": "5.C68",
+  "pitched": false
+ },
+ {
+  "name": "UniqCast",
+  "booth": "5.F36",
+  "pitched": false
+ },
+ {
+  "name": "uniqFEED",
+  "booth": "5.C71",
+  "pitched": false
+ },
+ {
+  "name": "V-Nova",
+  "booth": "5.D52",
+  "pitched": false
+ },
+ {
+  "name": "Varnish Software",
+  "booth": "5.A30",
+  "pitched": false
+ },
+ {
+  "name": "VdoCipher Media Solutions",
+  "booth": "5.C11",
+  "pitched": false
+ },
+ {
+  "name": "Vela",
+  "booth": "5.A51",
+  "pitched": false
+ },
+ {
+  "name": "Veset",
+  "booth": "5.B41",
+  "pitched": true
+ },
+ {
+  "name": "VIDA",
+  "booth": "5.B56",
+  "pitched": true
+ },
+ {
+  "name": "Vimond Media Solutions",
+  "booth": "5.F92",
+  "pitched": false
+ },
+ {
+  "name": "Visionular",
+  "booth": "5.C19",
+  "pitched": true
+ },
+ {
+  "name": "VisualOn",
+  "booth": "5.A55",
+  "pitched": false
+ },
+ {
+  "name": "VoiceInteraction",
+  "booth": "5.A39",
+  "pitched": false
+ },
+ {
+  "name": "VSN / Woody Technologies",
+  "booth": "5.A89",
+  "pitched": false
+ },
+ {
+  "name": "Whip Media",
+  "booth": "5.C26",
+  "pitched": false
+ },
+ {
+  "name": "WiseDV",
+  "booth": "5.A41",
+  "pitched": false
+ },
+ {
+  "name": "XPERI",
+  "booth": "5.MR4",
+  "pitched": false
+ },
+ {
+  "name": "XroadMedia",
+  "booth": "5.G82",
+  "pitched": false
+ },
+ {
+  "name": "Yospace Technologies",
+  "booth": "5.C78",
+  "pitched": false
+ },
+ {
+  "name": "YUPP Video Services",
+  "booth": "5.F25",
+  "pitched": false
+ },
+ {
+  "name": "Zattoo",
+  "booth": "5.F66",
+  "pitched": false
+ },
+ {
+  "name": "Zentag AI",
+  "booth": "5.C18",
+  "pitched": false
+ },
+ {
+  "name": "Zixi",
+  "booth": "5.A76",
+  "pitched": true
+ }
+]
