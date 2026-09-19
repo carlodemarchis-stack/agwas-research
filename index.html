@@ -15,14 +15,15 @@ body{margin:0;background:var(--ground);color:var(--ink);font-family:"Archivo",sy
 .kicker{font-family:"Archivo Narrow",sans-serif;font-size:12px;font-weight:600;letter-spacing:.09em;
  text-transform:uppercase;color:var(--granata);margin:0 0 8px}
 h1{font-size:clamp(30px,5vw,44px);font-weight:700;letter-spacing:-.02em;line-height:1.08;margin:0 0 18px}
-.top{display:flex;align-items:flex-start;gap:26px;margin:0 0 44px}
-.top .intro{margin:0}
-.me{flex:0 0 auto;width:96px;height:96px;border-radius:3px;object-fit:cover;
- border:1px solid var(--rule);margin-top:4px}
-@media (max-width:640px){.top{display:block}.me{width:76px;height:76px;margin:0 0 16px}}
+.top{display:flex;align-items:center;gap:24px;margin:0 0 18px}
+.me{flex:0 0 auto;width:104px;height:104px;border-radius:3px;object-fit:cover;
+ border:1px solid var(--rule)}
+.top .lede{margin:0;font-size:20px;line-height:1.45;letter-spacing:-.005em;color:var(--ink);
+ max-width:44ch}
+@media (max-width:640px){.top{display:block}.me{width:76px;height:76px;margin:0 0 14px}
+ .top .lede{font-size:18px;max-width:none}}
 .intro{margin:0 0 44px;max-width:62ch}
 .intro p{margin:0 0 15px;color:var(--slate)}
-.intro p:first-child{font-size:18px;line-height:1.5;color:var(--ink)}
 .intro p:last-child{margin-bottom:0}
 .item{border-top:1px solid var(--rule);padding:22px 0}
 .item:last-of-type{border-bottom:1px solid var(--rule)}
@@ -89,11 +90,12 @@ footer a{color:var(--granata)}
 <h1>Research Hub</h1>
 <div class="top">
 <img class="me" src="carlo.jpg" width="96" height="96" alt="Carlo De Marchis">
+<p class="lede">I do a lot of research as an enabler to my work as an advisor, and to inform my views on the tech, the product and the market.</p>
+</div>
+
 <div class="intro">
-  <p>I do a lot of research as an enabler to my work as an advisor, and to inform my views on the tech, the product and the market.</p>
   <p>Sometimes it is just for me and not shareable, either for confidentiality or for quality. Not good or useful to anybody else.</p>
   <p>Sometimes it reaches a level of relevancy that, while nowhere near what research companies or serious analysts produce, may still be of value to a broader audience. So I decided to build this hub and share those.</p>
-</div>
 </div>
 
 <div class="item">
