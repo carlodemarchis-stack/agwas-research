@@ -262,6 +262,12 @@ table.prices td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertic
 .navlinks{display:flex;justify-content:space-between;gap:16px;max-width:760px;margin:40px 0 0;padding-top:16px;border-top:1px solid var(--rule);font-family:"Archivo Narrow",sans-serif;font-size:13px}
 .navlinks a{color:var(--granata);text-decoration:none;font-weight:600}
 .missing{color:#B3453A}
+/* single column, promos below */
+.layout{display:block}
+.rail{display:flex;flex-wrap:wrap;gap:16px;margin:44px 0 0;padding-top:26px;border-top:1px solid var(--rule)}
+.promo{position:static;max-width:none;flex:1 1 180px;margin:0}
+@media (max-width:640px){.rail{display:block}.promo{margin:0 0 14px}}
+.controls{max-width:none}
 </style>
 </head>
 <body>
