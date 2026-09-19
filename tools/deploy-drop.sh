@@ -137,7 +137,9 @@ fi
 say "Publishing"
 git -C "$REPO" add -A
 git -C "$REPO" -c user.name="Carlo De Marchis" -c user.email="carlodemarchis@gmail.com" \
-  commit -q -m "IBC2026 vendor scan v${VER:-update}: new drop, local fixes re-applied"
+  commit -q -m "IBC2026 vendor scan v${VER:-update}: new drop, local fixes re-applied
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
 git -C "$REPO" push -q origin main
 echo "  pushed $(git -C "$REPO" rev-parse --short HEAD)"
 

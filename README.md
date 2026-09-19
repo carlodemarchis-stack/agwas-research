@@ -1,36 +1,28 @@
-# research.aguywithascarf.com
+# IBC2026 vendor scan: build output
 
-Static research site for A Guy With A Scarf. No build step, no dependencies.
+This folder is the output of the scan, dropped into the site repo. The site's own home page and layer sit
+outside it and are maintained separately, so nothing here writes to the repo root index.
 
-## Structure
+## What this drop contains
 
 ```
-/CNAME              research.aguywithascarf.com
-/.nojekyll          stops GitHub running Jekyll over the files
-/index.html         index of research items
-/ibc2026/index.html the IBC2026 vendor scan (self-contained, single file)
-/ibc2026/data.json  the underlying records, 98 companies
+/ibc2026/index.html        the scan, self-contained apart from Google Fonts
+/ibc2026/data.json         the underlying records
+/ibc2026/hall5.json        the official Hall 5 exhibitor list used for cross-referencing
+/ibc2026/sources/index.html  every source, organised by what it was used for
+/favicon.svg               the four-bar mark, also inlined in each page
+/bump.py                   version stamp tool
+/version-log.json          history of stamped versions
 ```
 
-## Deploying
+`/ibc2026/index.html` ends with the Cloudflare Web Analytics beacon and a deferred `whatsnew.js`, which is
+expected to be supplied by the site layer rather than by this build.
 
-1. Create a public repo, for example `agwas-research`.
-2. Copy the contents of this folder into the repo root and push to `main`.
-3. Repo Settings → Pages → Source: "Deploy from a branch", Branch: `main`, Folder: `/ (root)`.
-4. Under "Custom domain" enter `research.aguywithascarf.com` and save. Tick "Enforce HTTPS" once the
-   certificate is issued, which usually takes a few minutes and can take up to an hour.
-5. At your DNS provider add a CNAME record:
-   `research` → `<your-github-username>.github.io.`
-   Do not add an A record; the CNAME alone is correct for a subdomain.
+## Conventions
 
-The page lands at `https://research.aguywithascarf.com/ibc2026/`.
+Pages are light only. There is no `prefers-color-scheme: dark` block and each page sets
+`color-scheme: light`.
 
-## Updating
-
-The scan is a single self-contained HTML file. Replace `/ibc2026/index.html` and push. Pages redeploys
-in under a minute. `data.json` is a copy of the records for reuse and is not read by the page.
-
-## Note on access
-
-GitHub Pages serves everything publicly. There is no way to gate a page here, so if any part of this is
-meant for paying subscribers, that version needs to live somewhere with access control.
+Run `python3 bump.py [major|minor|patch] "what changed"` before a drop. The stamp on the page carries the
+version and the date; the note goes to `version-log.json` and never onto the page. Patch for corrections to
+existing records, minor for new records or a new field, major for a change in what the scan covers.

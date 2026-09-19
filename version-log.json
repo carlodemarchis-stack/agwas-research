@@ -13,5 +13,80 @@
   "version": "1.0.2",
   "date": "2026-09-18",
   "note": "stamp shows version and date only"
+ },
+ {
+  "version": "1.0.3",
+  "date": "2026-09-18",
+  "note": "removed stale footer text, one contrast construct and em-dashes in titles"
+ },
+ {
+  "version": "1.0.4",
+  "date": "2026-09-18",
+  "note": "filter relabelled to Hall 5 at IBC"
+ },
+ {
+  "version": "1.1.0",
+  "date": "2026-09-18",
+  "note": "switched the accent to A Guy With A Scarf orange"
+ },
+ {
+  "version": "1.1.1",
+  "date": "2026-09-18",
+  "note": "reduced the confidence label size"
+ },
+ {
+  "version": "1.1.2",
+  "date": "2026-09-18",
+  "note": "confidence label reduced further"
+ },
+ {
+  "version": "1.1.3",
+  "date": "2026-09-18",
+  "note": "title set on two lines"
+ },
+ {
+  "version": "1.2.0",
+  "date": "2026-09-18",
+  "note": "added a back to top control"
+ },
+ {
+  "version": "1.3.0",
+  "date": "2026-09-18",
+  "note": "filter bar given a tinted panel and accent treatment"
+ },
+ {
+  "version": "1.3.1",
+  "date": "2026-09-18",
+  "note": "fixed the back to top trigger"
+ },
+ {
+  "version": "1.3.2",
+  "date": "2026-09-18",
+  "note": "back to top now returns to the filter bar"
+ },
+ {
+  "version": "1.3.3",
+  "date": "2026-09-18",
+  "note": "Featured badge matches the disclosure, disclosure tried in gold"
+ },
+ {
+  "version": "1.3.4",
+  "date": "2026-09-18",
+  "note": "back to top returns to the page top; database jump link fixed"
+ },
+ {
+  "version": "1.3.5",
+  "date": "2026-09-18",
+  "note": "added a favicon"
+ },
+ {
+  "version": "1.4.0",
+  "date": "2026-09-19",
+  "note": "1 Legion moved to the platform layer, Stream Republic folded into DVEO, NPAW and Setplex added"
+ },
+ {
+  "version": "1.5.0",
+  "date": "2026-09-19",
+  "note": "1 Legion dropped, wrapper close fixed, promo split into book and course, light only"
  }
 ]
