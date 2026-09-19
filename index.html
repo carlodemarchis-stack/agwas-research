@@ -31,7 +31,18 @@ h1{font-size:clamp(30px,5vw,44px);font-weight:700;letter-spacing:-.02em;line-hei
 .jump a:hover{border-color:var(--granata);color:var(--granata)}
 .jump a::after{content:" \2197";color:var(--slate)}
 
-.rail{display:flex;flex-wrap:wrap;gap:16px;margin:56px 0 0}
+.others{margin:48px 0 0}
+.others h2{font-family:"Archivo Narrow",sans-serif;font-size:12px;font-weight:600;letter-spacing:.09em;
+ text-transform:uppercase;color:var(--granata);margin:0 0 4px}
+.proj{display:block;text-decoration:none;color:inherit;border-top:1px solid var(--rule);padding:20px 0}
+.proj:last-of-type{border-bottom:1px solid var(--rule)}
+.proj:hover h3{color:var(--granata)}
+.proj h3{font-size:19px;font-weight:600;letter-spacing:-.01em;margin:0 0 6px}
+.proj p{margin:0;color:var(--slate);font-size:15px}
+.proj span{display:block;font-family:"Archivo Narrow",sans-serif;font-size:12px;letter-spacing:.06em;
+ text-transform:uppercase;color:#9A958B;margin-top:8px}
+
+.rail{display:flex;flex-wrap:wrap;gap:16px;margin:48px 0 0}
 .promo{background:var(--card);border:1px solid var(--rule);border-radius:3px;padding:16px 17px;
  box-sizing:border-box;flex:1 1 280px}
 .promo .eyebrow{font-family:"Archivo Narrow",sans-serif;font-size:11px;font-weight:700;letter-spacing:.09em;
@@ -86,6 +97,17 @@ footer a{color:var(--granata)}
   </nav>
   <span>September 2026</span>
 </div>
+
+<section class="others">
+ <h2>My other projects</h2>
+
+ <a class="proj" href="https://dataviz.aguywithascarf.com/" target="_blank" rel="noopener">
+  <h3>Interactive sport experiences</h3>
+  <p>Sport is data, and data can be beautiful. Independent fan projects built from official feeds: a World Cup you can walk through match by match, a tennis season told one player at a time, a Formula 1 year read lap by lap.</p>
+  <span>F1 &middot; Tennis &middot; Golf &middot; Athletics &middot; NFL &middot; World Cup &middot; Football</span>
+ </a>
+
+</section>
 
 <aside class="rail">
 
