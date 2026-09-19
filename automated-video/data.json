@@ -787,8 +787,8 @@
     "one_line": "Hudl Focus is the camera family of the Hudl analysis platform, with fixed Indoor and Outdoor units, a static Focus Point and the portable Focus Flex, all of which upload automatically into a Hudl subscription that is required to use them [hf-01, hf-07].",
     "who_for": "Clubs and academies that already live inside Hudl, Sportscode or Wyscout and want the film to arrive without an operator, with the Flex packaged for semi-professional and amateur football from 2,000 dollars including a Bronze subscription [hf-03, hf-11]. US schools that want a permanent stadium or gym camera with livestreaming to Hudl TV, since broadcasting is limited to the fixed units [hf-01, hf-07].",
     "why": "Hudl Focus exists because Hudl owned the coaching workflow and needed to own the capture point too, so the camera is sold as a way to feed the subscription, and it has never been priced as a product in its own right [hf-07, hf-05]. It matters now because the Flex, refreshed in February 2024 with a three-hour battery and automatic calibration, is the only portable camera bundled with Assist stat breakdowns and Wyscout tagging, which makes Hudl the incumbent choice for any club that already pays for those tools [hf-09, hf-12, hf-03]. It tells you the space is consolidating around platforms, with Hudl adding Balltime, Titan and TeamUp in 2025 and 2026 while publishing no camera price and no Focus product news at all [hf-17, hf-18].",
-    "price_band": "Packages from USD 2,000 for a Focus Flex with a Bronze subscription (30 hours storage); Coach and Analyst packs and fixed Indoor or Outdoor cameras are quote-only, with press reports of around USD 3,000 per fixed camera in US school contracts",
-    "price_band_source": "hf-03",
+    "price_band": "Focus cameras carry no list price and are sold inside quoted club or athletic-department packages; the one published camera bundle is the mid-market soccer Team Pack from USD 2,000 with a Flex; soccer software runs USD 500 to 2,500 per team per year (Core, Plus, Premier), US high school programs USD 1,500 to 4,000 per program per year, and every sport and segment has its own price grid [hf-03, hf-23, hf-24, hf-25]",
+    "price_band_source": "hf-23",
     "italy": {
      "presence": "retail",
      "note": "Hudl owns Wyscout, headquartered in Chiavari, and publishes Italian-language Focus Flex content aimed at amateur football, but no Italian club deployment of Focus is documented and 4G streaming on the Flex is US-only [hf-20, hf-12, hf-06]."
@@ -833,7 +833,7 @@
     },
     {
      "id": "hf-05",
-     "title": "Hudl club football pricing, packages and features",
+     "title": "Hudl club American football pricing page (Bronze, Silver, Gold per team per year)",
      "url": "https://www.hudl.com/pricing/club/football",
      "publisher": "Hudl",
      "date": "2026-09-19",
@@ -982,6 +982,30 @@
      "publisher": "Bain Capital",
      "date": "2020-05-01",
      "type": "press"
+    },
+    {
+     "id": "hf-23",
+     "title": "Hudl club soccer pricing page (Core, Plus, Premier per team per year; Focus cameras as add-on on request)",
+     "url": "https://www.hudl.com/pricing/club/soccer",
+     "publisher": "Hudl",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "hf-24",
+     "title": "Hudl high school pricing page (Silver+, Gold+, Platinum+ per program per year; cameras only in the Athletic Department package)",
+     "url": "https://www.hudl.com/pricing/high-school",
+     "publisher": "Hudl",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "hf-25",
+     "title": "Hudl club pricing index (eight sports, each with its own price page)",
+     "url": "https://www.hudl.com/pricing/club",
+     "publisher": "Hudl",
+     "date": "2026-09-19",
+     "type": "primary"
     }
    ]
   },
@@ -1374,14 +1398,14 @@
     "hardware_class": "fixed",
     "payer_model": "A",
     "payer_model_label": "Club pays for a coaching tool",
-    "one_line": "Spiideo installs cloud-connected fixed cameras (S-Line, X-Line, A-Line) on pitches and arenas and sells two cloud products on top, Spiideo Perform for coaches and analysts and Spiideo Play for automated live production with graphics, replay and commentary [sp-08, sp-19].",
-    "who_for": "Professional and semi-professional clubs, academies, universities and leagues that want permanent multi-pitch capture with no server on site and a shared video and data workflow, with the A-Line launched in 2026 as the cheaper route for smaller venues [sp-03, sp-14]. Grassroots teams with one pitch and one camera budget are served better by the portable vendors, since Spiideo publishes no list price and sells by quote [sp-19, sp-08].",
-    "why": "Spiideo exists because clubs with several pitches wanted the whole training ground recorded every day, and a PoE camera feeding a cloud platform removed both the operator and the server room [sp-14, sp-09]. It matters now because revenue reached 243 million Swedish kronor in 2025 with losses still at 56 million, a 20 million dollar round in 2024 and the Signality tracking acquisition point to a company buying its way into data, and AI Highlights in May 2026 shows production automation moving from camera control to editorial [sp-06, sp-01, sp-02, sp-04]. That tells you the space is splitting, with one camp selling cheap capture to amateurs and Spiideo betting that leagues and academies will pay for capture, data and broadcast in one cloud [sp-04, sp-05].",
+    "one_line": "Spiideo installs cloud-connected fixed cameras (S-Line, X-Line, D-Line, A-Line) on pitches and arenas and sells a cloud suite on top, led by Spiideo Perform for coaches and analysts and Spiideo Play for automated live production, with Replay, League Exchange, AutoData and OTT alongside [sp-08, sp-19].",
+    "who_for": "Professional and semi-professional clubs, academies, universities and leagues that want permanent multi-pitch capture with no server on site and a shared video and data workflow, with the A-Line announced for pre-order in March 2026 as the cheaper route for smaller venues [sp-09, sp-03, sp-14]. Grassroots teams with one pitch and one camera budget are served better by the portable vendors, since Spiideo publishes no list price and sells by quote [sp-19, sp-08].",
+    "why": "The Roma case shows the pattern Spiideo is built for: a club with several pitches that wants the whole training ground recorded every day, where a PoE camera feeding a cloud platform removes both the operator and the on-site server [sp-14, sp-07, sp-09]. It matters now because revenue reached 243 million Swedish kronor in 2025 with losses still at 56 million, a 20 million dollar round in 2024 and the Signality tracking acquisition point to a company buying its way into data, and AI Highlights in May 2026 shows production automation moving from camera control to editorial [sp-06, sp-01, sp-02, sp-04]. My reading is that the space is splitting, with one camp selling cheap capture to amateurs and Spiideo betting that leagues, federations and academies will pay for capture, data and broadcast in one cloud, which is the audience its 2026 launches name [sp-04].",
     "price_band": "Quote-only; the one published partner price is USD 1,875 per team package for 25 games with AutoData stats and 50 hours of storage in a US hockey programme, and Spiideo claims the A-Line is up to 44 percent cheaper than comparable systems",
     "price_band_source": "sp-13",
     "italy": {
      "presence": "deployed",
-     "note": "AS Roma automates capture on four training pitches with Spiideo Perform, the Milan youth academy SSD Ausonia 1931 installed cameras on three pitches on Inter's recommendation, and Spiideo lists Italy as a remote office location and offers Italian on its support site [sp-14, sp-15, sp-16, sp-23]."
+     "note": "AS Roma automates capture on four training pitches with Spiideo Perform, the Milan youth academy SSD Ausonia 1931 installed cameras on three pitches on Inter's recommendation, Inter Milan is named as a customer by Sportico, and Spiideo lists Italy as a remote office location and offers Italian on its support site [sp-14, sp-15, sp-22, sp-16, sp-23]."
     },
     "evidence_grade": "B",
     "evidence_note": "Company financials come from the Swedish register via allabolag and product facts from Spiideo pages and help articles, but there is no public price list, the only price is a US partner package, security and data location documents are absent from the public site, and reviewer volume is tiny.",
@@ -1580,6 +1604,54 @@
      "publisher": "Spiideo",
      "date": "2026-09-19",
      "type": "primary"
+    },
+    {
+     "id": "sp-25",
+     "title": "Spiideo appoints Måns Hultman as Chairman of the Board",
+     "url": "https://www.spiideo.com/news/spiideo-appoints-mans-hultman-as-chairman-of-the-board/",
+     "publisher": "Spiideo",
+     "date": "2026-05-01",
+     "type": "primary"
+    },
+    {
+     "id": "sp-26",
+     "title": "Allabolag, Spiideo AB, befattningar (board) and overview (74 employees)",
+     "url": "https://www.allabolag.se/5568834435",
+     "publisher": "Allabolag",
+     "date": "2026-09-19",
+     "type": "registry"
+    },
+    {
+     "id": "sp-27",
+     "title": "United Soccer Coaches and Spiideo announce five-year National Video and Data Exchange agreement (NCAA D-II and D-III)",
+     "url": "https://unitedsoccercoaches.org/united-soccer-coaches-and-spiideo-announce-5-year-national-video-and-data-exchange-agreement/",
+     "publisher": "United Soccer Coaches",
+     "date": "2026-04-20",
+     "type": "press"
+    },
+    {
+     "id": "sp-28",
+     "title": "Southern Conference adopts Spiideo cloud replay with Remote Collaboration for 2026-27",
+     "url": "https://www.spiideo.com/news/8833-2/",
+     "publisher": "Spiideo",
+     "date": "2026-09-16",
+     "type": "primary"
+    },
+    {
+     "id": "sp-29",
+     "title": "Metro Conference partners with Spiideo to standardise video replay across soccer and lacrosse",
+     "url": "https://themetro.org/news/2026/6/4/mens-soccer-metro-conference-partners-with-spiideo-to-standardize-video-replay-technology-across-soccer-and-lacrosse-programs.aspx",
+     "publisher": "Metro Conference",
+     "date": "2026-06-04",
+     "type": "press"
+    },
+    {
+     "id": "sp-30",
+     "title": "Claret Capital, Spiideo secures €6.5M in financing",
+     "url": "https://www.claret-capital.com/articles/spiideo-secures-e6-5m-in-financing-to-accelerate-ai-automated-global-sports-content/",
+     "publisher": "Claret European Growth Capital",
+     "date": "2023-07-13",
+     "type": "press"
     }
    ]
   },
