@@ -14,8 +14,11 @@ body{margin:0;background:var(--ground);color:var(--ink);font-family:"Archivo",sy
 .wrap{max-width:760px;margin:0 auto;padding:64px 24px 96px}
 .kicker{font-family:"Archivo Narrow",sans-serif;font-size:12px;font-weight:600;letter-spacing:.09em;
  text-transform:uppercase;color:var(--granata);margin:0 0 8px}
-h1{font-size:clamp(30px,5vw,44px);font-weight:700;letter-spacing:-.02em;line-height:1.08;margin:0 0 14px}
-p.lede{color:var(--slate);margin:0 0 44px;max-width:60ch}
+h1{font-size:clamp(30px,5vw,44px);font-weight:700;letter-spacing:-.02em;line-height:1.08;margin:0 0 18px}
+.intro{margin:0 0 44px;max-width:62ch}
+.intro p{margin:0 0 15px;color:var(--slate)}
+.intro p:first-child{font-size:18px;line-height:1.5;color:var(--ink)}
+.intro p:last-child{margin-bottom:0}
 .item{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:22px 0}
 .item h2{font-size:21px;font-weight:600;letter-spacing:-.01em;margin:0 0 6px}
 .item p{margin:0 0 10px;color:var(--slate);font-size:15px}
@@ -49,6 +52,17 @@ p.lede{color:var(--slate);margin:0 0 44px;max-width:60ch}
 .promo.amz a.cta{background:var(--fill)}
 .promo.amz a.cta:hover{background:#C25C06}
 
+.course{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--fill);
+ border-radius:3px;padding:22px 24px;margin:16px 0 0}
+.course .eyebrow{font-family:"Archivo Narrow",sans-serif;font-size:11px;font-weight:700;letter-spacing:.09em;
+ text-transform:uppercase;color:var(--granata);margin:0 0 8px}
+.course h3{font-size:19px;font-weight:700;letter-spacing:-.01em;margin:0 0 9px;line-height:1.25}
+.course p{margin:0 0 14px;font-size:15px;line-height:1.55;color:var(--slate);max-width:64ch}
+.course a.cta{display:inline-block;font-family:"Archivo Narrow",sans-serif;font-size:13px;font-weight:700;
+ letter-spacing:.04em;text-transform:uppercase;color:#fff;background:var(--fill);text-decoration:none;
+ padding:8px 15px;border-radius:2px}
+.course a.cta:hover{background:#C25C06}
+
 footer{margin-top:40px;color:var(--slate);font-size:14px}
 footer a{color:var(--granata)}
 @media (max-width:640px){.rail{display:block}.promo{margin:0 0 14px}}
@@ -56,7 +70,11 @@ footer a{color:var(--granata)}
 <div class="wrap">
 <p class="kicker">A Guy With A Scarf</p>
 <h1>Research</h1>
-<p class="lede">Working datasets and scans behind the writing. Dated, bounded, and published with their methods attached.</p>
+<div class="intro">
+  <p>Most of what I write starts as a file I built for myself. A spreadsheet of who pitched what, a list of stands worth walking to, a count of how often the same claim turns up in a press release. This is where those files get published.</p>
+  <p>Each one covers a set period, names the sources it came from, and describes the sample it rests on. Where a record is built from a subject line instead of the full message, it says so. Where a call is weak, it says that too.</p>
+  <p>Read the method section first. An inbox is a record of who spent money on public relations, so a scan built from mine over-represents vendors with agencies and under-represents everyone else. I would rather hand you that at the top than have you find it on your own halfway down.</p>
+</div>
 
 <div class="item">
   <h2>IBC2026 vendor scan: Streaming, live sport and AI</h2>
@@ -100,6 +118,13 @@ footer a{color:var(--granata)}
 </div>
 
 </aside>
+
+<section class="course">
+ <p class="eyebrow">Course · paid</p>
+ <h3>Becoming a better B2B tech vendor</h3>
+ <p>Twelve lessons in four movements, plus a two-hundred-page companion book. What I have learned from the vendor side of sports and media technology, from positioning and pricing to how buying decisions actually get made. Yours for life.</p>
+ <a class="cta" href="https://b2b.aguywithascarf.com/" target="_blank" rel="noopener">View the course</a>
+</section>
 
 <footer>Carlo De Marchis · <a href="https://aguywithascarf.substack.com">A Guy With A Scarf</a></footer>
 </div>
