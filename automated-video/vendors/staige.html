@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Staige (Staige One AG, formerly soccerwatch.tv) · Automated match video</title>
+<meta name="description" content="A fixed 180-degree AI camera bolted to a floodlight pole that streams amateur matches to the Staige TV platform, sells virtual tickets and sponsor banners on the club&#x27;s behalf, and feeds a coaching app.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%231C1B19%22%2F%3E%3Crect%20x%3D%226%22%20%20y%3D%229%22%20%20width%3D%224%22%20height%3D%2214%22%20rx%3D%221%22%20fill%3D%22%23E2DED6%22%2F%3E%3Crect%20x%3D%2212%22%20y%3D%229%22%20%20width%3D%224%22%20height%3D%2214%22%20rx%3D%221%22%20fill%3D%22%23F6CFA8%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%229%22%20%20width%3D%224%22%20height%3D%2214%22%20rx%3D%221%22%20fill%3D%22%23EE9A55%22%2F%3E%3Crect%20x%3D%2224%22%20y%3D%229%22%20%20width%3D%224%22%20height%3D%2214%22%20rx%3D%221%22%20fill%3D%22%23C25C06%22%2F%3E%3C%2Fsvg%3E">
+<meta name="theme-color" content="#1C1B19">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--ground:#FBFAF7;--ink:#1C1B19;--slate:#5B6169;--rule:#E2DFD8;--granata:#B05708;--fill:#E9740F;--wash:#F3E7EA;--teal:#6E5610;--tealwash:#F4E7C2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:"Archivo",system-ui,sans-serif;
+ font-size:15px;line-height:1.5;font-variant-numeric:tabular-nums}
+.wrap{max-width:1180px;margin:0 auto;padding:40px 24px 80px}
+h1{font-size:clamp(25px,3.5vw,37px);font-weight:700;letter-spacing:-.022em;line-height:1.1;margin:0 0 14px;max-width:24ch;text-wrap:balance}
+p.lede{margin:0 0 26px;max-width:68ch;color:var(--slate);font-size:16px}
+.kicker{font-family:"Archivo Narrow",sans-serif;font-size:13px;font-weight:600;letter-spacing:.08em;
+ text-transform:uppercase;color:var(--granata);margin:0 0 6px}
+.strip{display:flex;gap:1px;height:54px;margin:0 0 10px}
+.strip span{flex:1 1 0;border-radius:1px}
+.s0{background:#E2DED6}.s1{background:#F6CFA8}.s2{background:#EE9A55}.s3{background:#C25C06}
+.striplab{display:flex;flex-wrap:wrap;gap:18px;margin:0 0 12px;font-family:"Archivo Narrow",sans-serif;
+ font-size:13px;color:var(--slate)}
+.striplab i{display:inline-block;width:11px;height:11px;margin-right:6px;border-radius:1px;vertical-align:-1px;font-style:normal}
+.alsonote{margin:56px 0 0;padding-top:26px;border-top:1px solid var(--rule);
+ max-width:78ch;font-size:13.5px;line-height:1.6;color:var(--slate)}
+.stripnote.halls{margin-top:-20px}
+.method{background:#F4F1EA;border-radius:3px;padding:24px 26px 22px;margin:4px 0 6px;max-width:760px}
+.method h2{font-size:19px;font-weight:700;letter-spacing:-.012em;margin:0 0 12px;color:var(--ink)}
+.method p{margin:0 0 11px;font-size:13.5px;line-height:1.62;color:#5B5850}
+.method p:last-child{margin-bottom:0}
+.version{margin:-18px 0 30px;font-family:"Archivo Narrow",sans-serif;font-size:12px;
+ letter-spacing:.04em;color:#A8A29A}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 26px}
+.jump a{font-family:"Archivo Narrow",sans-serif;font-size:13px;font-weight:600;letter-spacing:.03em;
+ text-decoration:none;color:var(--ink);border:1px solid var(--rule);border-radius:2px;padding:7px 13px;
+ background:#fff}
+.jump a:hover{border-color:var(--granata);color:var(--granata)}
+.jump a::after{content:" \2193";color:var(--slate)}
+.jump a[href^="s"]::after{content:" \2197"}
+html{scroll-behavior:smooth}
+.controls.stuck{box-shadow:0 6px 16px rgba(120,80,30,.10)}
+#totop{position:fixed;right:22px;bottom:22px;z-index:40;border:1px solid #E7C9A6;background:#FDF0E2;
+ color:var(--ink);font-family:"Archivo Narrow",sans-serif;font-size:12px;font-weight:700;letter-spacing:.07em;
+ text-transform:uppercase;padding:10px 13px;border-radius:2px;cursor:pointer;box-shadow:0 3px 14px rgba(120,80,30,.16);
+ opacity:0;pointer-events:none;transform:translateY(6px);transition:opacity .18s,transform .18s}
+#totop::before{content:"\2191\00a0"}
+#totop.on{opacity:1;pointer-events:auto;transform:none}
+#totop:hover{background:var(--fill);border-color:var(--fill);color:#fff}
+#totop:focus-visible{outline:2px solid var(--granata);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){#totop{transition:none}}
+@media (max-width:640px){#totop{right:14px;bottom:14px;padding:9px 11px}}
+#database{scroll-margin-top:0}
+section.tier{scroll-margin-top:86px}
+.stripnote{margin:0 0 32px;max-width:76ch;font-size:13px;line-height:1.55;color:#8C877E}
+.controls{background:#FDF0E2;border:1px solid #F2D6B8;border-bottom-width:1px;border-radius:3px;padding:15px 18px 14px;margin:8px 0 0;position:sticky;top:0;z-index:10;box-shadow:0 1px 0 rgba(0,0,0,0)}
+.row{display:flex;flex-wrap:wrap;gap:18px;align-items:baseline}
+.grp{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
+.grp b{font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:12px;color:var(--granata);
+ letter-spacing:.07em;text-transform:uppercase;margin-right:4px}
+button.f{font-family:"Archivo Narrow",sans-serif;font-size:13.5px;font-weight:600;background:#fff;border:1px solid #E7C9A6;color:var(--ink);padding:6px 12px;border-radius:2px;cursor:pointer;transition:border-color .12s,background .12s}
+button.f:hover{border-color:var(--fill);background:#FFF8F1}
+button.f[aria-pressed="true"]{background:var(--fill);border-color:var(--fill);color:#fff}
+button.f[aria-pressed="true"]:hover{background:#C25C06;border-color:#C25C06}
+button.f:focus-visible{outline:2px solid var(--granata);outline-offset:2px}
+input[type=search]{font-family:"Archivo",sans-serif;font-size:14px;padding:6px 11px;border:1px solid #E7C9A6;border-radius:2px;background:#fff;min-width:200px;color:var(--ink)}
+input[type=search]:focus-visible{outline:2px solid var(--granata);outline-offset:1px}
+.count{font-family:"Archivo Narrow",sans-serif;font-size:13px;color:#8A6A4A;padding:12px 0 0;margin:12px 0 0;border-top:1px solid #F2D6B8}
+
+.tag{display:inline-block;font-family:"Archivo Narrow",sans-serif;font-size:12px;padding:2px 8px;border-radius:2px;background:#EDEAE3;color:#6E6960;font-weight:600}
+.tag.revenue{background:#E6EFE9;color:#2E6B51}
+.tag.cost{background:#EDEAE3;color:#6E6960}
+.tag.both{background:#EFE4D9;color:#7A5326}
+
+
+/* reading column, and a right rail when there is room */
+.col{max-width:760px}
+.layout{display:grid;grid-template-columns:minmax(0,760px) minmax(0,1fr);gap:48px;align-items:start}
+.rail{position:relative}
+.promo{position:sticky;background:#fff;border:1px solid var(--rule);border-radius:3px;padding:16px 17px;
+ margin:0 0 20px;max-width:290px}
+.promo.p1{top:96px}.promo.p2{top:120px}.promo.p3{top:144px}.promo.p4{top:168px}.promo.p5{top:192px}
+.promo .eyebrow{font-family:"Archivo Narrow",sans-serif;font-size:11px;font-weight:700;letter-spacing:.09em;
+ text-transform:uppercase;color:var(--granata);margin:0 0 7px}
+.promo h4{font-size:16px;font-weight:700;letter-spacing:-.01em;margin:0 0 7px;line-height:1.25}
+.promo p{margin:0 0 12px;font-size:13.5px;line-height:1.5;color:var(--slate)}
+.promo a.cta{display:inline-block;font-family:"Archivo Narrow",sans-serif;font-size:13px;font-weight:700;
+ letter-spacing:.04em;text-transform:uppercase;color:#fff;background:var(--granata);text-decoration:none;
+ padding:7px 13px;border-radius:2px}
+.promo a.cta:hover{background:#631624}
+/* LinkedIn */
+.promo.li .eyebrow{color:#0A66C2}
+.promo.li a.cta{background:#0A66C2}
+.promo.li a.cta:hover{background:#08528F}
+/* Substack */
+.promo.sub .eyebrow{color:#FF6719}
+.promo.sub a.cta{background:#FF6719}
+.promo.sub a.cta:hover{background:#DB5412}
+/* book, A Guy With A Scarf orange */
+.promo.amz .eyebrow{color:var(--granata)}
+.promo.amz a.cta{background:var(--fill)}
+.promo.amz a.cta:hover{background:#C25C06}
+/* record headers follow the reading column, not the page */
+.rec header{max-width:760px}
+@media (max-width:1080px){
+ .layout{display:block}
+ .rail{display:flex;flex-wrap:wrap;gap:16px;margin:8px 0 30px}
+ .promo{position:static;max-width:none;flex:1 1 260px;margin:0}
+}
+@media (max-width:640px){.rail{display:block}.promo{margin:0 0 14px}}
+
+#tb{margin-top:6px}
+.rec{border-top:1px solid var(--rule);padding:30px 0 30px}
+.rec:first-child{border-top:0;padding-top:6px}
+.rec header{max-width:760px;margin:0 0 18px}
+.rec.feat{border-left:2px solid var(--fill);padding-left:20px;margin-left:-22px}
+section.tier{max-width:760px;padding:46px 0 6px;border-top:2px solid var(--ink);margin-top:34px}
+section.tier h2{font-size:26px;font-weight:700;letter-spacing:-.018em;margin:0 0 10px}
+section.tier p{margin:0;color:var(--slate);font-size:14px;line-height:1.58}
+.srcbox{margin-top:16px;padding-top:11px;border-top:1px solid var(--rule)}
+.rec .acc{display:flex;align-items:center;gap:5px;margin:0 0 3px;
+ font-family:"Archivo Narrow",sans-serif;font-size:8.5px;font-weight:700;letter-spacing:.09em;
+ text-transform:uppercase;color:var(--slate)}
+.rec .acc i{width:5px;height:5px;border-radius:50%;flex:0 0 5px}
+.rec .acc.high i{background:#2E7D5B}
+.rec .acc.medium i{background:#C9902B}
+.rec .acc.low i{background:#B3453A}
+.rec .acc.high{color:#2E7D5B}
+.rec .acc.medium{color:#9A6E17}
+.rec .acc.low{color:#B3453A}
+.rec .hl .pinned{margin:0;background:var(--tealwash);color:var(--teal)}
+.rec .hl{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 18px}
+.rec h3{font-size:27px;font-weight:700;letter-spacing:-.022em;line-height:1.1;margin:0;color:var(--ink);
+ flex:1 1 auto}
+.rec .scores{display:flex;gap:5px;flex:0 0 auto}
+.sc{font-family:"Archivo Narrow",sans-serif;font-size:10.5px;font-weight:600;letter-spacing:.06em;
+ text-transform:uppercase;color:#A8A29A;display:flex;align-items:baseline;gap:3px}
+.sc b{font-family:"Archivo",sans-serif;font-size:13px;font-weight:700;letter-spacing:0;color:#CFC9C0;
+ min-width:14px;text-align:center;border-bottom:2px solid #E8E4DD;padding-bottom:1px}
+.sc.v1 b{color:#C99A6B;border-bottom-color:#F1DCC3}
+.sc.v2 b{color:#D9812C;border-bottom-color:#EFB77A}
+.sc.v3 b{color:var(--granata);border-bottom-color:#C25C06}
+.rec p.meta{font-family:"Archivo Narrow",sans-serif;font-size:13px;color:var(--slate);margin:9px 0 0}
+.rec .body{padding:0;max-width:760px}
+.rec .body p{margin:0 0 9px;font-size:14.5px;line-height:1.56}
+.rec .body p b{font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:11.5px;letter-spacing:.06em;
+ text-transform:uppercase;color:#8C877E;margin-right:7px}
+.rec .body p.prob,.rec .body p.nopf{color:var(--slate)}
+.rec .body p.nopf b{color:#B5B0A6}
+.rec .body p.pf{color:var(--ink)}
+.rec .body p.pf b{color:#2E7D5B}
+.rec .body p.pf{border-left:2px solid #CFE3D8;padding-left:11px}
+.rec .body p.disc{background:var(--tealwash);color:var(--teal);padding:9px 11px;border-radius:2px;font-size:13.5px}
+.rec .body p.launch{background:#EFE9DF;color:#6B5A3E;padding:9px 11px;border-radius:2px;font-size:13.5px}
+.rec .body p.launch b{color:#6B5A3E}
+.rec .body p.news{border-left:2px solid var(--rule);padding-left:11px;color:var(--slate);font-size:13.5px}
+.rec .body p.news.post{border-left-color:#C7C2B8;color:#4A4A44}
+.rec .body p.news b{color:#6E6960}
+.rec .body p.news.post b{color:#4A4A44}
+.rec .body p.sourcing{margin:0;font-size:12px;line-height:1.5;color:#9A958B}
+.rec .body p.tags{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+
+tr.out 
+.pinned{display:inline-block;font-family:"Archivo Narrow",sans-serif;font-size:11.5px;
+ font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--teal);
+ background:var(--tealwash);padding:2px 7px;border-radius:2px;margin-top:5px}
+.disc{display:block;margin-top:8px;padding:8px 10px;background:var(--tealwash);border-radius:2px;
+ font-size:13px;color:var(--teal)}
+.launch{display:block;margin-top:8px;padding:8px 10px;background:#EFE9DF;border-radius:2px;
+ font-size:13px;color:#6B5A3E;line-height:1.5}
+.launch b{font-family:"Archivo Narrow",sans-serif;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+ font-size:11.5px}
+.launch i{display:block;font-style:normal;margin-top:5px;color:#8A7A5E}
+a.vlink{display:inline-block;margin-top:9px;font-family:"Archivo Narrow",sans-serif;font-size:13px;
+ font-weight:600;color:var(--teal);text-decoration:none;border-bottom:1px solid var(--tealwash);padding-bottom:1px}
+a.vlink:hover{border-bottom-color:var(--teal)}
+a.vlink::after{content:" \2197"}
+.prov{display:block;font-family:"Archivo Narrow",sans-serif;font-size:12px;color:#9A958B;margin:0 0 9px}
+.empty{padding:44px 0;color:var(--slate)}
+a.srclink{color:var(--granata);font-weight:600;text-decoration:none;
+ border-bottom:1px solid var(--wash)}
+a.srclink:hover{border-bottom-color:var(--granata)}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);color:var(--slate);font-size:13.5px;max-width:74ch}
+@media (max-width:860px){
+ .wrap{padding:28px 16px 60px}
+ thead{display:none}
+ tbody tr{display:block;border-bottom:1px solid var(--rule);padding:16px 0}
+ 
+ 
+ td.n::before{content:attr(data-l) " ";color:var(--slate);font-weight:400}
+ .strip{height:40px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* additions for the automated match video pages */
+.crumb{font-family:"Archivo Narrow",sans-serif;font-size:13px;letter-spacing:.03em;color:var(--slate);margin:0 0 22px}
+.crumb a{color:var(--granata);text-decoration:none;font-weight:600}
+.crumb a:hover{text-decoration:underline}
+.crumb span{margin:0 7px;color:#C9C3B9}
+.s0{background:#E2DED6}
+.pmC{background:#C25C06}.pmA{background:#EE9A55}.pmB{background:#F6CFA8}.pmD{background:#E2DED6}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
+.badge{display:inline-block;font-family:"Archivo Narrow",sans-serif;font-size:11.5px;font-weight:600;letter-spacing:.03em;
+ padding:3px 8px;border-radius:2px;background:#EDEAE3;color:#6E6960;text-transform:uppercase}
+.badge.pm-A{background:#FBE4CC;color:#8A4A10}.badge.pm-B{background:#FCEFE0;color:#8A6A4A}.badge.pm-C{background:#F1D3B8;color:#7A3A05}.badge.pm-D{background:#EDEAE3;color:#6E6960}
+.badge.it-deployed,.badge.it-partner{background:#E6EFE9;color:#2E6B51}
+.badge.it-reseller,.badge.it-retail{background:#EFE9DF;color:#6B5A3E}
+.badge.ev-A{background:#E6EFE9;color:#2E7D5B}.badge.ev-B{background:#FBF0D6;color:#9A6E17}.badge.ev-C{background:#F8E1DE;color:#B3453A}
+.badge.flag{background:#F8E1DE;color:#B3453A;text-transform:none;letter-spacing:0}
+.rec .body p.why{border-left:2px solid var(--fill);padding-left:12px;color:var(--ink)}
+.rec .body p.why b{color:var(--granata)}
+sup.src{font-family:"Archivo Narrow",sans-serif;font-size:10px;letter-spacing:.02em;line-height:0}
+sup.src a{color:#A8A29A;text-decoration:none}
+sup.src a:hover{color:var(--granata)}
+.essay{max-width:72ch}
+.essay p{font-size:16px;line-height:1.62;margin:0 0 18px}
+.essay h2{font-size:22px;font-weight:700;letter-spacing:-.015em;margin:34px 0 12px;line-height:1.2}
+.essay .cta{background:var(--tealwash);color:var(--teal);padding:16px 18px;border-radius:3px;font-size:15px}
+.teaser{max-width:760px;background:#F4F1EA;border-radius:3px;padding:22px 26px;margin:0 0 30px}
+.teaser h2{font-size:20px;font-weight:700;letter-spacing:-.012em;margin:0 0 10px}
+.teaser p{margin:0 0 10px;font-size:14.5px;line-height:1.6;color:#4A4A44}
+.teaser a.more{font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--granata);text-decoration:none}
+.teaser a.more::after{content:" \2192"}
+.mapkey{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:0 0 30px;max-width:980px}
+.mapkey div{font-size:13px;line-height:1.5;color:var(--slate)}
+.mapkey b{display:block;font-family:"Archivo Narrow",sans-serif;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin:0 0 4px}
+.mapkey i{display:inline-block;width:11px;height:11px;margin-right:6px;border-radius:1px;vertical-align:-1px}
+.vhead{max-width:760px;margin:0 0 22px}
+.vhead h1{max-width:none}
+.vhead p.meta{font-family:"Archivo Narrow",sans-serif;font-size:14px;color:var(--slate);margin:4px 0 0}
+.block{max-width:760px;margin:0 0 26px}
+.block h2{font-size:19px;font-weight:700;letter-spacing:-.012em;margin:28px 0 10px;padding-top:18px;border-top:1px solid var(--rule)}
+.block p{font-size:14.5px;line-height:1.6;margin:0 0 10px}
+.block ul{margin:0 0 10px;padding-left:20px;font-size:14.5px;line-height:1.6}
+.block li{margin:0 0 6px}
+dl.crit{margin:0;display:grid;grid-template-columns:1fr;gap:0}
+dl.crit dt{font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--granata);margin:16px 0 4px}
+dl.crit dd{margin:0;font-size:14.5px;line-height:1.6}
+table.prices{border-collapse:collapse;width:100%;font-size:13.5px;margin:6px 0 12px}
+table.prices th{text-align:left;font-family:"Archivo Narrow",sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--slate);border-bottom:1px solid var(--ink);padding:6px 8px 6px 0}
+table.prices td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertical-align:top}
+.verdict{background:#FDF0E2;border:1px solid #F2D6B8;border-radius:3px;padding:18px 20px;margin:0 0 8px}
+.verdict h2{border:0;margin:0 0 8px;padding:0}
+.verdict p b{font-family:"Archivo Narrow",sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--granata);margin-right:6px}
+.prem{display:inline-block;font-family:"Archivo Narrow",sans-serif;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--ink);color:#fff;padding:3px 8px;border-radius:2px;margin-left:8px;vertical-align:middle}
+.lock{background:#F4F1EA;border-radius:3px;padding:14px 18px;font-size:13.5px;color:#5B5850;margin:14px 0 0;max-width:760px}
+.lock a{color:var(--granata);font-weight:600;text-decoration:none}
+.srcgroup h2{font-size:20px;font-weight:700;margin:34px 0 10px;padding-top:18px;border-top:1px solid var(--ink);letter-spacing:-.012em}
+.srclist{list-style:none;margin:0;padding:0;max-width:900px}
+.srclist li{padding:9px 0;border-bottom:1px solid var(--rule);font-size:13.5px;line-height:1.5;scroll-margin-top:20px}
+.srclist li:target{background:#FDF0E2}
+.srclist code{font-family:"Archivo Narrow",sans-serif;font-size:12px;color:var(--granata);font-weight:700;margin-right:8px}
+.srclist .t{display:inline-block;font-family:"Archivo Narrow",sans-serif;font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:#6E6960;background:#EDEAE3;padding:1px 6px;border-radius:2px;margin-left:6px}
+.srclist .t.primary,.srclist .t.registry{background:#E6EFE9;color:#2E6B51}
+.srclist a.u{display:block;color:var(--slate);word-break:break-all;text-decoration:none;font-size:12.5px;margin-top:2px}
+.srclist a.u:hover{color:var(--granata)}
+.navlinks{display:flex;justify-content:space-between;gap:16px;max-width:760px;margin:40px 0 0;padding-top:16px;border-top:1px solid var(--rule);font-family:"Archivo Narrow",sans-serif;font-size:13px}
+.navlinks a{color:var(--granata);text-decoration:none;font-weight:600}
+.missing{color:#B3453A}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="crumb"><a href="https://research.aguywithascarf.com/">A Guy With A Scarf research</a><span>/</span><a href="../index.html">Automated match video</a><span>/</span>Staige (Staige One AG, formerly soccerwatch.tv)</p>
+<div class="vhead">
+<p class="kicker">Platform pays for cameras and shares revenue</p>
+<h1>Staige (Staige One AG, formerly soccerwatch.tv)</h1>
+<p class="meta">Essen, Germany · founded 2017 · pivoted · <a href="https://staige.com/en/staige-sport" target="_blank" rel="noopener" style="color:var(--granata)">staige.com/en/staige-sport</a> · last verified 2026-09-19</p>
+<div class="badges"><span class="badge pm-C">Platform pays for cameras and shares revenue</span><span class="badge">Fixed multi-lens</span><span class="badge it-none">No Italian presence found</span><span class="badge ev-B">Evidence B</span><span class="badge">Quote only</span><span class="badge flag">Going-concern note in the FY2025 accounts</span></div>
+</div>
+<div class="layout"><div class="col">
+<div class="block">
+<p style="font-size:17px;line-height:1.55"><b>A fixed 180-degree AI camera bolted to a floodlight pole that streams amateur matches to the Staige TV platform, sells virtual tickets and sponsor banners on the club&#x27;s behalf, and feeds a coaching app.</b></p>
+<p><b style="font-family:Archivo Narrow,sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:#8C877E;margin-right:6px">For</b> German-speaking amateur and semi-professional clubs that want every home match streamed without a volunteer behind a camera, and that have a sponsor or a regional bank willing to fund the hardware. Federations and broadcasters that want a turnkey lower-league feed are the second audience.</p>
+<p class="why" style="border-left:2px solid var(--fill);padding-left:12px">Staige exists because soccerwatch.tv proved in 2017 that German amateur clubs would let a robot camera film them if the stream came with sponsor money attached, and the K2 panorama camera plus the Staige TV paywall turned that into a repeatable product with more than 250,000 events recorded <sup class="src"><a href="../sources.html#staige-06" title="IRW-News: Staige One AG publishes 2025 consolidated financial statements, transformation to Staige for Industries progressing">staige-06</a></sup>. It matters now because the listed parent Staige One AG has spent 2025 and 2026 moving its capital and its engineers into Staige for Industries, a security and infrastructure video business, while the sport segment sits flat at about €2.0 million revenue and camera deliveries run behind schedule <sup class="src"><a href="../sources.html#staige-05" title="Staige One AG Geschäftsbericht 2025 (annual report for the 2025 financial year)">staige-05</a>, <a href="../sources.html#staige-07" title="Staige One AG: clear earnings improvement in H1 2026, Staige for Industries reaches key breakthrough">staige-07</a></sup>. It tells you that the pure sponsor-funded amateur streaming model, on its own, has struggled to carry a listed company, and that the survivors in this space will be the ones with a second revenue engine or a very lean cost base.</p>
+<p><b style="font-family:Archivo Narrow,sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:#8C877E;margin-right:6px">Price band</b> Camera pricing on request, typically sponsor or bank funded; €1.50 net per paid pay-per-view access retained by Staige <sup class=src><a href="../sources.html#staige-01">staige-01</a></sup></p>
+<p><b style="font-family:Archivo Narrow,sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:#8C877E;margin-right:6px">Italy</b> The 2025 annual report lists Germany, Luxembourg, the Netherlands, the USA and China as markets and does not mention Italy, and an earlier regional profile named Italy only as an expansion target <sup class="src"><a href="../sources.html#staige-05" title="Staige One AG Geschäftsbericht 2025 (annual report for the 2025 financial year)">staige-05</a>, <a href="../sources.html#staige-10" title="Wie Staige aus dem Ruhrgebiet den Amateur-Sport mit KI revolutioniert (regional business profile)">staige-10</a></sup>.</p>
+<div class="lock"><b>Premium edition:</b> the verdict (look if, skip if, watch-outs), the profile against 24 criteria, the verified price list per market and the company block are in the premium edition. <a href="mailto:carlo@aguywithascarf.com?subject=Automated%20match%20video%20premium">Ask for access</a>.</div>
+<h2>Products</h2><ul><li><b>Staige K2X</b> (camera). AI camera with 180-degree panorama and Full HD live output, marketed as mobile with a five-minute setup and sold to clubs as a floodlight-pole install. <sup class="src"><a href="../sources.html#staige-02" title="Staige K2X mobile AI camera product page">staige-02</a></sup></li><li><b>Staige K2</b> (camera). Fixed six-lens panorama camera, weatherproof and tamper resistant, permanently installed at about seven metres. <sup class="src"><a href="../sources.html#staige-14" title="Smart Sports Camera K2 product page">staige-14</a></sup></li><li><b>Staige TV</b> (platform). Viewer platform on web and apps with live streams, highlights, pay-per-view and season tickets. <sup class="src"><a href="../sources.html#staige-01" title="Staige Sport overview page: live streaming, AI analysis, financing, FAQ with pay-per-view fee and privacy notes">staige-01</a></sup></li><li><b>Staige Coach</b> (app). Coaching app for drawing, tagging and sharing clips to players, with cloud access to all recordings. <sup class="src"><a href="../sources.html#staige-03" title="Staige Sport for clubs and teams page with testimonials and revenue tools">staige-03</a></sup></li><li><b>Backstaige</b> (platform). Club dashboard for schedules, sponsor banners, paywall settings and downloads. <sup class="src"><a href="../sources.html#staige-01" title="Staige Sport overview page: live streaming, AI analysis, financing, FAQ with pay-per-view fee and privacy notes">staige-01</a></sup></li><li><b>Staige Pro</b> (platform). Scalable camera and platform offer for leagues, federations and broadcasters. <sup class="src"><a href="../sources.html#staige-04" title="Staige homepage: Edge AI video analytics for sports and safety, powered by adesso">staige-04</a></sup></li></ul>
+<h2>Scale, company-stated</h2><p>More than 250,000 sports events recorded as of May 2026 <sup class="src"><a href="../sources.html#staige-06" title="IRW-News: Staige One AG publishes 2025 consolidated financial statements, transformation to Staige for Industries progressing">staige-06</a></sup>; more than 1,200 installed systems across all lines per the homepage in September 2026 <sup class="src"><a href="../sources.html#staige-04" title="Staige homepage: Edge AI video analytics for sports and safety, powered by adesso">staige-04</a></sup>; 29 FTE at end 2025 and 37 average employees in H1 2026 <sup class="src"><a href="../sources.html#staige-05" title="Staige One AG Geschäftsbericht 2025 (annual report for the 2025 financial year)">staige-05</a>, <a href="../sources.html#staige-07" title="Staige One AG: clear earnings improvement in H1 2026, Staige for Industries reaches key breakthrough">staige-07</a></sup>; an earlier regional profile cited more than 200 club partnerships, 1,200 games streamed weekly and 120,000 games broadcast <sup class="src"><a href="../sources.html#staige-10" title="Wie Staige aus dem Ruhrgebiet den Amateur-Sport mit KI revolutioniert (regional business profile)">staige-10</a></sup>.</p>
+<h2>2025 and 2026</h2><ul><li>2025-06-18: SMC-Research keeps a speculative buy rating, cuts target to €4.10, notes Staige for Industries at an early stage and ACME rollout delays <sup class="src"><a href="../sources.html#staige-09" title="Staige One: Vielversprechende Strategieerweiterung (SMC-Research analyst note summary)">staige-09</a></sup></li><li>2025-Q2: €2.1 million capital increase, largely subscribed by adesso SE and Malo Industriebeteiligungen <sup class="src"><a href="../sources.html#staige-06" title="IRW-News: Staige One AG publishes 2025 consolidated financial statements, transformation to Staige for Industries progressing">staige-06</a></sup></li><li>2026-03: Additional €0.6 million credit line from adesso SE <sup class="src"><a href="../sources.html#staige-06" title="IRW-News: Staige One AG publishes 2025 consolidated financial statements, transformation to Staige for Industries progressing">staige-06</a></sup></li><li>2026-05-29: FY2025 consolidated accounts published, revenue €2.0 million, net loss €4.2 million, going concern uncertainty flagged by the auditor <sup class="src"><a href="../sources.html#staige-05" title="Staige One AG Geschäftsbericht 2025 (annual report for the 2025 financial year)">staige-05</a>, <a href="../sources.html#staige-06" title="IRW-News: Staige One AG publishes 2025 consolidated financial statements, transformation to Staige for Industries progressing">staige-06</a></sup></li><li>2026-09-02: Annual financial statements for 2025 filed in the commercial register <sup class="src"><a href="../sources.html#staige-11" title="Northdata company record: Staige One AG, Essen, HRB 36279">staige-11</a></sup></li><li>2026-09-09: H1 2026 results, revenue up 12% to €1.03 million, EBITDA loss cut to €0.47 million, sport camera deliveries behind schedule, about €0.85 million in further shareholder loans through August 2026 <sup class="src"><a href="../sources.html#staige-07" title="Staige One AG: clear earnings improvement in H1 2026, Staige for Industries reaches key breakthrough">staige-07</a>, <a href="../sources.html#staige-08" title="Staige One AG: Deutliche Ergebnisverbesserung im ersten Halbjahr 2026 (release text with sport segment and financing statements)">staige-08</a></sup></li></ul>
+<h2>Not verified</h2><ul><li>Purchase, lease or subscription price of the K2 and K2X camera for a club, and the standard contract term.</li><li>Current number of installed sport cameras and active clubs, since the company reports events and not camera counts.</li><li>Whether the K2X is available as a battery and LTE powered portable kit, and its specifications in that form.</li><li>Footage ownership, retention period and any reuse rights Staige holds over club recordings.</li><li>Any Italian club, reseller or federation deployment.</li><li>Glass-to-glass streaming latency and any published uptime figures.</li><li>Independent coach or analyst reviews of Staige Coach.</li><li>The 2017 founding year refers to the soccerwatch.tv operating company AISportsWatch GmbH and is taken from general knowledge; the listed parent Staige One AG appears in the register with capital of €250,000 in April 2021 <sup class="src"><a href="../sources.html#staige-11" title="Northdata company record: Staige One AG, Essen, HRB 36279">staige-11</a></sup>.</li></ul>
+<h2>Sources for this entry</h2><p style="font-size:13.5px;color:var(--slate)">Company health, shareholders, headcount and the €1.50 pay-per-view fee are verified from the audited annual report, stock exchange releases and the vendor site; camera purchase and subscription prices are not published anywhere public, and installed camera counts come from the vendor.</p><ul class="srclist">
+<li><code>staige-01</code>Staige Sport overview page: live streaming, AI analysis, financing, FAQ with pay-per-view fee and privacy notes<span class="t primary">primary</span> <span style="color:var(--slate)">Staige, 2026-09-19</span><a class="u" href="https://staige.com/en/staige-sport" target="_blank" rel="noopener">https://staige.com/en/staige-sport</a></li>
+<li><code>staige-02</code>Staige K2X mobile AI camera product page<span class="t primary">primary</span> <span style="color:var(--slate)">Staige, 2026-09-19</span><a class="u" href="https://staige.com/en/staige-sport/staige-k2x-kamera" target="_blank" rel="noopener">https://staige.com/en/staige-sport/staige-k2x-kamera</a></li>
+<li><code>staige-03</code>Staige Sport for clubs and teams page with testimonials and revenue tools<span class="t primary">primary</span> <span style="color:var(--slate)">Staige, 2026-09-19</span><a class="u" href="https://staige.com/en/staige-sport/vereine" target="_blank" rel="noopener">https://staige.com/en/staige-sport/vereine</a></li>
+<li><code>staige-04</code>Staige homepage: Edge AI video analytics for sports and safety, powered by adesso<span class="t primary">primary</span> <span style="color:var(--slate)">Staige, 2026-09-19</span><a class="u" href="https://staige.com/en" target="_blank" rel="noopener">https://staige.com/en</a></li>
+<li><code>staige-05</code>Staige One AG Geschäftsbericht 2025 (annual report for the 2025 financial year)<span class="t primary">primary</span> <span style="color:var(--slate)">Staige One AG, 2026-06-01</span><a class="u" href="https://finanzen.staige.com/wp-content/uploads/sites/6/2026/06/Gescha%CC%88ftsbericht_2025_HV-StaigeOneAG.pdf" target="_blank" rel="noopener">https://finanzen.staige.com/wp-content/uploads/sites/6/2026/06/Gescha%CC%88ftsbericht_2025_HV-StaigeOneAG.pdf</a></li>
+<li><code>staige-06</code>IRW-News: Staige One AG publishes 2025 consolidated financial statements, transformation to Staige for Industries progressing<span class="t press">press</span> <span style="color:var(--slate)">onvista / IRW-Press, 2026-05-29</span><a class="u" href="https://www.onvista.de/news/2026/05-29-irw-news-staige-one-ag-staige-one-ag-veroeffentlichung-konzernabschluss-2025-strategische-transformation-zu-staige-for-industries-zeigt-fortschritte-0-10-26516716" target="_blank" rel="noopener">https://www.onvista.de/news/2026/05-29-irw-news-staige-one-ag-staige-one-ag-veroeffentlichung-konzernabschluss-2025-strategische-transformation-zu-staige-for-industries-zeigt-fortschritte-0-10-26516716</a></li>
+<li><code>staige-07</code>Staige One AG: clear earnings improvement in H1 2026, Staige for Industries reaches key breakthrough<span class="t press">press</span> <span style="color:var(--slate)">go-with-us.de (corporate release), 2026-09-09</span><a class="u" href="https://www.go-with-us.de/deutliche-ergebnisverbesserung-im-ersten-halbjahr-2026-staige-for-industries-erreicht-wichtigen-durchbruch/" target="_blank" rel="noopener">https://www.go-with-us.de/deutliche-ergebnisverbesserung-im-ersten-halbjahr-2026-staige-for-industries-erreicht-wichtigen-durchbruch/</a></li>
+<li><code>staige-08</code>Staige One AG: Deutliche Ergebnisverbesserung im ersten Halbjahr 2026 (release text with sport segment and financing statements)<span class="t press">press</span> <span style="color:var(--slate)">MyNewsChannel (corporate release), 2026-09-09</span><a class="u" href="https://www.mynewschannel.net/2026/09/staige-one-ag-deutliche-ergebnisverbesserung-im-ersten-halbjahr-2026/" target="_blank" rel="noopener">https://www.mynewschannel.net/2026/09/staige-one-ag-deutliche-ergebnisverbesserung-im-ersten-halbjahr-2026/</a></li>
+<li><code>staige-09</code>Staige One: Vielversprechende Strategieerweiterung (SMC-Research analyst note summary)<span class="t third-party">third-party</span> <span style="color:var(--slate)">finanznachrichten.de, 2025-06-18</span><a class="u" href="https://www.finanznachrichten.de/nachrichten-2025-06/65692466-staige-one-vielversprechende-strategieerweiterung-500.htm" target="_blank" rel="noopener">https://www.finanznachrichten.de/nachrichten-2025-06/65692466-staige-one-vielversprechende-strategieerweiterung-500.htm</a></li>
+<li><code>staige-10</code>Wie Staige aus dem Ruhrgebiet den Amateur-Sport mit KI revolutioniert (regional business profile)<span class="t third-party">third-party</span> <span style="color:var(--slate)">Business Metropole Ruhr, 2024-01-01</span><a class="u" href="https://www.business.ruhr/storys/wie-staige-aus-dem-ruhrgebiet-mit-ki-sport-revolutioniert.html" target="_blank" rel="noopener">https://www.business.ruhr/storys/wie-staige-aus-dem-ruhrgebiet-mit-ki-sport-revolutioniert.html</a></li>
+<li><code>staige-11</code>Northdata company record: Staige One AG, Essen, HRB 36279<span class="t registry">registry</span> <span style="color:var(--slate)">Northdata, 2026-09-19</span><a class="u" href="https://www.northdata.de/Staige+One+AG,+Essen" target="_blank" rel="noopener">https://www.northdata.de/Staige+One+AG,+Essen</a></li>
+<li><code>staige-12</code>StaigeTV app listing and reviews on the Apple App Store (Germany)<span class="t third-party">third-party</span> <span style="color:var(--slate)">Apple App Store, 2026-09-19</span><a class="u" href="https://apps.apple.com/de/app/staigetv/id1444127718" target="_blank" rel="noopener">https://apps.apple.com/de/app/staigetv/id1444127718</a></li>
+<li><code>staige-13</code>Staige Livestreaming club funding programme, Volksbank eG Die Gestalterbank<span class="t third-party">third-party</span> <span style="color:var(--slate)">Volksbank eG Die Gestalterbank, 2026-09-19</span><a class="u" href="https://www.gestalterbank.de/vereine/staige-livestreaming.html" target="_blank" rel="noopener">https://www.gestalterbank.de/vereine/staige-livestreaming.html</a></li>
+<li><code>staige-14</code>Smart Sports Camera K2 product page<span class="t primary">primary</span> <span style="color:var(--slate)">Staige, 2026-09-19</span><a class="u" href="https://staige.com/en/camera-k2/" target="_blank" rel="noopener">https://staige.com/en/camera-k2/</a></li>
+</ul></div>
+</div><aside class="rail">
+<div class="promo p1 li"><p class="eyebrow">Follow on LinkedIn</p><h4>Carlo De Marchis</h4><p>Daily notes on streaming, live sport and the business of media technology.</p><a class="cta" href="https://www.linkedin.com/in/carlodemarchis/" target="_blank" rel="noopener">Follow me</a></div>
+<div class="promo p2 sub"><p class="eyebrow">Substack</p><h4>A Guy With A Scarf on Substack</h4><p>Long-form pieces, the research behind them and datasets like this one.</p><a class="cta" href="https://aguywithascarf.substack.com" target="_blank" rel="noopener">Subscribe on Substack</a></div>
+<div class="promo p3 amz"><p class="eyebrow">Premium edition</p><h4>Verdicts, prices and the 24 criteria</h4><p>Who should look, who should skip, verified price lists per market and a full profile for every vendor.</p><a class="cta" href="mailto:carlo@aguywithascarf.com?subject=Automated%20match%20video%20premium">Ask for access</a></div>
+<div class="promo p4 amz"><p class="eyebrow">Advisory</p><h4>Choosing or selling in this space?</h4><p>Clubs, committees and vendors: I take advisory work on exactly this problem.</p><a class="cta" href="mailto:carlo@aguywithascarf.com?subject=Automated%20match%20video">Write to me</a></div>
+<div class="promo p5 amz"><p class="eyebrow">Book</p><h4>Becoming a Better B2B Tech Vendor in Sports and Media</h4><p>How vendors pitch, and what buyers actually hear.</p><a class="cta" href="https://www.amazon.it/Becoming-Better-Vendor-Sports-Media/dp/B0GP66Q1ZK/" target="_blank" rel="noopener">Get the book</a></div>
+</aside></div>
+<div class="navlinks"><a href="sportway.html">← Sportway (incl. MyGame)</a><a href="../index.html">All entries</a><a href="bepro.html">BEPRO (Bepro Company Co., Ltd. / Bepro Europe GmbH) →</a></div>
+</div>
+<button id="totop" type="button" aria-label="Back to top">Top</button>
+<script>
+(function(){var b=document.getElementById('totop');if(!b)return;addEventListener('scroll',function(){b.classList.toggle('on',scrollY>600)});b.onclick=function(){scrollTo({top:0,behavior:'smooth'})}})();
+</script>
+</body>
+</html>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f80d4833a806470fa2f3ad80ad8beda9"}'></script><!-- End Cloudflare Web Analytics -->
