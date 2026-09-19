@@ -10,6 +10,21 @@
   var cur = SEMVER.exec(stamp.textContent || '');
   if (!cur) return;
 
+  // A quiet link to the notes, sitting on the version stamp itself. Done here rather than in the
+  // markup because bump.py rewrites that whole paragraph on every version bump.
+  if (!stamp.querySelector('a')) {
+    var sep = document.createElement('span');
+    sep.textContent = ' · ';
+    var notes = document.createElement('a');
+    notes.href = 'changes/';
+    notes.textContent = 'release notes';
+    notes.style.cssText = 'color:inherit;text-decoration:underline;text-underline-offset:2px';
+    notes.addEventListener('mouseenter', function () { notes.style.color = '#B05708'; });
+    notes.addEventListener('mouseleave', function () { notes.style.color = 'inherit'; });
+    stamp.appendChild(sep);
+    stamp.appendChild(notes);
+  }
+
   var prev = null;
   try { prev = localStorage.getItem(KEY); } catch (e) { /* private mode, blocked storage */ }
   try { localStorage.setItem(KEY, cur[0]); } catch (e) { /* nothing to do */ }
