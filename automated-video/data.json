@@ -2,18 +2,18 @@
  "title": "Automated match video",
  "edition": "Edition 1, verified 19 September 2026",
  "publisher": "A Guy With A Scarf",
- "url": "https://research.aguywithascarf.com/automated-match-video/",
+ "url": "https://research.aguywithascarf.com/automated-video/",
  "licence": "Free to reuse with attribution and a link",
  "vendors": [
   {
-   "id": "pixellot",
+   "id": "ballercam",
    "last_verified": "2026-09-19",
    "adjacent": false,
    "free": {
-    "name": "Pixellot",
-    "hq": "Israel, with US offices in Atlanta and Durham",
-    "founded": 2013,
-    "website": "https://www.pixellot.tv",
+    "name": "BallerCam",
+    "hq": "Pasadena, California, USA",
+    "founded": 2016,
+    "website": "https://ballercam.com",
     "status": "active",
     "layers": [
      "capture",
@@ -21,544 +21,168 @@
      "platform",
      "distribution"
     ],
-    "hardware_class": "fixed",
-    "payer_model": "C",
-    "payer_model_label": "Platform pays for cameras and shares revenue",
-    "one_line": "Pixellot builds fixed multi-sensor cameras (Show S3) and a portable one (Air NXT) that produce and stream matches unattended, and sells the output through platform partners such as PlayOn in US high schools and through a direct Pixellot You shop for clubs [pix-04, pix-02, pix-06].",
-    "who_for": "Federations, leagues, school networks and streaming platforms that want hundreds of venues producing live games with graphics and ads and a revenue share on the audience, plus clubs that buy an Air NXT and a Team or Club plan for their own coaching video [pix-01, pix-05]. Football clubs in Italy get the Air NXT at 999 euros with plans from 1,009 euros per year, and professional academies such as Fiorentina have used the fixed system across a whole training centre [pix-05, pix-10].",
-    "why": "Pixellot exists because live production of youth sport only pays when a camera costs less than one camera operator per season, and its fixed systems in 9,000 US schools proved that model at scale [pix-01]. It matters now because the November 2025 PlayOn extension and the January 2026 35 million dollar raise moved the company from selling cameras to sharing revenue on the content the cameras generate, which it calls AI as a Service [pix-02, pix-01]. That tells you where the space is going, with capture becoming a cost line inside a media business and the vendor's income tied to viewership and monetisation, with hardware reduced to an enabler [pix-21].",
-    "price_band": "Pixellot You direct shop: Air NXT €999 plus €1,009 (Team) or €1,299 (Club) per year in the EU price list; fixed Show systems and partner deployments are quote-only or revenue-share",
-    "price_band_source": "pix-05",
-    "italy": {
-     "presence": "deployed",
-     "note": "Fiorentina chose Pixellot for nine pitches at its new training centre in June 2022 and the Lega Nazionale Dilettanti streamed all 114 group matches of the 2023 Torneo delle Regioni with Pixellot technology, while the Pixellot You shop routes Italian demo requests to a local reseller calendar and offers an Italian-language storefront [pix-10, pix-11, pix-05]."
-    },
-    "evidence_grade": "B",
-    "evidence_note": "Direct-to-club prices come from the price tables embedded in the Pixellot You site script for EU, US and UK markets, and corporate claims from Pixellot press releases; the company is private with no published accounts, fixed-system pricing is quote-only, and reviewer volume is small, so several judgements rest on vendor statements and trade press.",
-    "entry_cost": "mid",
-    "sport": "multi"
-   },
-   "sources": [
-    {
-     "id": "pix-01",
-     "title": "Pixellot secures 35 million dollars in new funding to fuel growth and drive monetisation",
-     "url": "https://www.pixellot.tv/press-releases/pixellot-secures-35m-funding-aiaas-growth-monetization/",
-     "publisher": "Pixellot",
-     "date": "2026-01-13",
-     "type": "primary"
-    },
-    {
-     "id": "pix-02",
-     "title": "Pixellot signs landmark five-year contract extension with PlayOn Sports",
-     "url": "https://www.pixellot.tv/press-releases/pixellot-signs-landmark-five-year-contract-extension-with-playon-sports/",
-     "publisher": "Pixellot",
-     "date": "2025-11-05",
-     "type": "primary"
-    },
-    {
-     "id": "pix-03",
-     "title": "Pixellot press releases index",
-     "url": "https://www.pixellot.tv/press-releases/",
-     "publisher": "Pixellot",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix-04",
-     "title": "Pixellot homepage, products, partners and deployment counters",
-     "url": "https://www.pixellot.tv/",
-     "publisher": "Pixellot",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix-05",
-     "title": "Pixellot You site script containing EU, US, UK, AU and rest-of-world price tables for Air NXT and plans",
-     "url": "https://you.pixellot.tv/wp/wp-content/uploads/pp-css-js-dev/custom.js?ver=1743076981",
-     "publisher": "Pixellot",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix-06",
-     "title": "Pixellot You plans and packages page (US) with plan inclusions",
-     "url": "https://you.pixellot.tv/plans/us/",
-     "publisher": "Pixellot",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix-07",
-     "title": "Pixellot Air NXT portable tracking camera, B&H Photo listing with specifications and price",
-     "url": "https://www.bhphotovideo.com/c/product/1852614-REG/pixellot_pxl_6600_003_air_nxt_portable_tracking.html",
-     "publisher": "B&H Photo Video",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "pix-08",
-     "title": "Pixellot Air product page",
-     "url": "https://www.pixellot.tv/products/pixellot-air/",
-     "publisher": "Pixellot",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix-09",
-     "title": "Pixellot Show product page",
-     "url": "https://www.pixellot.tv/products/show/",
-     "publisher": "Pixellot",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix-10",
-     "title": "Fiorentina chooses Pixellot video technology to transform new sporting complex",
-     "url": "https://www.pixellot.tv/press-releases/fiorentina-chooses-pixellot-video-technology-to-transform-new-sporting-complex/",
-     "publisher": "Pixellot",
-     "date": "2022-06-28",
-     "type": "primary"
-    },
-    {
-     "id": "pix-11",
-     "title": "59° Torneo delle Regioni: tutte le partite in diretta streaming con la tecnologia Pixellot",
-     "url": "https://www.lnd.it/it/tdr-news/calcio-a-11/59-torneo-delle-regioni-tutte-le-partite-in-diretta-streaming-con-la-tecnologia-pixellot",
-     "publisher": "Lega Nazionale Dilettanti",
-     "date": "2023-04-05",
-     "type": "primary"
-    },
-    {
-     "id": "pix-12",
-     "title": "Pixellot raising 161 million dollars at 500 million dollar valuation",
-     "url": "https://www.calcalistech.com/ctechnews/article/hktsqkmo9",
-     "publisher": "Calcalist Tech",
-     "date": "2022-05-30",
-     "type": "press"
-    },
-    {
-     "id": "pix-13",
-     "title": "Pixellot names Doron Gerstel CEO",
-     "url": "https://en.globes.co.il/en/article-pixellot-names-doron-gerstel-ceo-1001493437",
-     "publisher": "Globes",
-     "date": "2024-11-07",
-     "type": "press"
-    },
-    {
-     "id": "pix-14",
-     "title": "Pixellot, Wikipedia entry with founding, funding and VidSwap acquisition",
-     "url": "https://en.wikipedia.org/wiki/Pixellot",
-     "publisher": "Wikipedia",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "pix-15",
-     "title": "Pixellot global privacy policy",
-     "url": "https://www.pixellot.tv/privacy-policy-general/",
-     "publisher": "Pixellot",
-     "date": "2024-03-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix-16",
-     "title": "Pixellot You terms of use",
-     "url": "https://you.pixellot.tv/terms-of-use/",
-     "publisher": "Pixellot",
-     "date": "2021-03-02",
-     "type": "primary"
-    },
-    {
-     "id": "pix-17",
-     "title": "Pixellot You app, App Store listing and reviews (US)",
-     "url": "https://apps.apple.com/us/app/pixellot-you/id1528490083",
-     "publisher": "Apple App Store",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "pix-18",
-     "title": "Pixellot You app, Google Play listing and reviews",
-     "url": "https://play.google.com/store/apps/details?id=tv.pixellot.you&hl=en_US",
-     "publisher": "Google Play",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "pix-19",
-     "title": "GameChanger chooses Pixellot for live streaming at recreational youth baseball and softball fields",
-     "url": "https://www.pixellot.tv/press-releases/gamechanger-chooses-pixellot-to-give-coaches-and-families-access-to-pro-quality-live-streaming-at-recreational-youth-baseball-and-softball-fields-nationwide/",
-     "publisher": "Pixellot",
-     "date": "2025-12-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix-20",
-     "title": "Pixellot and Helios hockey integration for automated shift video",
-     "url": "https://www.pixellot.tv/press-releases/pixellot-and-helios-empower-athletes-to-achieve-more-with-breakthrough-hockey-integration-for-automated-shift-video/",
-     "publisher": "Pixellot",
-     "date": "2026-04-23",
-     "type": "primary"
-    },
-    {
-     "id": "pix-21",
-     "title": "Why our five-year restructuring with PlayOn changes the rules of the game",
-     "url": "https://www.pixellot.tv/blog/why-our-five-year-restructuring-with-playon-changes-the-rules-of-the-game/",
-     "publisher": "Pixellot",
-     "date": "2025-11-16",
-     "type": "primary"
-    },
-    {
-     "id": "pix-22",
-     "title": "Pixellot releases live streaming on Pixellot Air mobile camera",
-     "url": "https://www.pixellot.tv/press-releases/pixellot-releases-live-streaming-on-pixellot-air-mobile-camera-bringing-live-coverage-to-all-levels/",
-     "publisher": "Pixellot",
-     "date": "2022-09-08",
-     "type": "primary"
-    },
-    {
-     "id": "pix-23",
-     "title": "Migliori telecamere AI per il calcio nel 2026: quale scegliere",
-     "url": "https://calciotech.it/migliori-telecamere-ai-calcio-2026/",
-     "publisher": "CalcioTech",
-     "date": "2026-08-21",
-     "type": "third-party"
-    },
-    {
-     "id": "pix-24",
-     "title": "Pixellot: 35 million dollars closed to expand AI-driven youth sports streaming and monetisation",
-     "url": "https://pulse2.com/pixellot-35-million-closed-to-expand-ai-driven-youth-sports-streaming-and-monetization/",
-     "publisher": "Pulse 2.0",
-     "date": "2026-01-13",
-     "type": "press"
-    }
-   ]
-  },
-  {
-   "id": "sportway",
-   "last_verified": "2026-09-19",
-   "adjacent": false,
-   "free": {
-    "name": "Sportway (incl. MyGame)",
-    "hq": "Stockholm, Sweden",
-    "founded": 2017,
-    "website": "https://www.sportway.com",
-    "status": "active",
-    "layers": [
-     "capture",
-     "production",
-     "platform",
-     "distribution"
-    ],
-    "hardware_class": "fixed",
-    "payer_model": "C",
-    "payer_model_label": "Platform pays for cameras and shares revenue",
-    "one_line": "Sportway installs fixed AI cameras in arenas and on pitches at its own cost, produces every match automatically and distributes it through federation branded OTT platforms and consumer services such as MyGame in Norway [sportway-03, sportway-04, sportway-11].",
-    "who_for": "Federations, leagues and media groups that want a whole tier of sport filmed and monetised without asking clubs to buy anything, plus the clubs inside those deals that receive cameras, coaching tools and a revenue share for free [sportway-06, sportway-11, sportway-12]. Individual clubs outside a federation agreement have no public way to buy in.",
-    "why": "Sportway exists because Nordic ice hockey and handball federations wanted every game on a screen and no club would pay for a camera, so the company took on the capital cost and built a rights and subscription business around it, reaching about 2,500 cameras in 21 countries and 250,000 events a year by June 2026 [sportway-01]. It matters now because the June 2026 EUR 20 million round led by Giorgio Chiellini's Gamma Waves, the Studio Automated acquisition and the KNHB ClubhockeyTV deal show the model exporting beyond Scandinavia and into football adjacent sports [sportway-01, sportway-11, sportway-15]. It tells you the grassroots video market is splitting into a consumer camera business and a rights infrastructure business, and Sportway is the clearest European example of the second, with the Norwegian consent fights around MyGame as the cautionary tale [sportway-08, sportway-09].",
-    "price_band": "Clubs pay nothing for cameras or installation under federation deals; consumers pay NOK 139/month or NOK 1,199/year for MyGame in Norway with 20% returned to a chosen club; Playsite and federation platform fees are not public",
-    "price_band_source": "sportway-05",
-    "italy": {
-     "presence": "deployed",
-     "note": "Sportway has a Milan operating base and a partnership with the Italian Ice Sports Federation (FISG) since autumn 2023 covering about 35 ice venues in ice hockey, figure skating, speed skating and curling, with a stated aim to expand beyond ice sports [sportway-02]."
-    },
-    "evidence_grade": "B",
-    "evidence_note": "Consumer pricing, federation deals, funding and company registry data come from primary sources; camera hardware specifications, club level commercial terms and consolidated financials are not public, and privacy history relies on Norwegian press.",
-    "entry_cost": "quote",
-    "sport": "multi"
-   },
-   "sources": [
-    {
-     "id": "sportway-01",
-     "title": "From the sidelines to 250,000 matches a year: Sportway raises EUR 20M to scale its AI sports media platform",
-     "url": "https://tech.eu/2026/06/23/from-the-sidelines-to-250000-matches-a-year-sportway-raises-eur20m-to-scale-its-ai-sports-media-platform/",
-     "publisher": "Tech.eu",
-     "date": "2026-06-23",
-     "type": "press"
-    },
-    {
-     "id": "sportway-02",
-     "title": "Sportway Italy country page (Milan base, FISG partnership, ice venues)",
-     "url": "https://www.sportway.com/italy",
-     "publisher": "Sportway",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-03",
-     "title": "Sportway homepage (products, sports, countries, match volumes)",
-     "url": "https://www.sportway.com",
-     "publisher": "Sportway",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-04",
-     "title": "MyGame homepage (venues, club support, TV 2 Play distribution)",
-     "url": "https://www.mygame.no",
-     "publisher": "MyGame",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-05",
-     "title": "MyGame: Ny pakkestruktur og nye priser (new package structure and prices from 1 August 2025)",
-     "url": "https://mygame.no/ny-pakkestruktur-og-nye-priser/",
-     "publisher": "MyGame",
-     "date": "2025-06-16",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-06",
-     "title": "MyGame: Spørsmål og svar (FAQ on ownership, age limits, opt out, retention, club share)",
-     "url": "https://mygame.no/sporsmal-og-svar/",
-     "publisher": "MyGame",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-07",
-     "title": "Sportway and MyGame set to build largest AI video sports service in Europe (merger announcement)",
-     "url": "https://sportwaymediagroup.com/sportway-and-mygame-set-to-build-largest-ai-video-sports-service-in-europe/",
-     "publisher": "Sportway Media Group",
-     "date": "2022-10-19",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-08",
-     "title": "Idrettsleder reagerer på at Tromsø kommune fjernet MyGame-kameraer",
-     "url": "https://www.vg.no/sport/i/rlnEk0/idrettsleder-reagerer-paa-at-tromsoe-kommune-fjernet-mygame-kameraer-utrolig-energikrevende",
-     "publisher": "VG",
-     "date": "2023-01-19",
-     "type": "press"
-    },
-    {
-     "id": "sportway-09",
-     "title": "Datatilsynet setter foten ned for strømming av barneidrett",
-     "url": "https://www.vg.no/sport/i/jlMQWb/datatilsynet-setter-foten-ned-for-stroemming-av-barneidrett-mange-bekymrede-foresatte",
-     "publisher": "VG",
-     "date": "2023-06-06",
-     "type": "press"
-    },
-    {
-     "id": "sportway-10",
-     "title": "Visste ikke at de ble filmet på trening: Det er helt uholdbart",
-     "url": "https://www.vg.no/sport/i/8JPy9Q/her-vet-de-ikke-at-de-filmes-paa-trening-naa-tar-mygame-grep",
-     "publisher": "VG",
-     "date": "2022-12-19",
-     "type": "press"
-    },
-    {
-     "id": "sportway-11",
-     "title": "KNHB and Sportway launch ClubhockeyTV: ambition to make all hockey clubs visible",
-     "url": "https://sportway.com/knhb-and-sportway-launch-clubhockeytv-ambition-to-make-all-hockey-clubs-visible/",
-     "publisher": "Sportway",
-     "date": "2026-06-08",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-12",
-     "title": "ClubhockeyTV: nieuw videoplatform dat voor meer live hockey zorgt",
-     "url": "https://www.hockey.nl/nieuws/clubhockeytv-nieuw-videoplatform-dat-voor-meer-live-hockey-zorgt",
-     "publisher": "Hockey.nl (KNHB)",
-     "date": "2026-06-09",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-13",
-     "title": "Sportway capital injection boosts global expansion ambitions",
-     "url": "https://www.tvbeurope.com/business/sportway-capital-injection-boosts-global-expansion-ambitions",
-     "publisher": "TVBEurope",
-     "date": "2026-06-24",
-     "type": "press"
-    },
-    {
-     "id": "sportway-14",
-     "title": "Sportway: Our solutions (fixed AI camera, Playsite, Team and Player Account, Studio App, Low Latency Feed, Situation Room)",
-     "url": "https://sportway.com/our-solutions/",
-     "publisher": "Sportway",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-15",
-     "title": "Sportway and Broadcast Solutions acquire Studio Automated to jointly shape the future of live sports production",
-     "url": "https://sportway.com/sportway-and-broadcast-solutions-acquire-studio-automated-to-jointly-shape-the-future-of-live-sports-production/",
-     "publisher": "Sportway",
-     "date": "2026-04-16",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-16",
-     "title": "MyGame: Teknologi (camera rigs, AI framing, wired processing)",
-     "url": "https://mygame.no/teknologi/",
-     "publisher": "MyGame",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "sportway-17",
-     "title": "Sportway Media Group AB, org. nr 559392-1413, company registry summary and 2024 key figures",
-     "url": "https://www.allabolag.se/foretag/sportway-media-group-ab/stockholm/kontorstj%C3%A4nster/2KIH5DXI63II9",
-     "publisher": "Allabolag",
-     "date": "2026-09-19",
-     "type": "registry"
-    },
-    {
-     "id": "sportway-18",
-     "title": "Sportway news archive (2026 deals: EuroHockey, FEB, Swedish futsal and handball, WKBLive.tv, Prva CFL, Nevobo)",
-     "url": "https://sportway.com/category/sportway/",
-     "publisher": "Sportway",
-     "date": "2026-09-19",
-     "type": "primary"
-    }
-   ]
-  },
-  {
-   "id": "staige",
-   "last_verified": "2026-09-19",
-   "adjacent": false,
-   "free": {
-    "name": "Staige (Staige One AG, formerly soccerwatch.tv)",
-    "hq": "Essen, Germany",
-    "founded": 2017,
-    "website": "https://staige.com/en/staige-sport",
-    "status": "pivoted",
-    "layers": [
-     "capture",
-     "production",
-     "platform",
-     "distribution"
-    ],
-    "hardware_class": "fixed",
-    "payer_model": "C",
-    "payer_model_label": "Platform pays for cameras and shares revenue",
-    "one_line": "A fixed 180-degree AI camera bolted to a floodlight pole that streams amateur matches to the Staige TV platform, sells virtual tickets and sponsor banners on the club's behalf, and feeds a coaching app.",
-    "who_for": "German-speaking amateur and semi-professional clubs that want every home match streamed without a volunteer behind a camera, and that have a sponsor or a regional bank willing to fund the hardware. Federations and broadcasters that want a turnkey lower-league feed are the second audience.",
-    "why": "Staige exists because soccerwatch.tv proved in 2017 that German amateur clubs would let a robot camera film them if the stream came with sponsor money attached, and the K2 panorama camera plus the Staige TV paywall turned that into a repeatable product with more than 250,000 events recorded [staige-06]. It matters now because the listed parent Staige One AG has spent 2025 and 2026 moving its capital and its engineers into Staige for Industries, a security and infrastructure video business, while the sport segment sits flat at about €2.0 million revenue and camera deliveries run behind schedule [staige-05, staige-07]. It tells you that the pure sponsor-funded amateur streaming model, on its own, has struggled to carry a listed company, and that the survivors in this space will be the ones with a second revenue engine or a very lean cost base.",
-    "price_band": "Camera pricing on request, typically sponsor or bank funded; €1.50 net per paid pay-per-view access retained by Staige",
-    "price_band_source": "staige-01",
+    "hardware_class": "phone",
+    "payer_model": "B",
+    "payer_model_label": "Family or coach buys the device",
+    "one_line": "BallerCam is a $299 shell with a 180-degree lens, cooling fan and battery that turns an iPhone 13 Pro or newer into an AI camera that records, livestreams and clips youth basketball, soccer, futsal and volleyball games [ballercam-01, ballercam-02].",
+    "who_for": "US and Canadian parents, team managers and club coaches who already own a recent iPhone and want automated filming and free livestreaming without a per-viewer or per-team subscription [ballercam-01, ballercam-08]. It is a family product first, and coaches use it because the footage and clips come free of per-seat fees [ballercam-06].",
+    "why": "BallerTV built BallerCam because eight years of streaming more than two million youth games with paid crews and fixed cameras taught it that the unit economics only work if the family owns the capture device, so it packaged its computer vision into a phone shell and launched it in July 2025 with Alex Morgan as investor and face [ballercam-03, ballercam-04]. It matters now because a $299 one-off device with a free 20-hour cloud tier undercuts every fixed camera with a mandatory subscription and pushes the category toward hardware-light, app-heavy products [ballercam-02, ballercam-05]. It tells you the youth capture market is splitting into two, a club tier that buys a dedicated camera and a family tier that buys an accessory for the phone it already carries, and that the second tier will be won on app reliability and storage economics [ballercam-06, ballercam-07].",
+    "price_band": "$299 one-off device (list $349); cloud storage free for 20 hours, $99/yr for 100 hours, $199/yr for 250 hours",
+    "price_band_source": "ballercam-02",
     "italy": {
      "presence": "none",
-     "note": "The 2025 annual report lists Germany, Luxembourg, the Netherlands, the USA and China as markets and does not mention Italy, and an earlier regional profile named Italy only as an expansion target [staige-05, staige-10]."
+     "note": "New devices ship only to the US and Canada, the app works anywhere with an iPhone and connectivity, and the terms state the service is intended for users in the United States [ballercam-08, ballercam-11]."
     },
-    "evidence_grade": "B",
-    "evidence_note": "Company health, shareholders, headcount and the €1.50 pay-per-view fee are verified from the audited annual report, stock exchange releases and the vendor site; camera purchase and subscription prices are not published anywhere public, and installed camera counts come from the vendor.",
-    "entry_cost": "quote",
-    "sport": "football",
-    "flag": "Going-concern note in the FY2025 accounts"
+    "evidence_grade": "A",
+    "evidence_note": "Device price, plan prices, plan contents, shipping scope, terms and privacy policy verified from Baller, Inc. pages and the App Store listing; review sentiment from App Store reviews; company funding history from PitchBook.",
+    "entry_cost": "low",
+    "sport": "multi",
+    "legal_name": "Baller, Inc. (BallerTV)"
    },
    "sources": [
     {
-     "id": "staige-01",
-     "title": "Staige Sport overview page: live streaming, AI analysis, financing, FAQ with pay-per-view fee and privacy notes",
-     "url": "https://staige.com/en/staige-sport",
-     "publisher": "Staige",
+     "id": "ballercam-01",
+     "title": "BallerCam product page: AI sports tracking camera for iPhones",
+     "url": "https://ballercam.com/products/ballercam",
+     "publisher": "Baller, Inc.",
      "date": "2026-09-19",
      "type": "primary"
     },
     {
-     "id": "staige-02",
-     "title": "Staige K2X mobile AI camera product page",
-     "url": "https://staige.com/en/staige-sport/staige-k2x-kamera",
-     "publisher": "Staige",
+     "id": "ballercam-02",
+     "title": "BallerCam pricing and plans",
+     "url": "https://ballercam.com/pages/pricing",
+     "publisher": "Baller, Inc.",
      "date": "2026-09-19",
      "type": "primary"
     },
     {
-     "id": "staige-03",
-     "title": "Staige Sport for clubs and teams page with testimonials and revenue tools",
-     "url": "https://staige.com/en/staige-sport/vereine",
-     "publisher": "Staige",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "staige-04",
-     "title": "Staige homepage: Edge AI video analytics for sports and safety, powered by adesso",
-     "url": "https://staige.com/en",
-     "publisher": "Staige",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "staige-05",
-     "title": "Staige One AG Geschäftsbericht 2025 (annual report for the 2025 financial year)",
-     "url": "https://finanzen.staige.com/wp-content/uploads/sites/6/2026/06/Gescha%CC%88ftsbericht_2025_HV-StaigeOneAG.pdf",
-     "publisher": "Staige One AG",
-     "date": "2026-06-01",
-     "type": "primary"
-    },
-    {
-     "id": "staige-06",
-     "title": "IRW-News: Staige One AG publishes 2025 consolidated financial statements, transformation to Staige for Industries progressing",
-     "url": "https://www.onvista.de/news/2026/05-29-irw-news-staige-one-ag-staige-one-ag-veroeffentlichung-konzernabschluss-2025-strategische-transformation-zu-staige-for-industries-zeigt-fortschritte-0-10-26516716",
-     "publisher": "onvista / IRW-Press",
-     "date": "2026-05-29",
+     "id": "ballercam-03",
+     "title": "BallerTV launches BallerCam, AI camera for youth sports; taps Alex Morgan as brand ambassador and investor",
+     "url": "https://www.prweb.com/releases/ballertv-launches-ballercam-ai-camera-for-youth-sports-taps-alex-morgan-as-brand-ambassador-and-investor-302511467.html",
+     "publisher": "PR Newswire / PRWeb",
+     "date": "2025-07-24",
      "type": "press"
     },
     {
-     "id": "staige-07",
-     "title": "Staige One AG: clear earnings improvement in H1 2026, Staige for Industries reaches key breakthrough",
-     "url": "https://www.go-with-us.de/deutliche-ergebnisverbesserung-im-ersten-halbjahr-2026-staige-for-industries-erreicht-wichtigen-durchbruch/",
-     "publisher": "go-with-us.de (corporate release)",
-     "date": "2026-09-09",
-     "type": "press"
-    },
-    {
-     "id": "staige-08",
-     "title": "Staige One AG: Deutliche Ergebnisverbesserung im ersten Halbjahr 2026 (release text with sport segment and financing statements)",
-     "url": "https://www.mynewschannel.net/2026/09/staige-one-ag-deutliche-ergebnisverbesserung-im-ersten-halbjahr-2026/",
-     "publisher": "MyNewsChannel (corporate release)",
-     "date": "2026-09-09",
-     "type": "press"
-    },
-    {
-     "id": "staige-09",
-     "title": "Staige One: Vielversprechende Strategieerweiterung (SMC-Research analyst note summary)",
-     "url": "https://www.finanznachrichten.de/nachrichten-2025-06/65692466-staige-one-vielversprechende-strategieerweiterung-500.htm",
-     "publisher": "finanznachrichten.de",
-     "date": "2025-06-18",
-     "type": "third-party"
-    },
-    {
-     "id": "staige-10",
-     "title": "Wie Staige aus dem Ruhrgebiet den Amateur-Sport mit KI revolutioniert (regional business profile)",
-     "url": "https://www.business.ruhr/storys/wie-staige-aus-dem-ruhrgebiet-mit-ki-sport-revolutioniert.html",
-     "publisher": "Business Metropole Ruhr",
-     "date": "2024-01-01",
-     "type": "third-party"
-    },
-    {
-     "id": "staige-11",
-     "title": "Northdata company record: Staige One AG, Essen, HRB 36279",
-     "url": "https://www.northdata.de/Staige+One+AG,+Essen",
-     "publisher": "Northdata",
+     "id": "ballercam-04",
+     "title": "BallerCam home page",
+     "url": "https://ballercam.com/",
+     "publisher": "Baller, Inc.",
      "date": "2026-09-19",
-     "type": "registry"
+     "type": "primary"
     },
     {
-     "id": "staige-12",
-     "title": "StaigeTV app listing and reviews on the Apple App Store (Germany)",
-     "url": "https://apps.apple.com/de/app/staigetv/id1444127718",
+     "id": "ballercam-05",
+     "title": "BallerCam pricing page plan features and FAQ (Live Scoring, 180 viewer, RTMP on Pro)",
+     "url": "https://ballercam.com/pages/pricing",
+     "publisher": "Baller, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "ballercam-06",
+     "title": "BallerCam on the App Store (rating, privacy label, version 2.15.0)",
+     "url": "https://apps.apple.com/us/app/ballercam/id6747689741",
      "publisher": "Apple App Store",
      "date": "2026-09-19",
      "type": "third-party"
     },
     {
-     "id": "staige-13",
-     "title": "Staige Livestreaming club funding programme, Volksbank eG Die Gestalterbank",
-     "url": "https://www.gestalterbank.de/vereine/staige-livestreaming.html",
-     "publisher": "Volksbank eG Die Gestalterbank",
+     "id": "ballercam-07",
+     "title": "BallerCam App Store ratings and reviews",
+     "url": "https://apps.apple.com/us/app/ballercam/id6747689741?see-all=reviews&platform=iphone",
+     "publisher": "Apple App Store",
      "date": "2026-09-19",
      "type": "third-party"
     },
     {
-     "id": "staige-14",
-     "title": "Smart Sports Camera K2 product page",
-     "url": "https://staige.com/en/camera-k2/",
-     "publisher": "Staige",
+     "id": "ballercam-08",
+     "title": "Can I use BallerCam internationally?",
+     "url": "https://support.ballercam.com/hc/en-us/articles/38760979052301-Can-I-use-BallerCam-internationally",
+     "publisher": "BallerCam Support",
      "date": "2026-09-19",
      "type": "primary"
+    },
+    {
+     "id": "ballercam-09",
+     "title": "BallerCam General FAQs",
+     "url": "https://support.ballercam.com/hc/en-us/articles/37732392457613-General-FAQs",
+     "publisher": "BallerCam Support",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "ballercam-10",
+     "title": "BallerCam privacy policy",
+     "url": "https://ballercam.com/policies/privacy-policy",
+     "publisher": "Baller, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "ballercam-11",
+     "title": "BallerCam terms of service",
+     "url": "https://ballercam.com/policies/terms-of-service",
+     "publisher": "Baller, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "ballercam-12",
+     "title": "25 most common BallerCam questions answered",
+     "url": "https://ballercam.com/blogs/posts/25-most-common-ballercam-questions-answered",
+     "publisher": "Baller, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "ballercam-13",
+     "title": "BallerCam Advanced Stats and Player Attribution for basketball",
+     "url": "https://ballercam.com/blogs/updates/advanced-stats-player-attribution-basketball",
+     "publisher": "Baller, Inc.",
+     "date": "2026-01-08",
+     "type": "primary"
+    },
+    {
+     "id": "ballercam-14",
+     "title": "BallerTV company profile: funding and investors",
+     "url": "https://pitchbook.com/profiles/company/230957-92",
+     "publisher": "PitchBook",
+     "date": "2026-09-19",
+     "type": "registry"
+    },
+    {
+     "id": "ballercam-15",
+     "title": "Can I download games on BallerCam?",
+     "url": "https://support.ballercam.com/hc/en-us/articles/38756870596365-Can-I-download-games-on-BallerCam",
+     "publisher": "BallerCam Support",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "ballercam-16",
+     "title": "BallerCam Club Basketball Bundle 2026",
+     "url": "https://ballercam.com/pages/ballercam-basketball-bundle",
+     "publisher": "Baller, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "ballercam-17",
+     "title": "BallerCam terms of sale",
+     "url": "https://ballercam.com/pages/terms-of-sale",
+     "publisher": "Baller, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "ballercam-18",
+     "title": "AI-powered BallerCam built for youth sports streaming",
+     "url": "https://prepnetwork.com/2025/07/24/ai-powered-ballercam-built-for-youth-sports-streaming/",
+     "publisher": "Prep Network",
+     "date": "2025-07-24",
+     "type": "press"
     }
    ]
   },
@@ -567,7 +191,7 @@
    "last_verified": "2026-09-19",
    "adjacent": false,
    "free": {
-    "name": "BEPRO (Bepro Company Co., Ltd. / Bepro Europe GmbH)",
+    "name": "Bepro",
     "hq": "Seoul, South Korea, with European entity in Hamburg and group entities in London",
     "founded": 2015,
     "website": "https://bepro.ai",
@@ -592,7 +216,8 @@
     "evidence_grade": "B",
     "evidence_note": "Portable camera, software, quadpod and platform prices are read directly from the vendor's pages in USD; fixed camera and data service prices are on quotation; corporate financials for the Korean parent are not public and the Hamburg entity's latest filed accounts are for 2021.",
     "entry_cost": "mid",
-    "sport": "football"
+    "sport": "football",
+    "legal_name": "Bepro Company Co., Ltd. / Bepro Europe GmbH"
    },
    "sources": [
     {
@@ -766,6 +391,153 @@
    ]
   },
   {
+   "id": "folocam",
+   "last_verified": "2026-09-19",
+   "adjacent": false,
+   "free": {
+    "name": "FoloCam",
+    "hq": "United States (city not disclosed)",
+    "founded": 2026,
+    "website": "https://folocam.com",
+    "status": "active",
+    "layers": [
+     "capture",
+     "production"
+    ],
+    "hardware_class": "gimbal",
+    "payer_model": "B",
+    "payer_model_label": "Family or coach buys the device",
+    "one_line": "FoloCam is an iOS app that pairs an iPhone 13 or newer with an Apple DockKit motorised gimbal and uses on-device AI to keep the ball in frame for soccer and basketball, recording 4K locally for $49.99 a year [folocam-01, folocam-02].",
+    "who_for": "Parents and volunteer coaches who already own a recent iPhone and want a full-match recording that follows the ball for the price of a cheap gimbal and a low subscription, with no cloud account and no hardware lock-in [folocam-01, folocam-03]. It suits people who are comfortable with a one-developer product and will handle their own storage and sharing [folocam-03].",
+    "why": "FoloCam exists because Apple's DockKit framework and the Neural Engine in recent iPhones made it possible for a single developer, Gilbert Chen of Duplicacy and ActionStitch, to ship a ball-tracking camera as a $49.99 app, where the incumbents ship a $1,000 device [folocam-03, folocam-05]. It matters now because it sets the floor price for automated football filming at roughly $100 of gimbal plus $50 a year, with all processing on the phone and no video leaving the device, which is a privacy posture the cloud-based incumbents cannot match [folocam-02, folocam-04]. It tells you the capture layer is commoditising fast, that the value is moving to the platform and analysis layers, and that solo and small developers can now attack the low end of the market from the App Store [folocam-05, folocam-06].",
+    "price_band": "App free for 10-minute recordings; $49.99/yr (€59.99/yr in Italy) for unlimited recording and RTMP; $150 Amazon kit with gimbal and lifetime subscription; DockKit gimbal from about $35 to $100 extra",
+    "price_band_source": "folocam-02",
+    "italy": {
+     "presence": "retail",
+     "note": "The app is listed on the Italian App Store with the Premium Yearly in-app purchase at €59.99, and the gimbals it supports are sold through ordinary consumer retail [folocam-07]."
+    },
+    "evidence_grade": "A",
+    "evidence_note": "Pricing, compatibility, on-device processing and privacy claims verified from FoloCam's site, support page, App Store listings in the US and Italy and the developer's forums; company scale and sentiment from the developer's own statements and a small user forum, with no third-party review found.",
+    "entry_cost": "low",
+    "sport": "multi",
+    "legal_name": "FoloCam LLC"
+   },
+   "sources": [
+    {
+     "id": "folocam-01",
+     "title": "FoloCam home page: AI ball tracking camera for iPhone (soccer and basketball)",
+     "url": "https://folocam.com/",
+     "publisher": "FoloCam LLC",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "folocam-02",
+     "title": "FoloCam support and FAQ: pricing, gimbal compatibility, setup, privacy",
+     "url": "https://folocam.com/support.html",
+     "publisher": "FoloCam LLC",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "folocam-03",
+     "title": "About FoloCam: built by the author of Duplicacy and ActionStitch",
+     "url": "https://folocam.com/about.html",
+     "publisher": "FoloCam LLC",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "folocam-04",
+     "title": "FoloCam support page statement that all processing runs on the iPhone and no data is collected",
+     "url": "https://folocam.com/support.html",
+     "publisher": "FoloCam LLC",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "folocam-05",
+     "title": "FoloCam, the iOS AI ball-tracking camera app, is now available (developer announcement)",
+     "url": "https://forum.actionstitch.com/t/folocam-the-ios-ai-ball-tracking-camera-app-is-now-available/846",
+     "publisher": "ActionStitch Forum",
+     "date": "2026-03-11",
+     "type": "primary"
+    },
+    {
+     "id": "folocam-06",
+     "title": "FoloCam – AI Sports Camera on the US App Store",
+     "url": "https://apps.apple.com/us/app/folocam-ai-sports-camera/id6759841426",
+     "publisher": "Apple App Store",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "folocam-07",
+     "title": "FoloCam – AI Sports Camera on the Italian App Store",
+     "url": "https://apps.apple.com/it/app/folocam-ai-sports-camera/id6759841426",
+     "publisher": "Apple App Store",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "folocam-08",
+     "title": "FoloCam Kit is now available at Amazon for $150 with lifetime subscription included",
+     "url": "https://forum.actionstitch.com/t/folocam-kit-is-now-available-at-amazon-for-150-with-lifetime-subscription-included/858",
+     "publisher": "ActionStitch Forum",
+     "date": "2026-05-04",
+     "type": "primary"
+    },
+    {
+     "id": "folocam-09",
+     "title": "FoloCam Kit Amazon announcement thread, user replies on tracking reliability",
+     "url": "https://forum.actionstitch.com/t/folocam-kit-is-now-available-at-amazon-for-150-with-lifetime-subscription-included/858",
+     "publisher": "ActionStitch Forum",
+     "date": "2026-06-12",
+     "type": "third-party"
+    },
+    {
+     "id": "folocam-10",
+     "title": "Version 1.4 is available in the App Store",
+     "url": "https://forum.folocam.com/t/version-1-4-is-available-in-the-app-store/57",
+     "publisher": "FoloCam User Community",
+     "date": "2026-05-15",
+     "type": "primary"
+    },
+    {
+     "id": "folocam-11",
+     "title": "FoloCam User Community forum index (threads on freezes, gimbal noise, feature requests)",
+     "url": "https://forum.folocam.com/",
+     "publisher": "FoloCam User Community",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "folocam-12",
+     "title": "DJI Osmo Mobile 8P thread: NFC pairing requirement and remote conflict",
+     "url": "https://forum.folocam.com/t/dji-osmo-mobile-8p/",
+     "publisher": "FoloCam User Community",
+     "date": "2026-09-17",
+     "type": "third-party"
+    },
+    {
+     "id": "folocam-13",
+     "title": "Amazon listing: FoloCam Kit AI Sports Camera with lifetime subscription",
+     "url": "https://www.amazon.com/FoloCam-Kit-Sports-Camera-Subscription/dp/B0GZ8JZFNF",
+     "publisher": "Amazon",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "folocam-14",
+     "title": "Junior Grassroots Hub partners page (FoloCam not listed, partner URL returns 404)",
+     "url": "https://www.juniorgrassrootshub.com/partners",
+     "publisher": "Junior Grassroots Hub",
+     "date": "2026-09-19",
+     "type": "third-party"
+    }
+   ]
+  },
+  {
    "id": "hudl-focus",
    "last_verified": "2026-09-19",
    "adjacent": false,
@@ -796,7 +568,8 @@
     "evidence_grade": "B",
     "evidence_note": "Package and subscription prices come from Hudl pricing pages, product facts from Hudl pages, FAQs and blog posts, and security and privacy from Hudl policies; camera unit prices, specifications such as resolution and warranty terms are unpublished, and the company is private with no financial disclosure.",
     "entry_cost": "mid",
-    "sport": "multi"
+    "sport": "multi",
+    "legal_name": "Hudl (Agile Sports Technologies, Inc.)"
    },
    "sources": [
     {
@@ -1010,11 +783,326 @@
    ]
   },
   {
+   "id": "joymo",
+   "last_verified": "2026-09-19",
+   "adjacent": true,
+   "free": {
+    "name": "Joymo",
+    "hq": "Oslo, Norway",
+    "founded": 2017,
+    "website": "https://www.joymo.tv",
+    "status": "active",
+    "layers": [
+     "platform",
+     "distribution"
+    ],
+    "hardware_class": "software-only",
+    "payer_model": "D",
+    "payer_model_label": "Distribution layer, club and viewer split",
+    "one_line": "Joymo is a Norwegian OTT platform for grassroots and federation sport that lets clubs stream from a phone, encoder or camera and sell access to viewers with safeguarding controls built in [joymo-01, joymo-02].",
+    "who_for": "County FAs, schools, universities and governing bodies in the UK and Norway that want a branded, paywalled channel with consent tooling for filming minors [joymo-02, joymo-03]. It suits organisations that prioritise safeguarding and control over maximum reach [joymo-02].",
+    "why": "Joymo exists because grassroots bodies wanted the revenue of streaming without the exposure of public platforms, so it built a controlled-access OTT product with GDPR training, consent templates and overview framing as part of the offer [joymo-02]. It matters now because Spiideo, an automated camera vendor, is its largest shareholder at 18.8 percent and its partner for a UK education bundle since July 2025, which shows camera companies buying their way into the distribution layer [joymo-04, joymo-05]. It tells you the distribution platforms next to this category are small, loss-making and being absorbed into camera vendors' ecosystems, with Joymo posting a NOK 17 million pre-tax loss on NOK 9.7 million revenue in 2025 [joymo-06].",
+    "price_band": "Free for the club to join in county FA deals; minimum pay-per-view ticket £3.99; club keeps 55 percent of gross profit after payment fees, VAT and streaming costs",
+    "price_band_source": "joymo-03",
+    "italy": {
+     "presence": "none",
+     "note": "Joymo's public partnerships are in the UK, Norway and international federations such as World Boxing, and no Italian partner or Italian-language offer was found [joymo-01, joymo-07]."
+    },
+    "evidence_grade": "B",
+    "evidence_note": "Minimum PPV price and 55/45 split come from the Lancashire FA FAQ hosted by The FA, which dates from the 2021 partnership and may have been revised; company financials and shareholders from the Norwegian register via Proff; Joymo's own FAQ pages do not publish current prices.",
+    "entry_cost": "viewer",
+    "sport": "multi",
+    "legal_name": "Joymo AS"
+   },
+   "sources": [
+    {
+     "id": "joymo-01",
+     "title": "About Joymo",
+     "url": "https://www.joymo.tv/about-joymo",
+     "publisher": "Joymo",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "joymo-02",
+     "title": "Joymo questions and answers (safeguarding, GDPR, streaming)",
+     "url": "https://www.joymo.tv/questions",
+     "publisher": "Joymo",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "joymo-03",
+     "title": "Joymo.tv FAQs for Lancashire FA (minimum ticket £3.99, 55/45 split)",
+     "url": "https://www.thefa.com/-/media/cfa/lancashirefa/images/news/joymotv-faqs-for-lancashire-fa.ashx?la=en",
+     "publisher": "The FA / Lancashire FA",
+     "date": "2021-05-27",
+     "type": "primary"
+    },
+    {
+     "id": "joymo-04",
+     "title": "Joymo AS shareholders (aksjonaerer)",
+     "url": "https://www.proff.no/aksjon%C3%A6rer/-/joymo-as/916959311",
+     "publisher": "Proff",
+     "date": "2026-09-19",
+     "type": "registry"
+    },
+    {
+     "id": "joymo-05",
+     "title": "Joymo, Spiideo sports streaming solution for UK education sector",
+     "url": "https://www.advanced-television.com/2025/07/07/joymo-spiideo-sports-streaming-solution-for-uk-education-sector/",
+     "publisher": "Advanced Television",
+     "date": "2025-07-07",
+     "type": "press"
+    },
+    {
+     "id": "joymo-06",
+     "title": "Joymo AS company accounts and key figures 2025",
+     "url": "https://www.proff.no/selskap/joymo-as/oslo/film-og-videotjenester/IF5XMBZ07TF",
+     "publisher": "Proff",
+     "date": "2026-09-19",
+     "type": "registry"
+    },
+    {
+     "id": "joymo-07",
+     "title": "Joymo to power World Boxing TV",
+     "url": "https://www.joymo.tv/news-and-insights/joymo-to-power-world-boxing-tv",
+     "publisher": "Joymo",
+     "date": "2026-06-15",
+     "type": "press"
+    },
+    {
+     "id": "joymo-08",
+     "title": "Lancashire FA and Joymo announce partnership",
+     "url": "https://www.lancashirefa.com/news/2021/may/27/lancashire-fa-and-joymo-announce-partnership",
+     "publisher": "Lancashire FA",
+     "date": "2021-05-27",
+     "type": "press"
+    },
+    {
+     "id": "joymo-09",
+     "title": "Sport and Recreation Alliance appoints Joymo as exclusive streaming partner",
+     "url": "https://www.joymo.tv/news-and-insights/partnership-sport-and-recreation-alliance",
+     "publisher": "Joymo",
+     "date": "2026-09-19",
+     "type": "press"
+    }
+   ]
+  },
+  {
+   "id": "livebarn",
+   "last_verified": "2026-09-19",
+   "adjacent": true,
+   "free": {
+    "name": "LiveBarn",
+    "hq": "Montreal, Quebec, Canada",
+    "founded": 2015,
+    "website": "https://livebarn.com",
+    "status": "acquired",
+    "layers": [
+     "capture",
+     "platform",
+     "distribution"
+    ],
+    "hardware_class": "software-only",
+    "payer_model": "C",
+    "payer_model_label": "Platform pays for cameras and shares revenue",
+    "one_line": "LiveBarn is a North American subscription network of fixed cameras installed free in more than 4,000 rinks, courts and fields, sold to families at $26.95 or $36.95 a month, and bought by GTCR for more than $400 million in April 2026 [livebarn-01, livebarn-02, livebarn-03].",
+    "who_for": "Hockey families first, then parents in basketball, volleyball, swimming, baseball, soccer and other venue sports across 49 US states and 10 Canadian provinces, who pay one subscription to watch any game at any partner venue [livebarn-02, livebarn-04]. Venues join because the install and operation cost them nothing [livebarn-04].",
+    "why": "LiveBarn exists because indoor venues host thousands of games a week that nobody films, so it took the capital cost of fixed cameras onto its own balance sheet and sold the output as a Netflix-style subscription [livebarn-01, livebarn-04]. It matters now because the April 2026 sale to GTCR at more than $400 million, on estimated revenue of about $80 million, is the largest valuation marker yet for automated youth match video and GTCR has said it will expand from hockey into soccer, basketball, volleyball, baseball and swimming through its new Ascent Sports Group [livebarn-02, livebarn-03, livebarn-05]. It tells you that the venue-network subscription model, where the platform owns cameras and viewers and the club owns nothing, is what private equity is paying for, and that Europe has no equivalent at this scale [livebarn-01, livebarn-02].",
+    "price_band": "Viewer subscription $26.95/month or $251.40/year (Basic) and $36.95/month or $347.40/year (Premium); free to venues",
+    "price_band_source": "livebarn-01",
+    "italy": {
+     "presence": "none",
+     "note": "LiveBarn operates in the United States and Canada only, with 49 states and 10 provinces covered and no European venues [livebarn-02, livebarn-04]."
+    },
+    "evidence_grade": "A",
+    "evidence_note": "Subscription prices verified from LiveBarn's pricing page, venue model from its venue page, deal value, timing and ownership from Sportico, Private Equity Wire and Youth Sports Business Report; revenue is a press estimate, venue counts differ between sources.",
+    "entry_cost": "viewer",
+    "sport": "multi",
+    "flag": "Acquired by GTCR, closed April 2026",
+    "legal_name": "LiveBarn Inc."
+   },
+   "sources": [
+    {
+     "id": "livebarn-01",
+     "title": "LiveBarn pricing (Basic and Premium plans)",
+     "url": "https://livebarn.com/en/pricing",
+     "publisher": "LiveBarn",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "livebarn-02",
+     "title": "LiveBarn youth sports streaming service sold to Chicago PE firm GTCR",
+     "url": "https://www.sportico.com/business/finance/2026/gtcr-400m-deal-for-livebarn-youth-sports-streaming-1234882406/",
+     "publisher": "Sportico",
+     "date": "2026-01-23",
+     "type": "press"
+    },
+    {
+     "id": "livebarn-03",
+     "title": "GTCR completes over $400 million acquisition of LiveBarn",
+     "url": "https://pipelineroad.com/news/20260407-gtcr-completes-over-400-million-acquisition-of-livebarn",
+     "publisher": "Pipeline Road",
+     "date": "2026-04-07",
+     "type": "press"
+    },
+    {
+     "id": "livebarn-04",
+     "title": "LiveBarn venues page (zero-cost turn-key solution, sports, NHL facilities)",
+     "url": "https://livebarn.com/en/venue",
+     "publisher": "LiveBarn",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "livebarn-05",
+     "title": "GTCR completes LiveBarn purchase, plans more youth sports deals",
+     "url": "https://www.sportico.com/business/finance/2026/gtcr-livebarn-purchase-youth-sports-deals-1234888285/",
+     "publisher": "Sportico",
+     "date": "2026-04-07",
+     "type": "press"
+    },
+    {
+     "id": "livebarn-06",
+     "title": "GTCR acquires LiveBarn in $400m-plus deal",
+     "url": "https://www.privateequitywire.co.uk/gtcr-acquires-livebarn-in-400m-plus-deal/",
+     "publisher": "Private Equity Wire",
+     "date": "2026-04-07",
+     "type": "press"
+    },
+    {
+     "id": "livebarn-07",
+     "title": "GTCR acquires youth sports streaming platform LiveBarn for $400M",
+     "url": "https://youthsportsbusinessreport.com/gtcr-acquires-youth-sports-streaming-platform-livebarn-for-400m/",
+     "publisher": "Youth Sports Business Report",
+     "date": "2026-01-23",
+     "type": "press"
+    }
+   ]
+  },
+  {
+   "id": "min-fotboll",
+   "last_verified": "2026-09-19",
+   "adjacent": true,
+   "free": {
+    "name": "Min Fotboll",
+    "hq": "Solna, Sweden",
+    "founded": 2018,
+    "website": "https://www.svenskfotboll.se/serier-cuper/min-fotboll/",
+    "status": "active",
+    "layers": [
+     "platform",
+     "distribution"
+    ],
+    "hardware_class": "software-only",
+    "payer_model": "D",
+    "payer_model_label": "Distribution layer, club and viewer split",
+    "one_line": "Min Fotboll is the Swedish FA's official app, in which volunteers stream matches from a phone or a connected Veo or Spiideo camera and viewers pay SEK 59 for 30 days of every youth match in Sweden, with half the revenue after VAT going to a club of the viewer's choice [minfotboll-01, minfotboll-02].",
+    "who_for": "Every Swedish club, from children's teams to lower senior divisions, since the app is free to use, tied to the FA's competition database and the only place SvFF sanctions youth streaming [minfotboll-01, minfotboll-03]. Families and grandparents who want to follow a child's team anywhere in the country are the paying audience [minfotboll-01].",
+    "why": "Min Fotboll exists because the Swedish FA decided that grassroots streaming, sponsorship and communication should sit inside one federation-owned app, away from fragmented commercial platforms, and it framed GDPR control as a reason from the start [minfotboll-03, minfotboll-04]. It matters now because it is the clearest example of a federation owning the distribution and checkout layer and treating camera vendors such as Veo and Spiideo as interchangeable inputs, with nearly 11,500 livestreams and 126,000 matches with user content in 2024 [minfotboll-01, minfotboll-05]. It tells you that where a federation moves first, the automated camera becomes a peripheral and the pricing power moves to the app that holds the fixtures [minfotboll-02, minfotboll-06].",
+    "price_band": "Free for clubs; youth viewer pass SEK 59 per 30 days for all youth matches; senior PPV set by the club; club replay package SEK 2,000 per year; 50 percent of revenue after VAT to the chosen club",
+    "price_band_source": "minfotboll-01",
+    "italy": {
+     "presence": "none",
+     "note": "Min Fotboll is a Swedish federation service available only for Swedish competitions and has no presence outside Sweden [minfotboll-01, minfotboll-03]."
+    },
+    "evidence_grade": "A",
+    "evidence_note": "Viewer price, revenue share, replay package and camera integrations verified from the Swedish FA's own livestreaming page; usage numbers from SvFF articles; Veo partnership from the SvFF press release; launch year inferred from SvFF's 2023 article and flagged in unverified.",
+    "entry_cost": "viewer",
+    "sport": "football",
+    "legal_name": "Svenska Fotbollförbundet"
+   },
+   "sources": [
+    {
+     "id": "minfotboll-01",
+     "title": "Livestreaming i Min Fotboll (pricing, revenue share, camera partners)",
+     "url": "https://www.svenskfotboll.se/serier-cuper/min-fotboll/livestreaming/",
+     "publisher": "Svenska Fotbollförbundet",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "minfotboll-02",
+     "title": "Min Fotboll overview page",
+     "url": "https://www.svenskfotboll.se/serier-cuper/min-fotboll/",
+     "publisher": "Svenska Fotbollförbundet",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "minfotboll-03",
+     "title": "Över 600 000 användare i Min Fotboll",
+     "url": "https://aktiva.svenskfotboll.se/nyheter/2023/04/min-fotboll-600-000/",
+     "publisher": "Svenska Fotbollförbundet",
+     "date": "2023-04-18",
+     "type": "primary"
+    },
+    {
+     "id": "minfotboll-04",
+     "title": "Sweden: 500,000 landmark for grassroots app",
+     "url": "https://www.uefa.com/news-media/news/0279-160385cfec56-d5a47e63bfb0-1000--sweden-500-000-landmark-for-grassroots-app",
+     "publisher": "UEFA",
+     "date": "2022-09-02",
+     "type": "press"
+    },
+    {
+     "id": "minfotboll-05",
+     "title": "Det här kan ditt lag eller förening göra i Min Fotboll (2024 usage figures)",
+     "url": "https://aktiva.svenskfotboll.se/nyheter/2025/04/min-fotboll-tips-till-foreningar/",
+     "publisher": "Svenska Fotbollförbundet",
+     "date": "2025-04-29",
+     "type": "primary"
+    },
+    {
+     "id": "minfotboll-06",
+     "title": "Veo och SvFF i partnerskap – ökar streamingmöjligheterna i Min Fotboll",
+     "url": "https://www.mynewsdesk.com/se/svenska_fotbollforbundet/pressreleases/veo-och-svff-i-partnerskap-oekar-streamingmoejligheterna-i-min-fotboll-3231162",
+     "publisher": "Svenska Fotbollförbundet via Mynewsdesk",
+     "date": "2022-11-25",
+     "type": "press"
+    },
+    {
+     "id": "minfotboll-07",
+     "title": "Scheduling a broadcast to Min Fotboll",
+     "url": "https://support.spiideo.com/en/articles/5609992-scheduling-a-broadcast-to-min-fotboll",
+     "publisher": "Spiideo Help Center",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "minfotboll-08",
+     "title": "Min Fotboll (officiell) on the Swedish App Store",
+     "url": "https://apps.apple.com/se/app/min-fotboll-officiell/id1454359432",
+     "publisher": "Apple App Store",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "minfotboll-09",
+     "title": "1,2 miljoner till föreningarna genom Min Fotboll",
+     "url": "https://aktiva.svenskfotboll.se/nyheter/2020/10/12-mkr-genom-min-fotboll/",
+     "publisher": "Svenska Fotbollförbundet",
+     "date": "2020-10-01",
+     "type": "primary"
+    },
+    {
+     "id": "minfotboll-10",
+     "title": "SvFF och analys- och livestreamingtjänsten Spiideo i nytt samarbete",
+     "url": "https://aktiva.svenskfotboll.se/nyheter/2021/08/svff-och-analys-och-livestreamingtjansten-spiideo-i-nytt-samarbete/",
+     "publisher": "Svenska Fotbollförbundet",
+     "date": "2021-08-01",
+     "type": "primary"
+    }
+   ]
+  },
+  {
    "id": "once-sport",
    "last_verified": "2026-09-19",
    "adjacent": false,
    "free": {
-    "name": "Once Sport (Once Sport d.o.o.)",
+    "name": "Once Sport Autocam",
     "hq": "Zagreb, Croatia",
     "founded": 2011,
     "website": "https://once.sport/autocam/",
@@ -1038,7 +1126,8 @@
     "evidence_grade": "A",
     "evidence_note": "All subscription and per-match prices are read directly from the vendor's live pricing table data in EUR and USD, product behaviour comes from vendor pages and dated release posts, and the corporate record is confirmed from the Croatian company registry; hardware prices for the recommended cameras are not published by the vendor.",
     "entry_cost": "low",
-    "sport": "multi"
+    "sport": "multi",
+    "legal_name": "Once Sport d.o.o."
    },
    "sources": [
     {
@@ -1132,11 +1221,340 @@
    ]
   },
   {
+   "id": "pix4team",
+   "last_verified": "2026-09-19",
+   "adjacent": false,
+   "free": {
+    "name": "Pix4Team",
+    "hq": "Brest, France",
+    "founded": 2011,
+    "website": "https://shop.movensee.com/en/content/31-pix4team-auto-follow-camera-for-team-sports",
+    "status": "active",
+    "layers": [
+     "capture",
+     "distribution"
+    ],
+    "hardware_class": "gimbal",
+    "payer_model": "B",
+    "payer_model_label": "Family or coach buys the device",
+    "one_line": "A French robotic pan-tilt head with a built-in 180-degree AI spotter camera that physically points your own camcorder or phone at the action, records to a microSD card and streams to YouTube or RTMP with no mandatory subscription.",
+    "who_for": "Clubs, schools and parents who want a real optical zoom on a single team-sport pitch, own or will buy a camcorder, and prefer a one-off purchase to a cloud subscription. It suits people who accept a mechanical head and a tall stand in exchange for close-up broadcast framing with real optical zoom.",
+    "why": "PIX4TEAM exists because Move'N See, a Brest company that started with beacon-tracked robotic cameras for equestrian riders, moved to a beacon-free AI spotter in 2019 so that team sports could get a real zoom lens following play without a camera operator [pix4team-01, pix4team-05]. It matters now because the company entered judicial reorganisation in January 2026 after a cessation of payments dated 31 December 2025, and the observation period runs to January 2027, which puts the two-year warranty, spare parts and firmware support of a hardware product in question [pix4team-05, pix4team-06]. It tells you that a hardware-only, subscription-free model is hard to sustain against cloud-funded competitors, even when the product is well engineered and priced below them.",
+    "price_band": "€1,299 ex VAT (€1,558.80 inc VAT) for the robot alone at a sale price against €1,599 list, bundles with camcorder and stands from €1,955 to €2,479 ex VAT, optional services from €19 to €39 per month",
+    "price_band_source": "pix4team-01",
+    "italy": {
+     "presence": "retail",
+     "note": "The web shop lists Italy among its shipping regions with EUR pricing, while the reseller page names no Italian reseller and the site runs in English, French, Spanish and German [pix4team-08, pix4team-03]."
+    },
+    "evidence_grade": "A",
+    "evidence_note": "Prices, specifications, warranty, subscription services and reseller list are read directly from the vendor shop in EUR with VAT status stated, and the company's financial situation is confirmed from two French registry aggregators; revenue is not filed.",
+    "entry_cost": "mid",
+    "sport": "multi",
+    "flag": "Maker MOVE’N SEE in redressement judiciaire since 27 January 2026",
+    "legal_name": "MOVE’N SEE SAS"
+   },
+   "sources": [
+    {
+     "id": "pix4team-01",
+     "title": "PIX4TEAM 2 AI auto-follow camera for team sports: product, bundles, accessories and prices",
+     "url": "https://shop.movensee.com/en/content/31-pix4team-auto-follow-camera-for-team-sports",
+     "publisher": "MOVE 'N SEE",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix4team-02",
+     "title": "MOVE 'N SEE services and subscriptions page (analysis platform, MyTvChannel, Live Lesson)",
+     "url": "https://shop.movensee.com/en/services.html",
+     "publisher": "MOVE 'N SEE",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix4team-03",
+     "title": "MOVE 'N SEE resellers by country",
+     "url": "https://shop.movensee.com/en/reseller.html",
+     "publisher": "MOVE 'N SEE",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix4team-04",
+     "title": "MOVE 'N SEE legal notice with company registration details",
+     "url": "https://shop.movensee.com/en/legal-notice.html",
+     "publisher": "MOVE 'N SEE",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix4team-05",
+     "title": "Pappers company record: MOVE'N SEE, SIREN 531299246, including collective procedure",
+     "url": "https://www.pappers.fr/entreprise/move-n-see-531299246",
+     "publisher": "Pappers",
+     "date": "2026-09-19",
+     "type": "registry"
+    },
+    {
+     "id": "pix4team-06",
+     "title": "Societe.com company record: MOVE'N SEE, Brest, redressement judiciaire",
+     "url": "https://www.societe.com/societe/move-n-see-531299246.html",
+     "publisher": "Societe.com",
+     "date": "2026-09-19",
+     "type": "registry"
+    },
+    {
+     "id": "pix4team-07",
+     "title": "PIX4TEAM Remote app listing and reviews on Google Play",
+     "url": "https://play.google.com/store/apps/details?id=com.movensee.pix4teamremote&hl=en_US",
+     "publisher": "Google Play",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "pix4team-08",
+     "title": "PIX4TEAM 2 product landing page with warranty, languages and shipping regions",
+     "url": "https://shop.movensee.com/en/pix4team/174-pix4team-soccer.html",
+     "publisher": "MOVE 'N SEE",
+     "date": "2026-09-19",
+     "type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "pixellot",
+   "last_verified": "2026-09-19",
+   "adjacent": false,
+   "free": {
+    "name": "Pixellot",
+    "hq": "Israel, with US offices in Atlanta and Durham",
+    "founded": 2013,
+    "website": "https://www.pixellot.tv",
+    "status": "active",
+    "layers": [
+     "capture",
+     "production",
+     "platform",
+     "distribution"
+    ],
+    "hardware_class": "fixed",
+    "payer_model": "C",
+    "payer_model_label": "Platform pays for cameras and shares revenue",
+    "one_line": "Pixellot builds fixed multi-sensor cameras (Show S3) and a portable one (Air NXT) that produce and stream matches unattended, and sells the output through platform partners such as PlayOn in US high schools and through a direct Pixellot You shop for clubs [pix-04, pix-02, pix-06].",
+    "who_for": "Federations, leagues, school networks and streaming platforms that want hundreds of venues producing live games with graphics and ads and a revenue share on the audience, plus clubs that buy an Air NXT and a Team or Club plan for their own coaching video [pix-01, pix-05]. Football clubs in Italy get the Air NXT at 999 euros with plans from 1,009 euros per year, and professional academies such as Fiorentina have used the fixed system across a whole training centre [pix-05, pix-10].",
+    "why": "Pixellot exists because live production of youth sport only pays when a camera costs less than one camera operator per season, and its fixed systems in 9,000 US schools proved that model at scale [pix-01]. It matters now because the November 2025 PlayOn extension and the January 2026 35 million dollar raise moved the company from selling cameras to sharing revenue on the content the cameras generate, which it calls AI as a Service [pix-02, pix-01]. That tells you where the space is going, with capture becoming a cost line inside a media business and the vendor's income tied to viewership and monetisation, with hardware reduced to an enabler [pix-21].",
+    "price_band": "Pixellot You direct shop: Air NXT €999 plus €1,009 (Team) or €1,299 (Club) per year in the EU price list; fixed Show systems and partner deployments are quote-only or revenue-share",
+    "price_band_source": "pix-05",
+    "italy": {
+     "presence": "deployed",
+     "note": "Fiorentina chose Pixellot for nine pitches at its new training centre in June 2022 and the Lega Nazionale Dilettanti streamed all 114 group matches of the 2023 Torneo delle Regioni with Pixellot technology, while the Pixellot You shop routes Italian demo requests to a local reseller calendar and offers an Italian-language storefront [pix-10, pix-11, pix-05]."
+    },
+    "evidence_grade": "B",
+    "evidence_note": "Direct-to-club prices come from the price tables embedded in the Pixellot You site script for EU, US and UK markets, and corporate claims from Pixellot press releases; the company is private with no published accounts, fixed-system pricing is quote-only, and reviewer volume is small, so several judgements rest on vendor statements and trade press.",
+    "entry_cost": "mid",
+    "sport": "multi",
+    "legal_name": "Pixellot Ltd."
+   },
+   "sources": [
+    {
+     "id": "pix-01",
+     "title": "Pixellot secures 35 million dollars in new funding to fuel growth and drive monetisation",
+     "url": "https://www.pixellot.tv/press-releases/pixellot-secures-35m-funding-aiaas-growth-monetization/",
+     "publisher": "Pixellot",
+     "date": "2026-01-13",
+     "type": "primary"
+    },
+    {
+     "id": "pix-02",
+     "title": "Pixellot signs landmark five-year contract extension with PlayOn Sports",
+     "url": "https://www.pixellot.tv/press-releases/pixellot-signs-landmark-five-year-contract-extension-with-playon-sports/",
+     "publisher": "Pixellot",
+     "date": "2025-11-05",
+     "type": "primary"
+    },
+    {
+     "id": "pix-03",
+     "title": "Pixellot press releases index",
+     "url": "https://www.pixellot.tv/press-releases/",
+     "publisher": "Pixellot",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix-04",
+     "title": "Pixellot homepage, products, partners and deployment counters",
+     "url": "https://www.pixellot.tv/",
+     "publisher": "Pixellot",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix-05",
+     "title": "Pixellot You site script containing EU, US, UK, AU and rest-of-world price tables for Air NXT and plans",
+     "url": "https://you.pixellot.tv/wp/wp-content/uploads/pp-css-js-dev/custom.js?ver=1743076981",
+     "publisher": "Pixellot",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix-06",
+     "title": "Pixellot You plans and packages page (US) with plan inclusions",
+     "url": "https://you.pixellot.tv/plans/us/",
+     "publisher": "Pixellot",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix-07",
+     "title": "Pixellot Air NXT portable tracking camera, B&H Photo listing with specifications and price",
+     "url": "https://www.bhphotovideo.com/c/product/1852614-REG/pixellot_pxl_6600_003_air_nxt_portable_tracking.html",
+     "publisher": "B&H Photo Video",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "pix-08",
+     "title": "Pixellot Air product page",
+     "url": "https://www.pixellot.tv/products/pixellot-air/",
+     "publisher": "Pixellot",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix-09",
+     "title": "Pixellot Show product page",
+     "url": "https://www.pixellot.tv/products/show/",
+     "publisher": "Pixellot",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix-10",
+     "title": "Fiorentina chooses Pixellot video technology to transform new sporting complex",
+     "url": "https://www.pixellot.tv/press-releases/fiorentina-chooses-pixellot-video-technology-to-transform-new-sporting-complex/",
+     "publisher": "Pixellot",
+     "date": "2022-06-28",
+     "type": "primary"
+    },
+    {
+     "id": "pix-11",
+     "title": "59° Torneo delle Regioni: tutte le partite in diretta streaming con la tecnologia Pixellot",
+     "url": "https://www.lnd.it/it/tdr-news/calcio-a-11/59-torneo-delle-regioni-tutte-le-partite-in-diretta-streaming-con-la-tecnologia-pixellot",
+     "publisher": "Lega Nazionale Dilettanti",
+     "date": "2023-04-05",
+     "type": "primary"
+    },
+    {
+     "id": "pix-12",
+     "title": "Pixellot raising 161 million dollars at 500 million dollar valuation",
+     "url": "https://www.calcalistech.com/ctechnews/article/hktsqkmo9",
+     "publisher": "Calcalist Tech",
+     "date": "2022-05-30",
+     "type": "press"
+    },
+    {
+     "id": "pix-13",
+     "title": "Pixellot names Doron Gerstel CEO",
+     "url": "https://en.globes.co.il/en/article-pixellot-names-doron-gerstel-ceo-1001493437",
+     "publisher": "Globes",
+     "date": "2024-11-07",
+     "type": "press"
+    },
+    {
+     "id": "pix-14",
+     "title": "Pixellot, Wikipedia entry with founding, funding and VidSwap acquisition",
+     "url": "https://en.wikipedia.org/wiki/Pixellot",
+     "publisher": "Wikipedia",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "pix-15",
+     "title": "Pixellot global privacy policy",
+     "url": "https://www.pixellot.tv/privacy-policy-general/",
+     "publisher": "Pixellot",
+     "date": "2024-03-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix-16",
+     "title": "Pixellot You terms of use",
+     "url": "https://you.pixellot.tv/terms-of-use/",
+     "publisher": "Pixellot",
+     "date": "2021-03-02",
+     "type": "primary"
+    },
+    {
+     "id": "pix-17",
+     "title": "Pixellot You app, App Store listing and reviews (US)",
+     "url": "https://apps.apple.com/us/app/pixellot-you/id1528490083",
+     "publisher": "Apple App Store",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "pix-18",
+     "title": "Pixellot You app, Google Play listing and reviews",
+     "url": "https://play.google.com/store/apps/details?id=tv.pixellot.you&hl=en_US",
+     "publisher": "Google Play",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "pix-19",
+     "title": "GameChanger chooses Pixellot for live streaming at recreational youth baseball and softball fields",
+     "url": "https://www.pixellot.tv/press-releases/gamechanger-chooses-pixellot-to-give-coaches-and-families-access-to-pro-quality-live-streaming-at-recreational-youth-baseball-and-softball-fields-nationwide/",
+     "publisher": "Pixellot",
+     "date": "2025-12-19",
+     "type": "primary"
+    },
+    {
+     "id": "pix-20",
+     "title": "Pixellot and Helios hockey integration for automated shift video",
+     "url": "https://www.pixellot.tv/press-releases/pixellot-and-helios-empower-athletes-to-achieve-more-with-breakthrough-hockey-integration-for-automated-shift-video/",
+     "publisher": "Pixellot",
+     "date": "2026-04-23",
+     "type": "primary"
+    },
+    {
+     "id": "pix-21",
+     "title": "Why our five-year restructuring with PlayOn changes the rules of the game",
+     "url": "https://www.pixellot.tv/blog/why-our-five-year-restructuring-with-playon-changes-the-rules-of-the-game/",
+     "publisher": "Pixellot",
+     "date": "2025-11-16",
+     "type": "primary"
+    },
+    {
+     "id": "pix-22",
+     "title": "Pixellot releases live streaming on Pixellot Air mobile camera",
+     "url": "https://www.pixellot.tv/press-releases/pixellot-releases-live-streaming-on-pixellot-air-mobile-camera-bringing-live-coverage-to-all-levels/",
+     "publisher": "Pixellot",
+     "date": "2022-09-08",
+     "type": "primary"
+    },
+    {
+     "id": "pix-23",
+     "title": "Migliori telecamere AI per il calcio nel 2026: quale scegliere",
+     "url": "https://calciotech.it/migliori-telecamere-ai-calcio-2026/",
+     "publisher": "CalcioTech",
+     "date": "2026-08-21",
+     "type": "third-party"
+    },
+    {
+     "id": "pix-24",
+     "title": "Pixellot: 35 million dollars closed to expand AI-driven youth sports streaming and monetisation",
+     "url": "https://pulse2.com/pixellot-35-million-closed-to-expand-ai-driven-youth-sports-streaming-and-monetization/",
+     "publisher": "Pulse 2.0",
+     "date": "2026-01-13",
+     "type": "press"
+    }
+   ]
+  },
+  {
    "id": "provispo",
    "last_verified": "2026-09-19",
    "adjacent": false,
    "free": {
-    "name": "Provispo B.V.",
+    "name": "Provispo",
     "hq": "Terneuzen, Netherlands",
     "founded": 2010,
     "website": "https://provispo.com",
@@ -1162,7 +1580,8 @@
     "evidence_note": "Product features and client names come from the vendor site only, no price is public anywhere, the federation relationships could not be confirmed from the federations' side, and the only registry data shows a one-employee company with no filed financial detail.",
     "entry_cost": "quote",
     "sport": "football",
-    "flag": "One registered employee (KvK)"
+    "flag": "One registered employee (KvK)",
+    "legal_name": "Provispo B.V."
    },
    "sources": [
     {
@@ -1294,7 +1713,8 @@
     "evidence_grade": "B",
     "evidence_note": "Pricing, features and availability are verified from Reeplayer's own pages; hardware architecture comes from the manufacturing partner Hellbender; funding and the sponsorship model come from trade press and Crunchbase; camera resolution and independent reliability data are not published.",
     "entry_cost": "mid",
-    "sport": "football"
+    "sport": "football",
+    "legal_name": "Reeplayer Inc."
    },
    "sources": [
     {
@@ -1380,6 +1800,337 @@
    ]
   },
   {
+   "id": "seeusplay",
+   "last_verified": "2026-09-19",
+   "adjacent": false,
+   "free": {
+    "name": "SeeUsPlay",
+    "hq": "Ashburn, Virginia, USA",
+    "founded": 2022,
+    "website": "https://seeusplay.com",
+    "status": "active",
+    "layers": [
+     "capture",
+     "production",
+     "distribution"
+    ],
+    "hardware_class": "portable",
+    "payer_model": "B",
+    "payer_model_label": "Family or coach buys the device",
+    "one_line": "SeeUsPlay is a dual-GoPro rig and app whose cloud AI turns two standard action cameras into an automatically tracked full-game video and highlight clips, paid for with tokens per game with no subscription [seeusplay-01, seeusplay-02].",
+    "who_for": "Youth and amateur teams, mostly in the US, that want full-field automated recording delivered to YouTube at roughly $14 to $15 a game in 4K without a hardware lock-in or an annual fee [seeusplay-01, seeusplay-03]. It suits team managers who are happy to own GoPros, handle SD-card uploads and wait a few hours for processing [seeusplay-04].",
+    "why": "SeeUsPlay exists because standard GoPros already produce better raw video than most proprietary youth cameras, so the founders moved all the intelligence to the cloud and sold only a mount, a token and a processing job [seeusplay-01, seeusplay-05]. It matters now because token pricing with no off-season cost, full-game downloads on every plan and YouTube delivery attack the subscription model that funds Veo, Pixellot and Trace, and because the June 2026 move to 8K with the GoPro MISSION 1 shows a small vendor can ride the action-camera roadmap without building hardware [seeusplay-02, seeusplay-06]. It tells you that once capture is commodity hardware, the difference between vendors is the quality and price of the cloud production job and the terms attached to the footage [seeusplay-03, seeusplay-07].",
+    "price_band": "Rig bundles $199 to $499 (sale prices, list $249 to $599) plus own GoPros; tokens $349 per 100 or $599 per 200 on sale, with a 4K game costing 4 tokens, 5K 5 tokens and 8K 10 tokens",
+    "price_band_source": "seeusplay-03",
+    "italy": {
+     "presence": "none",
+     "note": "The store lists US dollar prices with free shipping over $100 and no European reseller, retailer or Italian customer was found, while the terms state the service is hosted in the United States [seeusplay-08, seeusplay-09]."
+    },
+    "evidence_grade": "B",
+    "evidence_note": "Token and bundle prices, per-game token costs, camera compatibility, terms and privacy policy verified from SeeUsPlay pages and app store listings; company scale, founding date and customer sentiment rest on thin third-party material, with one parent forum thread and a single App Store rating.",
+    "entry_cost": "mid",
+    "sport": "multi",
+    "legal_name": "SeeUsPlay, Inc."
+   },
+   "sources": [
+    {
+     "id": "seeusplay-01",
+     "title": "SeeUsPlay home page: AI sports camera built on GoPro",
+     "url": "https://seeusplay.com/",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-02",
+     "title": "GoPro MISSION 1 review: 8K AI sports camera",
+     "url": "https://seeusplay.com/blog/gopro-mission-1",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-03",
+     "title": "SeeUsPlay home page store section: token packs and rig bundles with sale prices",
+     "url": "https://seeusplay.com/",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-04",
+     "title": "SeeUsPlay FAQ: cameras, tokens and video quality",
+     "url": "https://seeusplay.com/blog/seeusplay-faqs",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-05",
+     "title": "How it works: record, create, share",
+     "url": "https://www.seeusplay.com/how-it-works",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-06",
+     "title": "8K, baseball, web app and more: what's new at SeeUsPlay",
+     "url": "https://seeusplay.com/blog/what-s-new-at-seeusplay",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-06-10",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-07",
+     "title": "Tokens and gear store page (free shipping over $100, 30-day money-back guarantee)",
+     "url": "https://seeusplay.com/token-packs",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-08",
+     "title": "200 Tokens product page",
+     "url": "https://www.seeusplay.com/product-page/20-game-pack",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-09",
+     "title": "SeeUsPlay terms of service",
+     "url": "https://seeusplay.com/terms",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-06-16",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-10",
+     "title": "SeeUsPlay on the US App Store",
+     "url": "https://apps.apple.com/us/app/seeusplay/id1605292242",
+     "publisher": "Apple App Store",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "seeusplay-11",
+     "title": "SeeUsPlay on Google Play",
+     "url": "https://play.google.com/store/apps/details?id=com.seeusplay.agent&hl=en_US",
+     "publisher": "Google Play",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "seeusplay-12",
+     "title": "SeeUsPlay soccer camera experience (parent forum thread)",
+     "url": "https://www.dcurbanmom.com/jforum/posts/list/1264290.page",
+     "publisher": "DC Urban Moms and Dads",
+     "date": "2025-03-20",
+     "type": "third-party"
+    },
+    {
+     "id": "seeusplay-13",
+     "title": "SeeUsPlay privacy policy",
+     "url": "https://seeusplay.com/privacy",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2026-06-16",
+     "type": "primary"
+    },
+    {
+     "id": "seeusplay-14",
+     "title": "SeeUsPlay goes multi-sport",
+     "url": "https://www.seeusplay.com/post/seeusplay-goes-multi-sport",
+     "publisher": "SeeUsPlay, Inc.",
+     "date": "2025-07-09",
+     "type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "sics",
+   "last_verified": "2026-09-19",
+   "adjacent": true,
+   "free": {
+    "name": "Sics",
+    "hq": "Bassano del Grappa (Vicenza), Italy",
+    "founded": 1995,
+    "website": "https://www.sics.it",
+    "status": "acquired",
+    "layers": [
+     "production",
+     "platform"
+    ],
+    "hardware_class": "software-only",
+    "payer_model": "A",
+    "payer_model_label": "Club pays for a coaching tool",
+    "one_line": "Sics is the Bassano del Grappa match analysis house behind VideoMatch and LiveTag, used by Serie A staffs since 1995, now part of Soccerment Group and sold to amateur coaches from EUR 80 a month with Veo Cam 3 as its recommended automatic camera [sics-01, sics-02, sics-03].",
+    "who_for": "Italian professional and semi-professional technical staffs first, and since the Personal edition, amateur and youth coaches who want the same tagging, playlist and drawing tools on footage from a Veo or any other camera [sics-02, sics-03]. It suits clubs that treat the camera as an input and want an Italian-language analysis workflow with local support [sics-01, sics-04].",
+    "why": "Sics exists because Italian coaching culture wanted detailed video tagging before automated cameras existed, and the company built a 30-year client list from Inter to the Italian federation on that demand [sics-01]. It matters now because Soccerment absorbed it in 2025 with Azimut Libera Impresa money, launched SICS Atlas in August 2026 as an AI-native platform, and positions Veo as the capture front end, which makes Sics the analysis layer most likely to sit on top of automated match video in Italy [sics-03, sics-04, sics-05]. It tells you that in Italy the analysis software vendor, with EUR 1.1 million revenue and seven staff, is a small but strategically placed node that every camera vendor selling into Italian clubs will need to integrate with [sics-05, sics-06].",
+    "price_band": "VideoMatch Personal EUR 80/month or EUR 660/year; Pro EUR 99/month or EUR 890/year; Team edition on quotation; Veo camera sold separately",
+    "price_band_source": "sics-02",
+    "italy": {
+     "presence": "deployed",
+     "note": "Sics is an Italian company whose site shows Inter, Juventus, Milan, Roma, Napoli, Atalanta and the Italian federation as clients, with Veo Cam 3 integrated into VideoMatch for automatic recording [sics-01, sics-03]."
+    },
+    "evidence_grade": "A",
+    "evidence_note": "VideoMatch prices and the Veo integration verified from Sics's own pages, the Soccerment integration from Il Sole 24 Ore and the SICS Atlas launch from the Soccerment press release, revenue and headcount from the Italian chamber of commerce register via Ufficio Camerale.",
+    "entry_cost": "mid",
+    "sport": "football",
+    "flag": "Integrated into Soccerment since March 2025",
+    "legal_name": "SICS S.r.l., Soccerment Group"
+   },
+   "sources": [
+    {
+     "id": "sics-01",
+     "title": "Sics home page: Excellence in Match Analysis (products, clients, address)",
+     "url": "https://www.sics.it/en/",
+     "publisher": "SICS S.r.l.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "sics-02",
+     "title": "VideoMatch by Sics (features and Personal, Pro, Team pricing)",
+     "url": "https://www.sics.it/en/videomatch_sics/",
+     "publisher": "SICS S.r.l.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "sics-03",
+     "title": "VEO automatic camera with VideoMatch",
+     "url": "https://www.sics.it/en/veo/",
+     "publisher": "SICS S.r.l.",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "sics-04",
+     "title": "Soccerment e Sics: polo italiano dell'intelligenza artificiale per il calcio",
+     "url": "https://en.ilsole24ore.com/art/soccerment-e-sics-polo-italiano-dell-intelligenza-artificiale-il-calcio-AGdbZdjD",
+     "publisher": "Il Sole 24 Ore",
+     "date": "2025-03-25",
+     "type": "press"
+    },
+    {
+     "id": "sics-05",
+     "title": "Soccerment Group launches SICS Atlas, the first AI-native football platform for match analysis and scouting",
+     "url": "https://fortune.com/press-releases/soccerment-launches-sics-atlas-ai-football-analysis-scouting-2026-08-20/",
+     "publisher": "Soccerment via Fortune press releases",
+     "date": "2026-08-20",
+     "type": "press"
+    },
+    {
+     "id": "sics-06",
+     "title": "SICS S.r.l. company record: fatturato 2025, dipendenti 2026",
+     "url": "https://www.ufficiocamerale.it/3522/sics-srl",
+     "publisher": "Ufficio Camerale",
+     "date": "2026-09-19",
+     "type": "registry"
+    }
+   ]
+  },
+  {
+   "id": "solidsport",
+   "last_verified": "2026-09-19",
+   "adjacent": true,
+   "free": {
+    "name": "Solidsport",
+    "hq": "Stockholm, Sweden",
+    "founded": 2016,
+    "website": "https://www.solidsport.com",
+    "status": "active",
+    "layers": [
+     "platform",
+     "distribution"
+    ],
+    "hardware_class": "software-only",
+    "payer_model": "D",
+    "payer_model_label": "Distribution layer, club and viewer split",
+    "one_line": "Solidsport is a Swedish streaming platform that lets clubs, leagues and federations broadcast matches from any camera, including Veo, and sell them to viewers on a 50/50 revenue split after VAT [solidsport-01, solidsport-02].",
+    "who_for": "Clubs and federations in the Nordics, Germany and Austria that want a free-to-join channel with pay-per-view, season passes and supporter subscriptions and are willing to trade half the gross for a turnkey platform [solidsport-01, solidsport-03]. It suits organisations that already own an automated camera and want a place to monetise the feed [solidsport-04].",
+    "why": "Solidsport exists because grassroots clubs had cameras and audiences but no way to charge for a stream, so it built a channel platform that costs the club nothing upfront and splits the gross [solidsport-01, solidsport-02]. It matters now because federation-wide deals such as SHFV in June 2025 and the Swedish Handball extension in September 2025 turn it into the default distribution layer that camera vendors plug into, and revenue grew 42 percent to SEK 85 million in 2025 on that model [solidsport-03, solidsport-05, solidsport-06]. It tells you that in Europe the money in automated match video is being made by whoever owns the checkout page, and that camera vendors without a monetisation layer end up as suppliers to platforms like this one [solidsport-04, solidsport-07].",
+    "price_band": "Free for the club to join; viewers pay club-set PPV or subscription prices above a Solidsport minimum; gross split 50/50 after VAT",
+    "price_band_source": "solidsport-02",
+    "italy": {
+     "presence": "none",
+     "note": "The site lists Sweden, Finland, Germany, Slovenia, Austria and Serbia as markets and no Italian federation, league or club partner was found [solidsport-01]."
+    },
+    "evidence_grade": "A",
+    "evidence_note": "Revenue split, price setting and payout terms verified from Solidsport's own terms, the Veo integration from Solidsport's guide, the SHFV deal from Solidsport's press release, and 2025 revenue from the Swedish company register via Allabolag.",
+    "entry_cost": "viewer",
+    "sport": "multi",
+    "legal_name": "Solidsport AB"
+   },
+   "sources": [
+    {
+     "id": "solidsport-01",
+     "title": "Solidsport home page: Stream. Own. Grow.",
+     "url": "https://www.solidsport.com/",
+     "publisher": "Solidsport AB",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "solidsport-02",
+     "title": "Solidsport terms for partners (50/50 revenue share after VAT)",
+     "url": "https://www.solidsport.com/our-terms",
+     "publisher": "Solidsport AB",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "solidsport-03",
+     "title": "Schleswig-Holsteinischer Fussballverband und Solidsport schliessen langfristige Partnerschaft",
+     "url": "https://press.solidsport.com/posts/pressreleases/schleswig-holsteinischer-fuballverband-und-so",
+     "publisher": "Solidsport press room",
+     "date": "2025-06-05",
+     "type": "press"
+    },
+    {
+     "id": "solidsport-04",
+     "title": "Streaming Academy: add custom RTMP to Veo",
+     "url": "https://guide.solidsport.com/en/streaming-academy/veo",
+     "publisher": "Solidsport AB",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "solidsport-05",
+     "title": "Solidsport press room index (2025 and 2026 releases, company boilerplate)",
+     "url": "https://press.solidsport.com/",
+     "publisher": "Solidsport press room",
+     "date": "2026-09-19",
+     "type": "press"
+    },
+    {
+     "id": "solidsport-06",
+     "title": "Solidsport AB bokslut (annual accounts 2024 and 2025)",
+     "url": "https://www.allabolag.se/bokslut/solidsport-ab/stockholm/datacenters/2K2A18II5YDLG",
+     "publisher": "Allabolag",
+     "date": "2026-09-19",
+     "type": "registry"
+    },
+    {
+     "id": "solidsport-07",
+     "title": "Solidsport Sweden x Veo partnership page",
+     "url": "https://www.veo.com/partnership/solidsport",
+     "publisher": "Veo Technologies",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "solidsport-08",
+     "title": "Solidsport AB company record (556671-5586)",
+     "url": "https://www.merinfo.se/foretag/Solidsport-AB-5566715586/2k2a18i-hmjl",
+     "publisher": "Merinfo",
+     "date": "2026-09-19",
+     "type": "registry"
+    }
+   ]
+  },
+  {
    "id": "spiideo",
    "last_verified": "2026-09-19",
    "adjacent": false,
@@ -1410,7 +2161,8 @@
     "evidence_grade": "B",
     "evidence_note": "Company financials come from the Swedish register via allabolag and product facts from Spiideo pages and help articles, but there is no public price list, the only price is a US partner package, security and data location documents are absent from the public site, and reviewer volume is tiny.",
     "entry_cost": "quote",
-    "sport": "multi"
+    "sport": "multi",
+    "legal_name": "Spiideo AB"
    },
    "sources": [
     {
@@ -1656,11 +2408,597 @@
    ]
   },
   {
+   "id": "sportway",
+   "last_verified": "2026-09-19",
+   "adjacent": false,
+   "free": {
+    "name": "Sportway",
+    "hq": "Stockholm, Sweden",
+    "founded": 2017,
+    "website": "https://www.sportway.com",
+    "status": "active",
+    "layers": [
+     "capture",
+     "production",
+     "platform",
+     "distribution"
+    ],
+    "hardware_class": "fixed",
+    "payer_model": "C",
+    "payer_model_label": "Platform pays for cameras and shares revenue",
+    "one_line": "Sportway installs fixed AI cameras in arenas and on pitches at its own cost, produces every match automatically and distributes it through federation branded OTT platforms and consumer services such as MyGame in Norway [sportway-03, sportway-04, sportway-11].",
+    "who_for": "Federations, leagues and media groups that want a whole tier of sport filmed and monetised without asking clubs to buy anything, plus the clubs inside those deals that receive cameras, coaching tools and a revenue share for free [sportway-06, sportway-11, sportway-12]. Individual clubs outside a federation agreement have no public way to buy in.",
+    "why": "Sportway exists because Nordic ice hockey and handball federations wanted every game on a screen and no club would pay for a camera, so the company took on the capital cost and built a rights and subscription business around it, reaching about 2,500 cameras in 21 countries and 250,000 events a year by June 2026 [sportway-01]. It matters now because the June 2026 EUR 20 million round led by Giorgio Chiellini's Gamma Waves, the Studio Automated acquisition and the KNHB ClubhockeyTV deal show the model exporting beyond Scandinavia and into football adjacent sports [sportway-01, sportway-11, sportway-15]. It tells you the grassroots video market is splitting into a consumer camera business and a rights infrastructure business, and Sportway is the clearest European example of the second, with the Norwegian consent fights around MyGame as the cautionary tale [sportway-08, sportway-09].",
+    "price_band": "Clubs pay nothing for cameras or installation under federation deals; consumers pay NOK 139/month or NOK 1,199/year for MyGame in Norway with 20% returned to a chosen club; Playsite and federation platform fees are not public",
+    "price_band_source": "sportway-05",
+    "italy": {
+     "presence": "deployed",
+     "note": "Sportway has a Milan operating base and a partnership with the Italian Ice Sports Federation (FISG) since autumn 2023 covering about 35 ice venues in ice hockey, figure skating, speed skating and curling, with a stated aim to expand beyond ice sports [sportway-02]."
+    },
+    "evidence_grade": "B",
+    "evidence_note": "Consumer pricing, federation deals, funding and company registry data come from primary sources; camera hardware specifications, club level commercial terms and consolidated financials are not public, and privacy history relies on Norwegian press.",
+    "entry_cost": "quote",
+    "sport": "multi",
+    "legal_name": "Sportway Media Group AB, incl. MyGame"
+   },
+   "sources": [
+    {
+     "id": "sportway-01",
+     "title": "From the sidelines to 250,000 matches a year: Sportway raises EUR 20M to scale its AI sports media platform",
+     "url": "https://tech.eu/2026/06/23/from-the-sidelines-to-250000-matches-a-year-sportway-raises-eur20m-to-scale-its-ai-sports-media-platform/",
+     "publisher": "Tech.eu",
+     "date": "2026-06-23",
+     "type": "press"
+    },
+    {
+     "id": "sportway-02",
+     "title": "Sportway Italy country page (Milan base, FISG partnership, ice venues)",
+     "url": "https://www.sportway.com/italy",
+     "publisher": "Sportway",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-03",
+     "title": "Sportway homepage (products, sports, countries, match volumes)",
+     "url": "https://www.sportway.com",
+     "publisher": "Sportway",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-04",
+     "title": "MyGame homepage (venues, club support, TV 2 Play distribution)",
+     "url": "https://www.mygame.no",
+     "publisher": "MyGame",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-05",
+     "title": "MyGame: Ny pakkestruktur og nye priser (new package structure and prices from 1 August 2025)",
+     "url": "https://mygame.no/ny-pakkestruktur-og-nye-priser/",
+     "publisher": "MyGame",
+     "date": "2025-06-16",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-06",
+     "title": "MyGame: Spørsmål og svar (FAQ on ownership, age limits, opt out, retention, club share)",
+     "url": "https://mygame.no/sporsmal-og-svar/",
+     "publisher": "MyGame",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-07",
+     "title": "Sportway and MyGame set to build largest AI video sports service in Europe (merger announcement)",
+     "url": "https://sportwaymediagroup.com/sportway-and-mygame-set-to-build-largest-ai-video-sports-service-in-europe/",
+     "publisher": "Sportway Media Group",
+     "date": "2022-10-19",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-08",
+     "title": "Idrettsleder reagerer på at Tromsø kommune fjernet MyGame-kameraer",
+     "url": "https://www.vg.no/sport/i/rlnEk0/idrettsleder-reagerer-paa-at-tromsoe-kommune-fjernet-mygame-kameraer-utrolig-energikrevende",
+     "publisher": "VG",
+     "date": "2023-01-19",
+     "type": "press"
+    },
+    {
+     "id": "sportway-09",
+     "title": "Datatilsynet setter foten ned for strømming av barneidrett",
+     "url": "https://www.vg.no/sport/i/jlMQWb/datatilsynet-setter-foten-ned-for-stroemming-av-barneidrett-mange-bekymrede-foresatte",
+     "publisher": "VG",
+     "date": "2023-06-06",
+     "type": "press"
+    },
+    {
+     "id": "sportway-10",
+     "title": "Visste ikke at de ble filmet på trening: Det er helt uholdbart",
+     "url": "https://www.vg.no/sport/i/8JPy9Q/her-vet-de-ikke-at-de-filmes-paa-trening-naa-tar-mygame-grep",
+     "publisher": "VG",
+     "date": "2022-12-19",
+     "type": "press"
+    },
+    {
+     "id": "sportway-11",
+     "title": "KNHB and Sportway launch ClubhockeyTV: ambition to make all hockey clubs visible",
+     "url": "https://sportway.com/knhb-and-sportway-launch-clubhockeytv-ambition-to-make-all-hockey-clubs-visible/",
+     "publisher": "Sportway",
+     "date": "2026-06-08",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-12",
+     "title": "ClubhockeyTV: nieuw videoplatform dat voor meer live hockey zorgt",
+     "url": "https://www.hockey.nl/nieuws/clubhockeytv-nieuw-videoplatform-dat-voor-meer-live-hockey-zorgt",
+     "publisher": "Hockey.nl (KNHB)",
+     "date": "2026-06-09",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-13",
+     "title": "Sportway capital injection boosts global expansion ambitions",
+     "url": "https://www.tvbeurope.com/business/sportway-capital-injection-boosts-global-expansion-ambitions",
+     "publisher": "TVBEurope",
+     "date": "2026-06-24",
+     "type": "press"
+    },
+    {
+     "id": "sportway-14",
+     "title": "Sportway: Our solutions (fixed AI camera, Playsite, Team and Player Account, Studio App, Low Latency Feed, Situation Room)",
+     "url": "https://sportway.com/our-solutions/",
+     "publisher": "Sportway",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-15",
+     "title": "Sportway and Broadcast Solutions acquire Studio Automated to jointly shape the future of live sports production",
+     "url": "https://sportway.com/sportway-and-broadcast-solutions-acquire-studio-automated-to-jointly-shape-the-future-of-live-sports-production/",
+     "publisher": "Sportway",
+     "date": "2026-04-16",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-16",
+     "title": "MyGame: Teknologi (camera rigs, AI framing, wired processing)",
+     "url": "https://mygame.no/teknologi/",
+     "publisher": "MyGame",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "sportway-17",
+     "title": "Sportway Media Group AB, org. nr 559392-1413, company registry summary and 2024 key figures",
+     "url": "https://www.allabolag.se/foretag/sportway-media-group-ab/stockholm/kontorstj%C3%A4nster/2KIH5DXI63II9",
+     "publisher": "Allabolag",
+     "date": "2026-09-19",
+     "type": "registry"
+    },
+    {
+     "id": "sportway-18",
+     "title": "Sportway news archive (2026 deals: EuroHockey, FEB, Swedish futsal and handball, WKBLive.tv, Prva CFL, Nevobo)",
+     "url": "https://sportway.com/category/sportway/",
+     "publisher": "Sportway",
+     "date": "2026-09-19",
+     "type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "staige",
+   "last_verified": "2026-09-19",
+   "adjacent": false,
+   "free": {
+    "name": "Staige",
+    "hq": "Essen, Germany",
+    "founded": 2017,
+    "website": "https://staige.com/en/staige-sport",
+    "status": "pivoted",
+    "layers": [
+     "capture",
+     "production",
+     "platform",
+     "distribution"
+    ],
+    "hardware_class": "fixed",
+    "payer_model": "C",
+    "payer_model_label": "Platform pays for cameras and shares revenue",
+    "one_line": "A fixed 180-degree AI camera bolted to a floodlight pole that streams amateur matches to the Staige TV platform, sells virtual tickets and sponsor banners on the club's behalf, and feeds a coaching app.",
+    "who_for": "German-speaking amateur and semi-professional clubs that want every home match streamed without a volunteer behind a camera, and that have a sponsor or a regional bank willing to fund the hardware. Federations and broadcasters that want a turnkey lower-league feed are the second audience.",
+    "why": "Staige exists because soccerwatch.tv proved in 2017 that German amateur clubs would let a robot camera film them if the stream came with sponsor money attached, and the K2 panorama camera plus the Staige TV paywall turned that into a repeatable product with more than 250,000 events recorded [staige-06]. It matters now because the listed parent Staige One AG has spent 2025 and 2026 moving its capital and its engineers into Staige for Industries, a security and infrastructure video business, while the sport segment sits flat at about €2.0 million revenue and camera deliveries run behind schedule [staige-05, staige-07]. It tells you that the pure sponsor-funded amateur streaming model, on its own, has struggled to carry a listed company, and that the survivors in this space will be the ones with a second revenue engine or a very lean cost base.",
+    "price_band": "Camera pricing on request, typically sponsor or bank funded; €1.50 net per paid pay-per-view access retained by Staige",
+    "price_band_source": "staige-01",
+    "italy": {
+     "presence": "none",
+     "note": "The 2025 annual report lists Germany, Luxembourg, the Netherlands, the USA and China as markets and does not mention Italy, and an earlier regional profile named Italy only as an expansion target [staige-05, staige-10]."
+    },
+    "evidence_grade": "B",
+    "evidence_note": "Company health, shareholders, headcount and the €1.50 pay-per-view fee are verified from the audited annual report, stock exchange releases and the vendor site; camera purchase and subscription prices are not published anywhere public, and installed camera counts come from the vendor.",
+    "entry_cost": "quote",
+    "sport": "football",
+    "flag": "Going-concern note in the FY2025 accounts",
+    "legal_name": "Staige One AG, formerly soccerwatch.tv"
+   },
+   "sources": [
+    {
+     "id": "staige-01",
+     "title": "Staige Sport overview page: live streaming, AI analysis, financing, FAQ with pay-per-view fee and privacy notes",
+     "url": "https://staige.com/en/staige-sport",
+     "publisher": "Staige",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "staige-02",
+     "title": "Staige K2X mobile AI camera product page",
+     "url": "https://staige.com/en/staige-sport/staige-k2x-kamera",
+     "publisher": "Staige",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "staige-03",
+     "title": "Staige Sport for clubs and teams page with testimonials and revenue tools",
+     "url": "https://staige.com/en/staige-sport/vereine",
+     "publisher": "Staige",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "staige-04",
+     "title": "Staige homepage: Edge AI video analytics for sports and safety, powered by adesso",
+     "url": "https://staige.com/en",
+     "publisher": "Staige",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "staige-05",
+     "title": "Staige One AG Geschäftsbericht 2025 (annual report for the 2025 financial year)",
+     "url": "https://finanzen.staige.com/wp-content/uploads/sites/6/2026/06/Gescha%CC%88ftsbericht_2025_HV-StaigeOneAG.pdf",
+     "publisher": "Staige One AG",
+     "date": "2026-06-01",
+     "type": "primary"
+    },
+    {
+     "id": "staige-06",
+     "title": "IRW-News: Staige One AG publishes 2025 consolidated financial statements, transformation to Staige for Industries progressing",
+     "url": "https://www.onvista.de/news/2026/05-29-irw-news-staige-one-ag-staige-one-ag-veroeffentlichung-konzernabschluss-2025-strategische-transformation-zu-staige-for-industries-zeigt-fortschritte-0-10-26516716",
+     "publisher": "onvista / IRW-Press",
+     "date": "2026-05-29",
+     "type": "press"
+    },
+    {
+     "id": "staige-07",
+     "title": "Staige One AG: clear earnings improvement in H1 2026, Staige for Industries reaches key breakthrough",
+     "url": "https://www.go-with-us.de/deutliche-ergebnisverbesserung-im-ersten-halbjahr-2026-staige-for-industries-erreicht-wichtigen-durchbruch/",
+     "publisher": "go-with-us.de (corporate release)",
+     "date": "2026-09-09",
+     "type": "press"
+    },
+    {
+     "id": "staige-08",
+     "title": "Staige One AG: Deutliche Ergebnisverbesserung im ersten Halbjahr 2026 (release text with sport segment and financing statements)",
+     "url": "https://www.mynewschannel.net/2026/09/staige-one-ag-deutliche-ergebnisverbesserung-im-ersten-halbjahr-2026/",
+     "publisher": "MyNewsChannel (corporate release)",
+     "date": "2026-09-09",
+     "type": "press"
+    },
+    {
+     "id": "staige-09",
+     "title": "Staige One: Vielversprechende Strategieerweiterung (SMC-Research analyst note summary)",
+     "url": "https://www.finanznachrichten.de/nachrichten-2025-06/65692466-staige-one-vielversprechende-strategieerweiterung-500.htm",
+     "publisher": "finanznachrichten.de",
+     "date": "2025-06-18",
+     "type": "third-party"
+    },
+    {
+     "id": "staige-10",
+     "title": "Wie Staige aus dem Ruhrgebiet den Amateur-Sport mit KI revolutioniert (regional business profile)",
+     "url": "https://www.business.ruhr/storys/wie-staige-aus-dem-ruhrgebiet-mit-ki-sport-revolutioniert.html",
+     "publisher": "Business Metropole Ruhr",
+     "date": "2024-01-01",
+     "type": "third-party"
+    },
+    {
+     "id": "staige-11",
+     "title": "Northdata company record: Staige One AG, Essen, HRB 36279",
+     "url": "https://www.northdata.de/Staige+One+AG,+Essen",
+     "publisher": "Northdata",
+     "date": "2026-09-19",
+     "type": "registry"
+    },
+    {
+     "id": "staige-12",
+     "title": "StaigeTV app listing and reviews on the Apple App Store (Germany)",
+     "url": "https://apps.apple.com/de/app/staigetv/id1444127718",
+     "publisher": "Apple App Store",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "staige-13",
+     "title": "Staige Livestreaming club funding programme, Volksbank eG Die Gestalterbank",
+     "url": "https://www.gestalterbank.de/vereine/staige-livestreaming.html",
+     "publisher": "Volksbank eG Die Gestalterbank",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "staige-14",
+     "title": "Smart Sports Camera K2 product page",
+     "url": "https://staige.com/en/camera-k2/",
+     "publisher": "Staige",
+     "date": "2026-09-19",
+     "type": "primary"
+    }
+   ]
+  },
+  {
+   "id": "staylive",
+   "last_verified": "2026-09-19",
+   "adjacent": true,
+   "free": {
+    "name": "Staylive",
+    "hq": "Stockholm, Sweden",
+    "founded": 2013,
+    "website": "https://www.staylive.io",
+    "status": "acquired",
+    "layers": [
+     "platform",
+     "distribution"
+    ],
+    "hardware_class": "software-only",
+    "payer_model": "D",
+    "payer_model_label": "Distribution layer, club and viewer split",
+    "one_line": "Staylive is a Swedish white-label OTT platform, owned by Two Circles since its 2024 purchase of Spring Media Group, that gives leagues, federations and youth operators such as Minnesota's Youth Sports Plus a branded streaming service with payments and apps [staylive-01, staylive-02, staylive-03].",
+    "who_for": "Leagues, federations and aggregators that want their own branded streaming destination on iOS, Android and Apple TV with integrated payments under their own brand [staylive-01]. In youth sport it serves operators like Youth Sports Plus, which feeds Spiideo camera output into MNHockey.tv across 25,000 games a season [staylive-02, staylive-04].",
+    "why": "Staylive exists because Nordic leagues in hockey, bandy and basketball wanted to own their streaming product outright, with no rented channel, and Spring Media built it as the technology arm of a rights and production group [staylive-01, staylive-05]. It matters now because Two Circles bought the group in October 2024 and is pushing Staylive as a global platform provider, which puts a large agency behind a product that automated cameras feed into at youth level [staylive-03, staylive-06]. It tells you that distribution for automated match video is consolidating into agency-owned platforms, and that the camera vendor rarely owns the viewer relationship in these deals [staylive-02, staylive-04].",
+    "price_band": "White-label platform fees not published; viewer prices set by the rights holder; MNHockey.tv app reviews cite roughly $9 charges without an official price list",
+    "price_band_source": "staylive-07",
+    "italy": {
+     "presence": "none",
+     "note": "Named customers are Nordic leagues, INDYCAR Live, Eredivisie and European swimming bodies, with no Italian rights holder found [staylive-01]."
+    },
+    "evidence_grade": "C",
+    "evidence_note": "Ownership and the Youth Sports Plus deal are verified from Staylive's and SportsPro's pages, but no viewer prices, platform fees or revenue shares are published, and the Staylive news feed has no entries after October 2024.",
+    "entry_cost": "viewer",
+    "sport": "multi",
+    "legal_name": "StayLive AB, part of Two Circles"
+   },
+   "sources": [
+    {
+     "id": "staylive-01",
+     "title": "Staylive home page: white-label streaming platform and customers",
+     "url": "https://www.staylive.io/",
+     "publisher": "StayLive AB",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "staylive-02",
+     "title": "Youth Sports Plus and Staylive enter long term agreement",
+     "url": "https://www.staylive.io/post/youth-sports-plus-and-staylive-enter-long-term-agreement",
+     "publisher": "StayLive AB",
+     "date": "2023-11-01",
+     "type": "press"
+    },
+    {
+     "id": "staylive-03",
+     "title": "Two Circles acquires Spring Media to expand broadcast offering",
+     "url": "https://www.sportspro.com/news/two-circles-spring-media-acquisition-broadcast/",
+     "publisher": "SportsPro",
+     "date": "2024-10-28",
+     "type": "press"
+    },
+    {
+     "id": "staylive-04",
+     "title": "Youth Sports Plus home page (Spiideo-powered live streaming, MNHockey.TV)",
+     "url": "https://www.youthsportsplus.com/",
+     "publisher": "Youth Sports Plus",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "staylive-05",
+     "title": "Two Circles expands into media rights, live production and streaming with agreement to acquire Spring Media Group",
+     "url": "https://www.staylive.io/post/two-circles-expands-into-media-rights-live-production-and-streaming-with-agreement-to-acquire-spring-media-group",
+     "publisher": "StayLive AB",
+     "date": "2024-10-28",
+     "type": "press"
+    },
+    {
+     "id": "staylive-06",
+     "title": "Staylive news index",
+     "url": "https://www.staylive.io/news",
+     "publisher": "StayLive AB",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "staylive-07",
+     "title": "MNHockey TV on the App Store (developer StayLive AB)",
+     "url": "https://apps.apple.com/us/app/mnhockey-tv/id6473491120",
+     "publisher": "Apple App Store",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "staylive-08",
+     "title": "Two Circles' StayLive ups new OTT business push",
+     "url": "https://www.sportbusiness.com/news/two-circles-staylive-ups-new-ott-business-push/",
+     "publisher": "SportBusiness",
+     "date": "2026-09-19",
+     "type": "press"
+    }
+   ]
+  },
+  {
+   "id": "trace",
+   "last_verified": "2026-09-19",
+   "adjacent": false,
+   "free": {
+    "name": "Trace",
+    "hq": "Austin, Texas, United States",
+    "founded": 2010,
+    "website": "https://traceup.com",
+    "status": "active",
+    "layers": [
+     "capture",
+     "production",
+     "platform"
+    ],
+    "hardware_class": "portable",
+    "payer_model": "B",
+    "payer_model_label": "Family or coach buys the device",
+    "one_line": "Trace lends a 1080p wide angle sideline camera on a 16 foot tripod for free and charges each family USD 180 to 300 a year for AI edited highlights of their own child, with the team's full game and a fixed livestream thrown in [trace-01, trace-05].",
+    "who_for": "American youth soccer parents who want their child's moments cut automatically and sent to their phone, and club directors who want video for every team without a capital budget [trace-01, trace-08]. It is not sold in Europe and the pricing is in US dollars only [trace-01, trace-05].",
+    "why": "Trace exists because its founders, who started with the AlpineReplay ski tracking app in 2010, realised the person who will pay for youth sports video is the parent, so they gave the camera away and sold the child's highlights [trace-03, trace-01]. It matters now because the free camera model, backed by USD 65 million of venture money and state association deals such as Florida and Eastern Pennsylvania in 2026, has pushed the effective price of a team camera in the United States toward zero [trace-03, trace-08]. It also shows the cost of that model, a Trustpilot score of 1.6 driven by billing, cancellation and download restrictions, which tells you the money is made in the fine print, with the hardware as bait [trace-04].",
+    "price_band": "USD 0 camera lease (USD 99 one off if paying monthly) + USD 180/yr Basic or USD 300/yr Pro per family; monthly USD 25 or USD 40",
+    "price_band_source": "trace-01",
+    "italy": {
+     "presence": "none",
+     "note": "Trace publishes US dollar pricing only, ships from a US warehouse and names no European availability, and no Italian retailer, reseller or club deployment was found [trace-01, trace-05]."
+    },
+    "evidence_grade": "A",
+    "evidence_note": "Pricing, connectivity, upload and livestream behaviour are verified from Trace's own pricing page and help centre; funding is from Forbes and Crunchbase; review sentiment is from Trustpilot; camera resolution comes from Trace's own comparison page and detailed hardware specifications are not published.",
+    "entry_cost": "low",
+    "sport": "football",
+    "legal_name": "AlpineReplay, Inc."
+   },
+   "sources": [
+    {
+     "id": "trace-01",
+     "title": "Trace pricing page (PlayerFocus Basic and Pro, camera lease terms)",
+     "url": "https://traceup.com/pricing",
+     "publisher": "Trace",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "trace-02",
+     "title": "Trace (AlpineReplay Inc.) Crunchbase profile",
+     "url": "https://www.crunchbase.com/organization/trace-3",
+     "publisher": "Crunchbase",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "trace-03",
+     "title": "Sports video tech company Trace raises $47 million Series C round, valued at $190 million",
+     "url": "https://www.forbes.com/sites/timcasey/2022/04/12/sports-video-tech-company-trace-raises-47-million-series-c-round-valued-at-190-million/",
+     "publisher": "Forbes",
+     "date": "2022-04-12",
+     "type": "press"
+    },
+    {
+     "id": "trace-04",
+     "title": "traceup.com reviews on Trustpilot (TrustScore 1.6, 24 reviews)",
+     "url": "https://www.trustpilot.com/review/traceup.com",
+     "publisher": "Trustpilot",
+     "date": "2026-09-19",
+     "type": "third-party"
+    },
+    {
+     "id": "trace-05",
+     "title": "Trace homepage (TraceCam, PlayerCam, MultiCam, sports, club logos)",
+     "url": "https://traceup.com",
+     "publisher": "Trace",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "trace-06",
+     "title": "Trace Help Center: Uploading (PlayerFocus), file sizes, upload and processing times",
+     "url": "https://support.traceup.com/content/uploading-playerfocus",
+     "publisher": "Trace",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "trace-07",
+     "title": "Trace Help Center: Livestreaming (Beta) FAQ",
+     "url": "https://support.traceup.com/content/livestreaming-beta-faq",
+     "publisher": "Trace",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "trace-08",
+     "title": "Florida Youth Soccer and Trace launch free camera initiative",
+     "url": "https://www.fysa.com/news/2026/04/08/florida-youth-soccer-and-trace-launch-free-camera-initative/",
+     "publisher": "Florida Youth Soccer Association",
+     "date": "2026-04-08",
+     "type": "primary"
+    },
+    {
+     "id": "trace-09",
+     "title": "Trace PlayerFocus vs. Veo for recording soccer games (Trace comparison page, 1080p, US warehouse)",
+     "url": "https://traceup.com/academy/trace-vs-veo-for-recording-soccer-games",
+     "publisher": "Trace",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "trace-10",
+     "title": "Trace product features page (custom downloads, analytics, Trace iD)",
+     "url": "https://traceup.com/product-features",
+     "publisher": "Trace",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "trace-11",
+     "title": "How Trace works (setup, jersey based identification, download limits)",
+     "url": "https://traceup.com/how-it-works",
+     "publisher": "Trace",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "trace-12",
+     "title": "Trace privacy policy (effective 12 July 2018)",
+     "url": "https://traceup.com/privacy-policy",
+     "publisher": "Trace",
+     "date": "2018-07-12",
+     "type": "primary"
+    },
+    {
+     "id": "trace-13",
+     "title": "US Youth Soccer and Trace kick off partnership",
+     "url": "https://traceup.com/academy/us-youth-soccer-and-trace-kickoff-partnership",
+     "publisher": "Trace",
+     "date": "2020-10-05",
+     "type": "primary"
+    },
+    {
+     "id": "trace-14",
+     "title": "Youth soccer camera comparison 2025: Reeplayer vs Veo vs Trace (competitor comparison quoting Trace team cost)",
+     "url": "https://www.reeplayer.com/blog/youth-soccer-camera-comparison-2025-reeplayer-vs-veo-vs-trace-complete-buyer-s-guide",
+     "publisher": "Reeplayer",
+     "date": "2025-10-13",
+     "type": "third-party"
+    },
+    {
+     "id": "trace-15",
+     "title": "Eastern Pennsylvania Youth Soccer partners with Trace to bring advanced video tools to players and coaches",
+     "url": "https://www.epysa.org/news/2026/03/06/eastern-pennsylvania-youth-soccer-partners-with-trace-to-bring-advanced-video-tools-to-players-and-coaches/",
+     "publisher": "Eastern Pennsylvania Youth Soccer",
+     "date": "2026-03-06",
+     "type": "primary"
+    }
+   ]
+  },
+  {
    "id": "veo",
    "last_verified": "2026-09-19",
    "adjacent": false,
    "free": {
-    "name": "Veo Technologies",
+    "name": "Veo",
     "hq": "Copenhagen, Denmark",
     "founded": 2015,
     "website": "https://www.veo.com",
@@ -1686,7 +3024,8 @@
     "evidence_grade": "A",
     "evidence_note": "Pricing comes from Veo's own live catalogue API for the US, Italian and UK markets and financials from the Danish company register via profiler.dk; product, privacy and warranty claims come from Veo pages and PDFs, with app store and Trustpilot data as the only third-party inputs.",
     "entry_cost": "mid",
-    "sport": "football"
+    "sport": "football",
+    "legal_name": "Veo Technologies ApS"
    },
    "sources": [
     {
@@ -1908,845 +3247,11 @@
    ]
   },
   {
-   "id": "zone14",
-   "last_verified": "2026-09-19",
-   "adjacent": false,
-   "free": {
-    "name": "zone14",
-    "hq": "Vienna, Austria",
-    "founded": 2020,
-    "website": "https://zone14.ai",
-    "status": "active",
-    "layers": [
-     "capture",
-     "production",
-     "platform"
-    ],
-    "hardware_class": "fixed",
-    "payer_model": "A",
-    "payer_model_label": "Club pays for a coaching tool",
-    "one_line": "zone14 rents Austrian built fixed 4K twin camera systems to football clubs on a subscription from EUR 115 to about EUR 130 a month, bundled with its REPLAY analysis software and optional video based player fitness data [zone14-01, zone14-02, zone14-03].",
-    "who_for": "Amateur, semi professional and academy football clubs in German speaking Europe and Croatia that want every home match and training session recorded from a permanent mount and analysed by their own coaches [zone14-02, zone14-04]. It suits clubs that own or control their ground, since the cameras are mains powered and installed once [zone14-02].",
-    "why": "zone14 exists because two Viennese founders saw that amateur clubs training four times a week wanted professional style video analysis and that no fixed camera came bundled with the software and the data to do it, so they built the camera, the analysis tool and a video based tracking layer as one subscription [zone14-05, zone14-02]. It matters now because the Bavarian football association made it official technology partner for more than 4,500 clubs and SK Rapid and Austria Wien's academy use it, which shows a European coaching first alternative to the broadcast and parent led models can reach scale [zone14-06, zone14-07]. It tells you that in Europe the buyer with the steadiest budget is still the club, and that a vendor that replaces GPS vests with video data has a second reason to be paid.",
-    "price_band": "From EUR 115/month with camera and hardware included (company statement); CORE listed at EUR 130/month, EUR 1,560 billed yearly on the German page after a stated EUR 1,400 sponsorship; ELITE on request; REPLAY software only EUR 20/month",
-    "price_band_source": "zone14-03",
-    "italy": {
-     "presence": "none",
-     "note": "zone14 lists Austria, Germany and Croatia as its markets with English, German and Croatian sites, and no Italian club, reseller or pricing was found [zone14-07, zone14-01]."
-    },
-    "evidence_grade": "B",
-    "evidence_note": "Pricing is verified from zone14's own German and English pages and homepage, company registration from the imprint, and partnerships from Austrian trade press; consolidated system counts, camera specifications and data hosting are only partly published.",
-    "entry_cost": "mid",
-    "sport": "football"
-   },
-   "sources": [
-    {
-     "id": "zone14-01",
-     "title": "zone14 football camera price page, English (tiers, feature comparison, support, storage)",
-     "url": "https://zone14.ai/en/buy-football-camera/",
-     "publisher": "zone14",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "zone14-02",
-     "title": "zone14 homepage (starting at 115€ per month including camera, testimonials)",
-     "url": "https://zone14.ai/en/",
-     "publisher": "zone14",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "zone14-03",
-     "title": "zone14 Fußball-Kamera kaufen, German pricing page (REPLAY €20, CORE €130/mo, ELITE on request)",
-     "url": "https://zone14.ai/fussball-kamera-kaufen/",
-     "publisher": "zone14",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "zone14-04",
-     "title": "zone14 TWO football camera product page (two 4K cameras, installation, upload, STATS)",
-     "url": "https://zone14.ai/en/zone14-football-camera/",
-     "publisher": "zone14",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "zone14-05",
-     "title": "zone14: Wiener KI-Fußball-Videoanalyse-Startup holt Investment und FFG-Förderung",
-     "url": "https://brutkasten.com/artikel/zone14-ki-fussball-videoanalyse-investment-ffg-foerderung/13",
-     "publisher": "brutkasten",
-     "date": "2024-05-15",
-     "type": "press"
-    },
-    {
-     "id": "zone14-06",
-     "title": "zone14 wird Technologiepartner des Bayerischen Fußball-Verbands",
-     "url": "https://www.trendingtopics.eu/zone14-wird-technologiepartner-des-bayerischen-fussball-verbands/",
-     "publisher": "Trending Topics",
-     "date": "2026-09-19",
-     "type": "press"
-    },
-    {
-     "id": "zone14-07",
-     "title": "zone14: Ex-Austria-Wien-Kapitän Manuel Ortlechner investiert in Wiener Fußball-Startup",
-     "url": "https://brutkasten.com/artikel/zone14-ex-austria-wien-kapitaen-manuel-ortlechner-investiert-in-wiener-fussball-startup",
-     "publisher": "brutkasten",
-     "date": "2026-06-08",
-     "type": "press"
-    },
-    {
-     "id": "zone14-09",
-     "title": "zone14 privacy policy (website scope only)",
-     "url": "https://zone14.ai/en/privacy-policy/",
-     "publisher": "zone14",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "zone14-10",
-     "title": "zone14 GmbH imprint (FN 562823 g, UID ATU77301812, Meldemannstraße 18, 1200 Wien, managing directors)",
-     "url": "https://zone14.ai/en/impressum-2/",
-     "publisher": "zone14",
-     "date": "2026-09-19",
-     "type": "registry"
-    }
-   ]
-  },
-  {
-   "id": "ballercam",
-   "last_verified": "2026-09-19",
-   "adjacent": false,
-   "free": {
-    "name": "BallerCam (Baller, Inc. / BallerTV)",
-    "hq": "Pasadena, California, USA",
-    "founded": 2016,
-    "website": "https://ballercam.com",
-    "status": "active",
-    "layers": [
-     "capture",
-     "production",
-     "platform",
-     "distribution"
-    ],
-    "hardware_class": "phone",
-    "payer_model": "B",
-    "payer_model_label": "Family or coach buys the device",
-    "one_line": "BallerCam is a $299 shell with a 180-degree lens, cooling fan and battery that turns an iPhone 13 Pro or newer into an AI camera that records, livestreams and clips youth basketball, soccer, futsal and volleyball games [ballercam-01, ballercam-02].",
-    "who_for": "US and Canadian parents, team managers and club coaches who already own a recent iPhone and want automated filming and free livestreaming without a per-viewer or per-team subscription [ballercam-01, ballercam-08]. It is a family product first, and coaches use it because the footage and clips come free of per-seat fees [ballercam-06].",
-    "why": "BallerTV built BallerCam because eight years of streaming more than two million youth games with paid crews and fixed cameras taught it that the unit economics only work if the family owns the capture device, so it packaged its computer vision into a phone shell and launched it in July 2025 with Alex Morgan as investor and face [ballercam-03, ballercam-04]. It matters now because a $299 one-off device with a free 20-hour cloud tier undercuts every fixed camera with a mandatory subscription and pushes the category toward hardware-light, app-heavy products [ballercam-02, ballercam-05]. It tells you the youth capture market is splitting into two, a club tier that buys a dedicated camera and a family tier that buys an accessory for the phone it already carries, and that the second tier will be won on app reliability and storage economics [ballercam-06, ballercam-07].",
-    "price_band": "$299 one-off device (list $349); cloud storage free for 20 hours, $99/yr for 100 hours, $199/yr for 250 hours",
-    "price_band_source": "ballercam-02",
-    "italy": {
-     "presence": "none",
-     "note": "New devices ship only to the US and Canada, the app works anywhere with an iPhone and connectivity, and the terms state the service is intended for users in the United States [ballercam-08, ballercam-11]."
-    },
-    "evidence_grade": "A",
-    "evidence_note": "Device price, plan prices, plan contents, shipping scope, terms and privacy policy verified from Baller, Inc. pages and the App Store listing; review sentiment from App Store reviews; company funding history from PitchBook.",
-    "entry_cost": "low",
-    "sport": "multi"
-   },
-   "sources": [
-    {
-     "id": "ballercam-01",
-     "title": "BallerCam product page: AI sports tracking camera for iPhones",
-     "url": "https://ballercam.com/products/ballercam",
-     "publisher": "Baller, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-02",
-     "title": "BallerCam pricing and plans",
-     "url": "https://ballercam.com/pages/pricing",
-     "publisher": "Baller, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-03",
-     "title": "BallerTV launches BallerCam, AI camera for youth sports; taps Alex Morgan as brand ambassador and investor",
-     "url": "https://www.prweb.com/releases/ballertv-launches-ballercam-ai-camera-for-youth-sports-taps-alex-morgan-as-brand-ambassador-and-investor-302511467.html",
-     "publisher": "PR Newswire / PRWeb",
-     "date": "2025-07-24",
-     "type": "press"
-    },
-    {
-     "id": "ballercam-04",
-     "title": "BallerCam home page",
-     "url": "https://ballercam.com/",
-     "publisher": "Baller, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-05",
-     "title": "BallerCam pricing page plan features and FAQ (Live Scoring, 180 viewer, RTMP on Pro)",
-     "url": "https://ballercam.com/pages/pricing",
-     "publisher": "Baller, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-06",
-     "title": "BallerCam on the App Store (rating, privacy label, version 2.15.0)",
-     "url": "https://apps.apple.com/us/app/ballercam/id6747689741",
-     "publisher": "Apple App Store",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "ballercam-07",
-     "title": "BallerCam App Store ratings and reviews",
-     "url": "https://apps.apple.com/us/app/ballercam/id6747689741?see-all=reviews&platform=iphone",
-     "publisher": "Apple App Store",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "ballercam-08",
-     "title": "Can I use BallerCam internationally?",
-     "url": "https://support.ballercam.com/hc/en-us/articles/38760979052301-Can-I-use-BallerCam-internationally",
-     "publisher": "BallerCam Support",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-09",
-     "title": "BallerCam General FAQs",
-     "url": "https://support.ballercam.com/hc/en-us/articles/37732392457613-General-FAQs",
-     "publisher": "BallerCam Support",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-10",
-     "title": "BallerCam privacy policy",
-     "url": "https://ballercam.com/policies/privacy-policy",
-     "publisher": "Baller, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-11",
-     "title": "BallerCam terms of service",
-     "url": "https://ballercam.com/policies/terms-of-service",
-     "publisher": "Baller, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-12",
-     "title": "25 most common BallerCam questions answered",
-     "url": "https://ballercam.com/blogs/posts/25-most-common-ballercam-questions-answered",
-     "publisher": "Baller, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-13",
-     "title": "BallerCam Advanced Stats and Player Attribution for basketball",
-     "url": "https://ballercam.com/blogs/updates/advanced-stats-player-attribution-basketball",
-     "publisher": "Baller, Inc.",
-     "date": "2026-01-08",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-14",
-     "title": "BallerTV company profile: funding and investors",
-     "url": "https://pitchbook.com/profiles/company/230957-92",
-     "publisher": "PitchBook",
-     "date": "2026-09-19",
-     "type": "registry"
-    },
-    {
-     "id": "ballercam-15",
-     "title": "Can I download games on BallerCam?",
-     "url": "https://support.ballercam.com/hc/en-us/articles/38756870596365-Can-I-download-games-on-BallerCam",
-     "publisher": "BallerCam Support",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-16",
-     "title": "BallerCam Club Basketball Bundle 2026",
-     "url": "https://ballercam.com/pages/ballercam-basketball-bundle",
-     "publisher": "Baller, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-17",
-     "title": "BallerCam terms of sale",
-     "url": "https://ballercam.com/pages/terms-of-sale",
-     "publisher": "Baller, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "ballercam-18",
-     "title": "AI-powered BallerCam built for youth sports streaming",
-     "url": "https://prepnetwork.com/2025/07/24/ai-powered-ballercam-built-for-youth-sports-streaming/",
-     "publisher": "Prep Network",
-     "date": "2025-07-24",
-     "type": "press"
-    }
-   ]
-  },
-  {
-   "id": "folocam",
-   "last_verified": "2026-09-19",
-   "adjacent": false,
-   "free": {
-    "name": "FoloCam (FoloCam LLC)",
-    "hq": "United States (city not disclosed)",
-    "founded": 2026,
-    "website": "https://folocam.com",
-    "status": "active",
-    "layers": [
-     "capture",
-     "production"
-    ],
-    "hardware_class": "gimbal",
-    "payer_model": "B",
-    "payer_model_label": "Family or coach buys the device",
-    "one_line": "FoloCam is an iOS app that pairs an iPhone 13 or newer with an Apple DockKit motorised gimbal and uses on-device AI to keep the ball in frame for soccer and basketball, recording 4K locally for $49.99 a year [folocam-01, folocam-02].",
-    "who_for": "Parents and volunteer coaches who already own a recent iPhone and want a full-match recording that follows the ball for the price of a cheap gimbal and a low subscription, with no cloud account and no hardware lock-in [folocam-01, folocam-03]. It suits people who are comfortable with a one-developer product and will handle their own storage and sharing [folocam-03].",
-    "why": "FoloCam exists because Apple's DockKit framework and the Neural Engine in recent iPhones made it possible for a single developer, Gilbert Chen of Duplicacy and ActionStitch, to ship a ball-tracking camera as a $49.99 app, where the incumbents ship a $1,000 device [folocam-03, folocam-05]. It matters now because it sets the floor price for automated football filming at roughly $100 of gimbal plus $50 a year, with all processing on the phone and no video leaving the device, which is a privacy posture the cloud-based incumbents cannot match [folocam-02, folocam-04]. It tells you the capture layer is commoditising fast, that the value is moving to the platform and analysis layers, and that solo and small developers can now attack the low end of the market from the App Store [folocam-05, folocam-06].",
-    "price_band": "App free for 10-minute recordings; $49.99/yr (€59.99/yr in Italy) for unlimited recording and RTMP; $150 Amazon kit with gimbal and lifetime subscription; DockKit gimbal from about $35 to $100 extra",
-    "price_band_source": "folocam-02",
-    "italy": {
-     "presence": "retail",
-     "note": "The app is listed on the Italian App Store with the Premium Yearly in-app purchase at €59.99, and the gimbals it supports are sold through ordinary consumer retail [folocam-07]."
-    },
-    "evidence_grade": "A",
-    "evidence_note": "Pricing, compatibility, on-device processing and privacy claims verified from FoloCam's site, support page, App Store listings in the US and Italy and the developer's forums; company scale and sentiment from the developer's own statements and a small user forum, with no third-party review found.",
-    "entry_cost": "low",
-    "sport": "multi"
-   },
-   "sources": [
-    {
-     "id": "folocam-01",
-     "title": "FoloCam home page: AI ball tracking camera for iPhone (soccer and basketball)",
-     "url": "https://folocam.com/",
-     "publisher": "FoloCam LLC",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "folocam-02",
-     "title": "FoloCam support and FAQ: pricing, gimbal compatibility, setup, privacy",
-     "url": "https://folocam.com/support.html",
-     "publisher": "FoloCam LLC",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "folocam-03",
-     "title": "About FoloCam: built by the author of Duplicacy and ActionStitch",
-     "url": "https://folocam.com/about.html",
-     "publisher": "FoloCam LLC",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "folocam-04",
-     "title": "FoloCam support page statement that all processing runs on the iPhone and no data is collected",
-     "url": "https://folocam.com/support.html",
-     "publisher": "FoloCam LLC",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "folocam-05",
-     "title": "FoloCam, the iOS AI ball-tracking camera app, is now available (developer announcement)",
-     "url": "https://forum.actionstitch.com/t/folocam-the-ios-ai-ball-tracking-camera-app-is-now-available/846",
-     "publisher": "ActionStitch Forum",
-     "date": "2026-03-11",
-     "type": "primary"
-    },
-    {
-     "id": "folocam-06",
-     "title": "FoloCam – AI Sports Camera on the US App Store",
-     "url": "https://apps.apple.com/us/app/folocam-ai-sports-camera/id6759841426",
-     "publisher": "Apple App Store",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "folocam-07",
-     "title": "FoloCam – AI Sports Camera on the Italian App Store",
-     "url": "https://apps.apple.com/it/app/folocam-ai-sports-camera/id6759841426",
-     "publisher": "Apple App Store",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "folocam-08",
-     "title": "FoloCam Kit is now available at Amazon for $150 with lifetime subscription included",
-     "url": "https://forum.actionstitch.com/t/folocam-kit-is-now-available-at-amazon-for-150-with-lifetime-subscription-included/858",
-     "publisher": "ActionStitch Forum",
-     "date": "2026-05-04",
-     "type": "primary"
-    },
-    {
-     "id": "folocam-09",
-     "title": "FoloCam Kit Amazon announcement thread, user replies on tracking reliability",
-     "url": "https://forum.actionstitch.com/t/folocam-kit-is-now-available-at-amazon-for-150-with-lifetime-subscription-included/858",
-     "publisher": "ActionStitch Forum",
-     "date": "2026-06-12",
-     "type": "third-party"
-    },
-    {
-     "id": "folocam-10",
-     "title": "Version 1.4 is available in the App Store",
-     "url": "https://forum.folocam.com/t/version-1-4-is-available-in-the-app-store/57",
-     "publisher": "FoloCam User Community",
-     "date": "2026-05-15",
-     "type": "primary"
-    },
-    {
-     "id": "folocam-11",
-     "title": "FoloCam User Community forum index (threads on freezes, gimbal noise, feature requests)",
-     "url": "https://forum.folocam.com/",
-     "publisher": "FoloCam User Community",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "folocam-12",
-     "title": "DJI Osmo Mobile 8P thread: NFC pairing requirement and remote conflict",
-     "url": "https://forum.folocam.com/t/dji-osmo-mobile-8p/",
-     "publisher": "FoloCam User Community",
-     "date": "2026-09-17",
-     "type": "third-party"
-    },
-    {
-     "id": "folocam-13",
-     "title": "Amazon listing: FoloCam Kit AI Sports Camera with lifetime subscription",
-     "url": "https://www.amazon.com/FoloCam-Kit-Sports-Camera-Subscription/dp/B0GZ8JZFNF",
-     "publisher": "Amazon",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "folocam-14",
-     "title": "Junior Grassroots Hub partners page (FoloCam not listed, partner URL returns 404)",
-     "url": "https://www.juniorgrassrootshub.com/partners",
-     "publisher": "Junior Grassroots Hub",
-     "date": "2026-09-19",
-     "type": "third-party"
-    }
-   ]
-  },
-  {
-   "id": "pix4team",
-   "last_verified": "2026-09-19",
-   "adjacent": false,
-   "free": {
-    "name": "MOVE 'N SEE PIX4TEAM 2",
-    "hq": "Brest, France",
-    "founded": 2011,
-    "website": "https://shop.movensee.com/en/content/31-pix4team-auto-follow-camera-for-team-sports",
-    "status": "active",
-    "layers": [
-     "capture",
-     "distribution"
-    ],
-    "hardware_class": "gimbal",
-    "payer_model": "B",
-    "payer_model_label": "Family or coach buys the device",
-    "one_line": "A French robotic pan-tilt head with a built-in 180-degree AI spotter camera that physically points your own camcorder or phone at the action, records to a microSD card and streams to YouTube or RTMP with no mandatory subscription.",
-    "who_for": "Clubs, schools and parents who want a real optical zoom on a single team-sport pitch, own or will buy a camcorder, and prefer a one-off purchase to a cloud subscription. It suits people who accept a mechanical head and a tall stand in exchange for close-up broadcast framing with real optical zoom.",
-    "why": "PIX4TEAM exists because Move'N See, a Brest company that started with beacon-tracked robotic cameras for equestrian riders, moved to a beacon-free AI spotter in 2019 so that team sports could get a real zoom lens following play without a camera operator [pix4team-01, pix4team-05]. It matters now because the company entered judicial reorganisation in January 2026 after a cessation of payments dated 31 December 2025, and the observation period runs to January 2027, which puts the two-year warranty, spare parts and firmware support of a hardware product in question [pix4team-05, pix4team-06]. It tells you that a hardware-only, subscription-free model is hard to sustain against cloud-funded competitors, even when the product is well engineered and priced below them.",
-    "price_band": "€1,299 ex VAT (€1,558.80 inc VAT) for the robot alone at a sale price against €1,599 list, bundles with camcorder and stands from €1,955 to €2,479 ex VAT, optional services from €19 to €39 per month",
-    "price_band_source": "pix4team-01",
-    "italy": {
-     "presence": "retail",
-     "note": "The web shop lists Italy among its shipping regions with EUR pricing, while the reseller page names no Italian reseller and the site runs in English, French, Spanish and German [pix4team-08, pix4team-03]."
-    },
-    "evidence_grade": "A",
-    "evidence_note": "Prices, specifications, warranty, subscription services and reseller list are read directly from the vendor shop in EUR with VAT status stated, and the company's financial situation is confirmed from two French registry aggregators; revenue is not filed.",
-    "entry_cost": "mid",
-    "sport": "multi",
-    "flag": "Maker MOVE’N SEE in redressement judiciaire since 27 January 2026"
-   },
-   "sources": [
-    {
-     "id": "pix4team-01",
-     "title": "PIX4TEAM 2 AI auto-follow camera for team sports: product, bundles, accessories and prices",
-     "url": "https://shop.movensee.com/en/content/31-pix4team-auto-follow-camera-for-team-sports",
-     "publisher": "MOVE 'N SEE",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix4team-02",
-     "title": "MOVE 'N SEE services and subscriptions page (analysis platform, MyTvChannel, Live Lesson)",
-     "url": "https://shop.movensee.com/en/services.html",
-     "publisher": "MOVE 'N SEE",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix4team-03",
-     "title": "MOVE 'N SEE resellers by country",
-     "url": "https://shop.movensee.com/en/reseller.html",
-     "publisher": "MOVE 'N SEE",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix4team-04",
-     "title": "MOVE 'N SEE legal notice with company registration details",
-     "url": "https://shop.movensee.com/en/legal-notice.html",
-     "publisher": "MOVE 'N SEE",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "pix4team-05",
-     "title": "Pappers company record: MOVE'N SEE, SIREN 531299246, including collective procedure",
-     "url": "https://www.pappers.fr/entreprise/move-n-see-531299246",
-     "publisher": "Pappers",
-     "date": "2026-09-19",
-     "type": "registry"
-    },
-    {
-     "id": "pix4team-06",
-     "title": "Societe.com company record: MOVE'N SEE, Brest, redressement judiciaire",
-     "url": "https://www.societe.com/societe/move-n-see-531299246.html",
-     "publisher": "Societe.com",
-     "date": "2026-09-19",
-     "type": "registry"
-    },
-    {
-     "id": "pix4team-07",
-     "title": "PIX4TEAM Remote app listing and reviews on Google Play",
-     "url": "https://play.google.com/store/apps/details?id=com.movensee.pix4teamremote&hl=en_US",
-     "publisher": "Google Play",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "pix4team-08",
-     "title": "PIX4TEAM 2 product landing page with warranty, languages and shipping regions",
-     "url": "https://shop.movensee.com/en/pix4team/174-pix4team-soccer.html",
-     "publisher": "MOVE 'N SEE",
-     "date": "2026-09-19",
-     "type": "primary"
-    }
-   ]
-  },
-  {
-   "id": "seeusplay",
-   "last_verified": "2026-09-19",
-   "adjacent": false,
-   "free": {
-    "name": "SeeUsPlay (SeeUsPlay, Inc.)",
-    "hq": "Ashburn, Virginia, USA",
-    "founded": 2022,
-    "website": "https://seeusplay.com",
-    "status": "active",
-    "layers": [
-     "capture",
-     "production",
-     "distribution"
-    ],
-    "hardware_class": "portable",
-    "payer_model": "B",
-    "payer_model_label": "Family or coach buys the device",
-    "one_line": "SeeUsPlay is a dual-GoPro rig and app whose cloud AI turns two standard action cameras into an automatically tracked full-game video and highlight clips, paid for with tokens per game with no subscription [seeusplay-01, seeusplay-02].",
-    "who_for": "Youth and amateur teams, mostly in the US, that want full-field automated recording delivered to YouTube at roughly $14 to $15 a game in 4K without a hardware lock-in or an annual fee [seeusplay-01, seeusplay-03]. It suits team managers who are happy to own GoPros, handle SD-card uploads and wait a few hours for processing [seeusplay-04].",
-    "why": "SeeUsPlay exists because standard GoPros already produce better raw video than most proprietary youth cameras, so the founders moved all the intelligence to the cloud and sold only a mount, a token and a processing job [seeusplay-01, seeusplay-05]. It matters now because token pricing with no off-season cost, full-game downloads on every plan and YouTube delivery attack the subscription model that funds Veo, Pixellot and Trace, and because the June 2026 move to 8K with the GoPro MISSION 1 shows a small vendor can ride the action-camera roadmap without building hardware [seeusplay-02, seeusplay-06]. It tells you that once capture is commodity hardware, the difference between vendors is the quality and price of the cloud production job and the terms attached to the footage [seeusplay-03, seeusplay-07].",
-    "price_band": "Rig bundles $199 to $499 (sale prices, list $249 to $599) plus own GoPros; tokens $349 per 100 or $599 per 200 on sale, with a 4K game costing 4 tokens, 5K 5 tokens and 8K 10 tokens",
-    "price_band_source": "seeusplay-03",
-    "italy": {
-     "presence": "none",
-     "note": "The store lists US dollar prices with free shipping over $100 and no European reseller, retailer or Italian customer was found, while the terms state the service is hosted in the United States [seeusplay-08, seeusplay-09]."
-    },
-    "evidence_grade": "B",
-    "evidence_note": "Token and bundle prices, per-game token costs, camera compatibility, terms and privacy policy verified from SeeUsPlay pages and app store listings; company scale, founding date and customer sentiment rest on thin third-party material, with one parent forum thread and a single App Store rating.",
-    "entry_cost": "mid",
-    "sport": "multi"
-   },
-   "sources": [
-    {
-     "id": "seeusplay-01",
-     "title": "SeeUsPlay home page: AI sports camera built on GoPro",
-     "url": "https://seeusplay.com/",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-02",
-     "title": "GoPro MISSION 1 review: 8K AI sports camera",
-     "url": "https://seeusplay.com/blog/gopro-mission-1",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-03",
-     "title": "SeeUsPlay home page store section: token packs and rig bundles with sale prices",
-     "url": "https://seeusplay.com/",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-04",
-     "title": "SeeUsPlay FAQ: cameras, tokens and video quality",
-     "url": "https://seeusplay.com/blog/seeusplay-faqs",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-05",
-     "title": "How it works: record, create, share",
-     "url": "https://www.seeusplay.com/how-it-works",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-06",
-     "title": "8K, baseball, web app and more: what's new at SeeUsPlay",
-     "url": "https://seeusplay.com/blog/what-s-new-at-seeusplay",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-06-10",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-07",
-     "title": "Tokens and gear store page (free shipping over $100, 30-day money-back guarantee)",
-     "url": "https://seeusplay.com/token-packs",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-08",
-     "title": "200 Tokens product page",
-     "url": "https://www.seeusplay.com/product-page/20-game-pack",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-09",
-     "title": "SeeUsPlay terms of service",
-     "url": "https://seeusplay.com/terms",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-06-16",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-10",
-     "title": "SeeUsPlay on the US App Store",
-     "url": "https://apps.apple.com/us/app/seeusplay/id1605292242",
-     "publisher": "Apple App Store",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "seeusplay-11",
-     "title": "SeeUsPlay on Google Play",
-     "url": "https://play.google.com/store/apps/details?id=com.seeusplay.agent&hl=en_US",
-     "publisher": "Google Play",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "seeusplay-12",
-     "title": "SeeUsPlay soccer camera experience (parent forum thread)",
-     "url": "https://www.dcurbanmom.com/jforum/posts/list/1264290.page",
-     "publisher": "DC Urban Moms and Dads",
-     "date": "2025-03-20",
-     "type": "third-party"
-    },
-    {
-     "id": "seeusplay-13",
-     "title": "SeeUsPlay privacy policy",
-     "url": "https://seeusplay.com/privacy",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2026-06-16",
-     "type": "primary"
-    },
-    {
-     "id": "seeusplay-14",
-     "title": "SeeUsPlay goes multi-sport",
-     "url": "https://www.seeusplay.com/post/seeusplay-goes-multi-sport",
-     "publisher": "SeeUsPlay, Inc.",
-     "date": "2025-07-09",
-     "type": "primary"
-    }
-   ]
-  },
-  {
-   "id": "trace",
-   "last_verified": "2026-09-19",
-   "adjacent": false,
-   "free": {
-    "name": "Trace (AlpineReplay, Inc.)",
-    "hq": "Austin, Texas, United States",
-    "founded": 2010,
-    "website": "https://traceup.com",
-    "status": "active",
-    "layers": [
-     "capture",
-     "production",
-     "platform"
-    ],
-    "hardware_class": "portable",
-    "payer_model": "B",
-    "payer_model_label": "Family or coach buys the device",
-    "one_line": "Trace lends a 1080p wide angle sideline camera on a 16 foot tripod for free and charges each family USD 180 to 300 a year for AI edited highlights of their own child, with the team's full game and a fixed livestream thrown in [trace-01, trace-05].",
-    "who_for": "American youth soccer parents who want their child's moments cut automatically and sent to their phone, and club directors who want video for every team without a capital budget [trace-01, trace-08]. It is not sold in Europe and the pricing is in US dollars only [trace-01, trace-05].",
-    "why": "Trace exists because its founders, who started with the AlpineReplay ski tracking app in 2010, realised the person who will pay for youth sports video is the parent, so they gave the camera away and sold the child's highlights [trace-03, trace-01]. It matters now because the free camera model, backed by USD 65 million of venture money and state association deals such as Florida and Eastern Pennsylvania in 2026, has pushed the effective price of a team camera in the United States toward zero [trace-03, trace-08]. It also shows the cost of that model, a Trustpilot score of 1.6 driven by billing, cancellation and download restrictions, which tells you the money is made in the fine print, with the hardware as bait [trace-04].",
-    "price_band": "USD 0 camera lease (USD 99 one off if paying monthly) + USD 180/yr Basic or USD 300/yr Pro per family; monthly USD 25 or USD 40",
-    "price_band_source": "trace-01",
-    "italy": {
-     "presence": "none",
-     "note": "Trace publishes US dollar pricing only, ships from a US warehouse and names no European availability, and no Italian retailer, reseller or club deployment was found [trace-01, trace-05]."
-    },
-    "evidence_grade": "A",
-    "evidence_note": "Pricing, connectivity, upload and livestream behaviour are verified from Trace's own pricing page and help centre; funding is from Forbes and Crunchbase; review sentiment is from Trustpilot; camera resolution comes from Trace's own comparison page and detailed hardware specifications are not published.",
-    "entry_cost": "low",
-    "sport": "football"
-   },
-   "sources": [
-    {
-     "id": "trace-01",
-     "title": "Trace pricing page (PlayerFocus Basic and Pro, camera lease terms)",
-     "url": "https://traceup.com/pricing",
-     "publisher": "Trace",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "trace-02",
-     "title": "Trace (AlpineReplay Inc.) Crunchbase profile",
-     "url": "https://www.crunchbase.com/organization/trace-3",
-     "publisher": "Crunchbase",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "trace-03",
-     "title": "Sports video tech company Trace raises $47 million Series C round, valued at $190 million",
-     "url": "https://www.forbes.com/sites/timcasey/2022/04/12/sports-video-tech-company-trace-raises-47-million-series-c-round-valued-at-190-million/",
-     "publisher": "Forbes",
-     "date": "2022-04-12",
-     "type": "press"
-    },
-    {
-     "id": "trace-04",
-     "title": "traceup.com reviews on Trustpilot (TrustScore 1.6, 24 reviews)",
-     "url": "https://www.trustpilot.com/review/traceup.com",
-     "publisher": "Trustpilot",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "trace-05",
-     "title": "Trace homepage (TraceCam, PlayerCam, MultiCam, sports, club logos)",
-     "url": "https://traceup.com",
-     "publisher": "Trace",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "trace-06",
-     "title": "Trace Help Center: Uploading (PlayerFocus), file sizes, upload and processing times",
-     "url": "https://support.traceup.com/content/uploading-playerfocus",
-     "publisher": "Trace",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "trace-07",
-     "title": "Trace Help Center: Livestreaming (Beta) FAQ",
-     "url": "https://support.traceup.com/content/livestreaming-beta-faq",
-     "publisher": "Trace",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "trace-08",
-     "title": "Florida Youth Soccer and Trace launch free camera initiative",
-     "url": "https://www.fysa.com/news/2026/04/08/florida-youth-soccer-and-trace-launch-free-camera-initative/",
-     "publisher": "Florida Youth Soccer Association",
-     "date": "2026-04-08",
-     "type": "primary"
-    },
-    {
-     "id": "trace-09",
-     "title": "Trace PlayerFocus vs. Veo for recording soccer games (Trace comparison page, 1080p, US warehouse)",
-     "url": "https://traceup.com/academy/trace-vs-veo-for-recording-soccer-games",
-     "publisher": "Trace",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "trace-10",
-     "title": "Trace product features page (custom downloads, analytics, Trace iD)",
-     "url": "https://traceup.com/product-features",
-     "publisher": "Trace",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "trace-11",
-     "title": "How Trace works (setup, jersey based identification, download limits)",
-     "url": "https://traceup.com/how-it-works",
-     "publisher": "Trace",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "trace-12",
-     "title": "Trace privacy policy (effective 12 July 2018)",
-     "url": "https://traceup.com/privacy-policy",
-     "publisher": "Trace",
-     "date": "2018-07-12",
-     "type": "primary"
-    },
-    {
-     "id": "trace-13",
-     "title": "US Youth Soccer and Trace kick off partnership",
-     "url": "https://traceup.com/academy/us-youth-soccer-and-trace-kickoff-partnership",
-     "publisher": "Trace",
-     "date": "2020-10-05",
-     "type": "primary"
-    },
-    {
-     "id": "trace-14",
-     "title": "Youth soccer camera comparison 2025: Reeplayer vs Veo vs Trace (competitor comparison quoting Trace team cost)",
-     "url": "https://www.reeplayer.com/blog/youth-soccer-camera-comparison-2025-reeplayer-vs-veo-vs-trace-complete-buyer-s-guide",
-     "publisher": "Reeplayer",
-     "date": "2025-10-13",
-     "type": "third-party"
-    },
-    {
-     "id": "trace-15",
-     "title": "Eastern Pennsylvania Youth Soccer partners with Trace to bring advanced video tools to players and coaches",
-     "url": "https://www.epysa.org/news/2026/03/06/eastern-pennsylvania-youth-soccer-partners-with-trace-to-bring-advanced-video-tools-to-players-and-coaches/",
-     "publisher": "Eastern Pennsylvania Youth Soccer",
-     "date": "2026-03-06",
-     "type": "primary"
-    }
-   ]
-  },
-  {
    "id": "xbotgo",
    "last_verified": "2026-09-19",
    "adjacent": false,
    "free": {
-    "name": "XbotGo (Blink Tech, Inc.)",
+    "name": "XbotGo",
     "hq": "Mountain View, California, United States (with offices in Texas, Beijing, Shenzhen and Suzhou)",
     "founded": 2020,
     "website": "https://xbotgo.com",
@@ -2771,7 +3276,8 @@
     "evidence_grade": "A",
     "evidence_note": "Prices in USD and EUR were read directly from the XbotGo Shopify store, specifications from the product pages and press releases, Kickstarter results from the campaign page, and sentiment from Trustpilot and the App Store; company financials are not public.",
     "entry_cost": "mid",
-    "sport": "multi"
+    "sport": "multi",
+    "legal_name": "Blink Tech, Inc."
    },
    "sources": [
     {
@@ -2905,593 +3411,110 @@
    ]
   },
   {
-   "id": "livebarn",
+   "id": "zone14",
    "last_verified": "2026-09-19",
-   "adjacent": true,
+   "adjacent": false,
    "free": {
-    "name": "LiveBarn",
-    "hq": "Montreal, Quebec, Canada",
-    "founded": 2015,
-    "website": "https://livebarn.com",
-    "status": "acquired",
+    "name": "zone14",
+    "hq": "Vienna, Austria",
+    "founded": 2020,
+    "website": "https://zone14.ai",
+    "status": "active",
     "layers": [
      "capture",
-     "platform",
-     "distribution"
-    ],
-    "hardware_class": "software-only",
-    "payer_model": "C",
-    "payer_model_label": "Platform pays for cameras and shares revenue",
-    "one_line": "LiveBarn is a North American subscription network of fixed cameras installed free in more than 4,000 rinks, courts and fields, sold to families at $26.95 or $36.95 a month, and bought by GTCR for more than $400 million in April 2026 [livebarn-01, livebarn-02, livebarn-03].",
-    "who_for": "Hockey families first, then parents in basketball, volleyball, swimming, baseball, soccer and other venue sports across 49 US states and 10 Canadian provinces, who pay one subscription to watch any game at any partner venue [livebarn-02, livebarn-04]. Venues join because the install and operation cost them nothing [livebarn-04].",
-    "why": "LiveBarn exists because indoor venues host thousands of games a week that nobody films, so it took the capital cost of fixed cameras onto its own balance sheet and sold the output as a Netflix-style subscription [livebarn-01, livebarn-04]. It matters now because the April 2026 sale to GTCR at more than $400 million, on estimated revenue of about $80 million, is the largest valuation marker yet for automated youth match video and GTCR has said it will expand from hockey into soccer, basketball, volleyball, baseball and swimming through its new Ascent Sports Group [livebarn-02, livebarn-03, livebarn-05]. It tells you that the venue-network subscription model, where the platform owns cameras and viewers and the club owns nothing, is what private equity is paying for, and that Europe has no equivalent at this scale [livebarn-01, livebarn-02].",
-    "price_band": "Viewer subscription $26.95/month or $251.40/year (Basic) and $36.95/month or $347.40/year (Premium); free to venues",
-    "price_band_source": "livebarn-01",
-    "italy": {
-     "presence": "none",
-     "note": "LiveBarn operates in the United States and Canada only, with 49 states and 10 provinces covered and no European venues [livebarn-02, livebarn-04]."
-    },
-    "evidence_grade": "A",
-    "evidence_note": "Subscription prices verified from LiveBarn's pricing page, venue model from its venue page, deal value, timing and ownership from Sportico, Private Equity Wire and Youth Sports Business Report; revenue is a press estimate, venue counts differ between sources.",
-    "entry_cost": "viewer",
-    "sport": "multi",
-    "flag": "Acquired by GTCR, closed April 2026"
-   },
-   "sources": [
-    {
-     "id": "livebarn-01",
-     "title": "LiveBarn pricing (Basic and Premium plans)",
-     "url": "https://livebarn.com/en/pricing",
-     "publisher": "LiveBarn",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "livebarn-02",
-     "title": "LiveBarn youth sports streaming service sold to Chicago PE firm GTCR",
-     "url": "https://www.sportico.com/business/finance/2026/gtcr-400m-deal-for-livebarn-youth-sports-streaming-1234882406/",
-     "publisher": "Sportico",
-     "date": "2026-01-23",
-     "type": "press"
-    },
-    {
-     "id": "livebarn-03",
-     "title": "GTCR completes over $400 million acquisition of LiveBarn",
-     "url": "https://pipelineroad.com/news/20260407-gtcr-completes-over-400-million-acquisition-of-livebarn",
-     "publisher": "Pipeline Road",
-     "date": "2026-04-07",
-     "type": "press"
-    },
-    {
-     "id": "livebarn-04",
-     "title": "LiveBarn venues page (zero-cost turn-key solution, sports, NHL facilities)",
-     "url": "https://livebarn.com/en/venue",
-     "publisher": "LiveBarn",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "livebarn-05",
-     "title": "GTCR completes LiveBarn purchase, plans more youth sports deals",
-     "url": "https://www.sportico.com/business/finance/2026/gtcr-livebarn-purchase-youth-sports-deals-1234888285/",
-     "publisher": "Sportico",
-     "date": "2026-04-07",
-     "type": "press"
-    },
-    {
-     "id": "livebarn-06",
-     "title": "GTCR acquires LiveBarn in $400m-plus deal",
-     "url": "https://www.privateequitywire.co.uk/gtcr-acquires-livebarn-in-400m-plus-deal/",
-     "publisher": "Private Equity Wire",
-     "date": "2026-04-07",
-     "type": "press"
-    },
-    {
-     "id": "livebarn-07",
-     "title": "GTCR acquires youth sports streaming platform LiveBarn for $400M",
-     "url": "https://youthsportsbusinessreport.com/gtcr-acquires-youth-sports-streaming-platform-livebarn-for-400m/",
-     "publisher": "Youth Sports Business Report",
-     "date": "2026-01-23",
-     "type": "press"
-    }
-   ]
-  },
-  {
-   "id": "sics",
-   "last_verified": "2026-09-19",
-   "adjacent": true,
-   "free": {
-    "name": "Sics (SICS S.r.l., Soccerment Group)",
-    "hq": "Bassano del Grappa (Vicenza), Italy",
-    "founded": 1995,
-    "website": "https://www.sics.it",
-    "status": "acquired",
-    "layers": [
      "production",
      "platform"
     ],
-    "hardware_class": "software-only",
+    "hardware_class": "fixed",
     "payer_model": "A",
     "payer_model_label": "Club pays for a coaching tool",
-    "one_line": "Sics is the Bassano del Grappa match analysis house behind VideoMatch and LiveTag, used by Serie A staffs since 1995, now part of Soccerment Group and sold to amateur coaches from EUR 80 a month with Veo Cam 3 as its recommended automatic camera [sics-01, sics-02, sics-03].",
-    "who_for": "Italian professional and semi-professional technical staffs first, and since the Personal edition, amateur and youth coaches who want the same tagging, playlist and drawing tools on footage from a Veo or any other camera [sics-02, sics-03]. It suits clubs that treat the camera as an input and want an Italian-language analysis workflow with local support [sics-01, sics-04].",
-    "why": "Sics exists because Italian coaching culture wanted detailed video tagging before automated cameras existed, and the company built a 30-year client list from Inter to the Italian federation on that demand [sics-01]. It matters now because Soccerment absorbed it in 2025 with Azimut Libera Impresa money, launched SICS Atlas in August 2026 as an AI-native platform, and positions Veo as the capture front end, which makes Sics the analysis layer most likely to sit on top of automated match video in Italy [sics-03, sics-04, sics-05]. It tells you that in Italy the analysis software vendor, with EUR 1.1 million revenue and seven staff, is a small but strategically placed node that every camera vendor selling into Italian clubs will need to integrate with [sics-05, sics-06].",
-    "price_band": "VideoMatch Personal EUR 80/month or EUR 660/year; Pro EUR 99/month or EUR 890/year; Team edition on quotation; Veo camera sold separately",
-    "price_band_source": "sics-02",
-    "italy": {
-     "presence": "deployed",
-     "note": "Sics is an Italian company whose site shows Inter, Juventus, Milan, Roma, Napoli, Atalanta and the Italian federation as clients, with Veo Cam 3 integrated into VideoMatch for automatic recording [sics-01, sics-03]."
-    },
-    "evidence_grade": "A",
-    "evidence_note": "VideoMatch prices and the Veo integration verified from Sics's own pages, the Soccerment integration from Il Sole 24 Ore and the SICS Atlas launch from the Soccerment press release, revenue and headcount from the Italian chamber of commerce register via Ufficio Camerale.",
-    "entry_cost": "mid",
-    "sport": "football",
-    "flag": "Integrated into Soccerment since March 2025"
-   },
-   "sources": [
-    {
-     "id": "sics-01",
-     "title": "Sics home page: Excellence in Match Analysis (products, clients, address)",
-     "url": "https://www.sics.it/en/",
-     "publisher": "SICS S.r.l.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "sics-02",
-     "title": "VideoMatch by Sics (features and Personal, Pro, Team pricing)",
-     "url": "https://www.sics.it/en/videomatch_sics/",
-     "publisher": "SICS S.r.l.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "sics-03",
-     "title": "VEO automatic camera with VideoMatch",
-     "url": "https://www.sics.it/en/veo/",
-     "publisher": "SICS S.r.l.",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "sics-04",
-     "title": "Soccerment e Sics: polo italiano dell'intelligenza artificiale per il calcio",
-     "url": "https://en.ilsole24ore.com/art/soccerment-e-sics-polo-italiano-dell-intelligenza-artificiale-il-calcio-AGdbZdjD",
-     "publisher": "Il Sole 24 Ore",
-     "date": "2025-03-25",
-     "type": "press"
-    },
-    {
-     "id": "sics-05",
-     "title": "Soccerment Group launches SICS Atlas, the first AI-native football platform for match analysis and scouting",
-     "url": "https://fortune.com/press-releases/soccerment-launches-sics-atlas-ai-football-analysis-scouting-2026-08-20/",
-     "publisher": "Soccerment via Fortune press releases",
-     "date": "2026-08-20",
-     "type": "press"
-    },
-    {
-     "id": "sics-06",
-     "title": "SICS S.r.l. company record: fatturato 2025, dipendenti 2026",
-     "url": "https://www.ufficiocamerale.it/3522/sics-srl",
-     "publisher": "Ufficio Camerale",
-     "date": "2026-09-19",
-     "type": "registry"
-    }
-   ]
-  },
-  {
-   "id": "joymo",
-   "last_verified": "2026-09-19",
-   "adjacent": true,
-   "free": {
-    "name": "Joymo",
-    "hq": "Oslo, Norway",
-    "founded": 2017,
-    "website": "https://www.joymo.tv",
-    "status": "active",
-    "layers": [
-     "platform",
-     "distribution"
-    ],
-    "hardware_class": "software-only",
-    "payer_model": "D",
-    "payer_model_label": "Distribution layer, club and viewer split",
-    "one_line": "Joymo is a Norwegian OTT platform for grassroots and federation sport that lets clubs stream from a phone, encoder or camera and sell access to viewers with safeguarding controls built in [joymo-01, joymo-02].",
-    "who_for": "County FAs, schools, universities and governing bodies in the UK and Norway that want a branded, paywalled channel with consent tooling for filming minors [joymo-02, joymo-03]. It suits organisations that prioritise safeguarding and control over maximum reach [joymo-02].",
-    "why": "Joymo exists because grassroots bodies wanted the revenue of streaming without the exposure of public platforms, so it built a controlled-access OTT product with GDPR training, consent templates and overview framing as part of the offer [joymo-02]. It matters now because Spiideo, an automated camera vendor, is its largest shareholder at 18.8 percent and its partner for a UK education bundle since July 2025, which shows camera companies buying their way into the distribution layer [joymo-04, joymo-05]. It tells you the distribution platforms next to this category are small, loss-making and being absorbed into camera vendors' ecosystems, with Joymo posting a NOK 17 million pre-tax loss on NOK 9.7 million revenue in 2025 [joymo-06].",
-    "price_band": "Free for the club to join in county FA deals; minimum pay-per-view ticket £3.99; club keeps 55 percent of gross profit after payment fees, VAT and streaming costs",
-    "price_band_source": "joymo-03",
+    "one_line": "zone14 rents Austrian built fixed 4K twin camera systems to football clubs on a subscription from EUR 115 to about EUR 130 a month, bundled with its REPLAY analysis software and optional video based player fitness data [zone14-01, zone14-02, zone14-03].",
+    "who_for": "Amateur, semi professional and academy football clubs in German speaking Europe and Croatia that want every home match and training session recorded from a permanent mount and analysed by their own coaches [zone14-02, zone14-04]. It suits clubs that own or control their ground, since the cameras are mains powered and installed once [zone14-02].",
+    "why": "zone14 exists because two Viennese founders saw that amateur clubs training four times a week wanted professional style video analysis and that no fixed camera came bundled with the software and the data to do it, so they built the camera, the analysis tool and a video based tracking layer as one subscription [zone14-05, zone14-02]. It matters now because the Bavarian football association made it official technology partner for more than 4,500 clubs and SK Rapid and Austria Wien's academy use it, which shows a European coaching first alternative to the broadcast and parent led models can reach scale [zone14-06, zone14-07]. It tells you that in Europe the buyer with the steadiest budget is still the club, and that a vendor that replaces GPS vests with video data has a second reason to be paid.",
+    "price_band": "From EUR 115/month with camera and hardware included (company statement); CORE listed at EUR 130/month, EUR 1,560 billed yearly on the German page after a stated EUR 1,400 sponsorship; ELITE on request; REPLAY software only EUR 20/month",
+    "price_band_source": "zone14-03",
     "italy": {
      "presence": "none",
-     "note": "Joymo's public partnerships are in the UK, Norway and international federations such as World Boxing, and no Italian partner or Italian-language offer was found [joymo-01, joymo-07]."
+     "note": "zone14 lists Austria, Germany and Croatia as its markets with English, German and Croatian sites, and no Italian club, reseller or pricing was found [zone14-07, zone14-01]."
     },
     "evidence_grade": "B",
-    "evidence_note": "Minimum PPV price and 55/45 split come from the Lancashire FA FAQ hosted by The FA, which dates from the 2021 partnership and may have been revised; company financials and shareholders from the Norwegian register via Proff; Joymo's own FAQ pages do not publish current prices.",
-    "entry_cost": "viewer",
-    "sport": "multi"
+    "evidence_note": "Pricing is verified from zone14's own German and English pages and homepage, company registration from the imprint, and partnerships from Austrian trade press; consolidated system counts, camera specifications and data hosting are only partly published.",
+    "entry_cost": "mid",
+    "sport": "football",
+    "legal_name": "zone14 GmbH"
    },
    "sources": [
     {
-     "id": "joymo-01",
-     "title": "About Joymo",
-     "url": "https://www.joymo.tv/about-joymo",
-     "publisher": "Joymo",
+     "id": "zone14-01",
+     "title": "zone14 football camera price page, English (tiers, feature comparison, support, storage)",
+     "url": "https://zone14.ai/en/buy-football-camera/",
+     "publisher": "zone14",
      "date": "2026-09-19",
      "type": "primary"
     },
     {
-     "id": "joymo-02",
-     "title": "Joymo questions and answers (safeguarding, GDPR, streaming)",
-     "url": "https://www.joymo.tv/questions",
-     "publisher": "Joymo",
+     "id": "zone14-02",
+     "title": "zone14 homepage (starting at 115€ per month including camera, testimonials)",
+     "url": "https://zone14.ai/en/",
+     "publisher": "zone14",
      "date": "2026-09-19",
      "type": "primary"
     },
     {
-     "id": "joymo-03",
-     "title": "Joymo.tv FAQs for Lancashire FA (minimum ticket £3.99, 55/45 split)",
-     "url": "https://www.thefa.com/-/media/cfa/lancashirefa/images/news/joymotv-faqs-for-lancashire-fa.ashx?la=en",
-     "publisher": "The FA / Lancashire FA",
-     "date": "2021-05-27",
+     "id": "zone14-03",
+     "title": "zone14 Fußball-Kamera kaufen, German pricing page (REPLAY €20, CORE €130/mo, ELITE on request)",
+     "url": "https://zone14.ai/fussball-kamera-kaufen/",
+     "publisher": "zone14",
+     "date": "2026-09-19",
      "type": "primary"
     },
     {
-     "id": "joymo-04",
-     "title": "Joymo AS shareholders (aksjonaerer)",
-     "url": "https://www.proff.no/aksjon%C3%A6rer/-/joymo-as/916959311",
-     "publisher": "Proff",
+     "id": "zone14-04",
+     "title": "zone14 TWO football camera product page (two 4K cameras, installation, upload, STATS)",
+     "url": "https://zone14.ai/en/zone14-football-camera/",
+     "publisher": "zone14",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "zone14-05",
+     "title": "zone14: Wiener KI-Fußball-Videoanalyse-Startup holt Investment und FFG-Förderung",
+     "url": "https://brutkasten.com/artikel/zone14-ki-fussball-videoanalyse-investment-ffg-foerderung/13",
+     "publisher": "brutkasten",
+     "date": "2024-05-15",
+     "type": "press"
+    },
+    {
+     "id": "zone14-06",
+     "title": "zone14 wird Technologiepartner des Bayerischen Fußball-Verbands",
+     "url": "https://www.trendingtopics.eu/zone14-wird-technologiepartner-des-bayerischen-fussball-verbands/",
+     "publisher": "Trending Topics",
+     "date": "2026-09-19",
+     "type": "press"
+    },
+    {
+     "id": "zone14-07",
+     "title": "zone14: Ex-Austria-Wien-Kapitän Manuel Ortlechner investiert in Wiener Fußball-Startup",
+     "url": "https://brutkasten.com/artikel/zone14-ex-austria-wien-kapitaen-manuel-ortlechner-investiert-in-wiener-fussball-startup",
+     "publisher": "brutkasten",
+     "date": "2026-06-08",
+     "type": "press"
+    },
+    {
+     "id": "zone14-09",
+     "title": "zone14 privacy policy (website scope only)",
+     "url": "https://zone14.ai/en/privacy-policy/",
+     "publisher": "zone14",
+     "date": "2026-09-19",
+     "type": "primary"
+    },
+    {
+     "id": "zone14-10",
+     "title": "zone14 GmbH imprint (FN 562823 g, UID ATU77301812, Meldemannstraße 18, 1200 Wien, managing directors)",
+     "url": "https://zone14.ai/en/impressum-2/",
+     "publisher": "zone14",
      "date": "2026-09-19",
      "type": "registry"
-    },
-    {
-     "id": "joymo-05",
-     "title": "Joymo, Spiideo sports streaming solution for UK education sector",
-     "url": "https://www.advanced-television.com/2025/07/07/joymo-spiideo-sports-streaming-solution-for-uk-education-sector/",
-     "publisher": "Advanced Television",
-     "date": "2025-07-07",
-     "type": "press"
-    },
-    {
-     "id": "joymo-06",
-     "title": "Joymo AS company accounts and key figures 2025",
-     "url": "https://www.proff.no/selskap/joymo-as/oslo/film-og-videotjenester/IF5XMBZ07TF",
-     "publisher": "Proff",
-     "date": "2026-09-19",
-     "type": "registry"
-    },
-    {
-     "id": "joymo-07",
-     "title": "Joymo to power World Boxing TV",
-     "url": "https://www.joymo.tv/news-and-insights/joymo-to-power-world-boxing-tv",
-     "publisher": "Joymo",
-     "date": "2026-06-15",
-     "type": "press"
-    },
-    {
-     "id": "joymo-08",
-     "title": "Lancashire FA and Joymo announce partnership",
-     "url": "https://www.lancashirefa.com/news/2021/may/27/lancashire-fa-and-joymo-announce-partnership",
-     "publisher": "Lancashire FA",
-     "date": "2021-05-27",
-     "type": "press"
-    },
-    {
-     "id": "joymo-09",
-     "title": "Sport and Recreation Alliance appoints Joymo as exclusive streaming partner",
-     "url": "https://www.joymo.tv/news-and-insights/partnership-sport-and-recreation-alliance",
-     "publisher": "Joymo",
-     "date": "2026-09-19",
-     "type": "press"
-    }
-   ]
-  },
-  {
-   "id": "min-fotboll",
-   "last_verified": "2026-09-19",
-   "adjacent": true,
-   "free": {
-    "name": "Min Fotboll (Svenska Fotbollförbundet)",
-    "hq": "Solna, Sweden",
-    "founded": 2018,
-    "website": "https://www.svenskfotboll.se/serier-cuper/min-fotboll/",
-    "status": "active",
-    "layers": [
-     "platform",
-     "distribution"
-    ],
-    "hardware_class": "software-only",
-    "payer_model": "D",
-    "payer_model_label": "Distribution layer, club and viewer split",
-    "one_line": "Min Fotboll is the Swedish FA's official app, in which volunteers stream matches from a phone or a connected Veo or Spiideo camera and viewers pay SEK 59 for 30 days of every youth match in Sweden, with half the revenue after VAT going to a club of the viewer's choice [minfotboll-01, minfotboll-02].",
-    "who_for": "Every Swedish club, from children's teams to lower senior divisions, since the app is free to use, tied to the FA's competition database and the only place SvFF sanctions youth streaming [minfotboll-01, minfotboll-03]. Families and grandparents who want to follow a child's team anywhere in the country are the paying audience [minfotboll-01].",
-    "why": "Min Fotboll exists because the Swedish FA decided that grassroots streaming, sponsorship and communication should sit inside one federation-owned app, away from fragmented commercial platforms, and it framed GDPR control as a reason from the start [minfotboll-03, minfotboll-04]. It matters now because it is the clearest example of a federation owning the distribution and checkout layer and treating camera vendors such as Veo and Spiideo as interchangeable inputs, with nearly 11,500 livestreams and 126,000 matches with user content in 2024 [minfotboll-01, minfotboll-05]. It tells you that where a federation moves first, the automated camera becomes a peripheral and the pricing power moves to the app that holds the fixtures [minfotboll-02, minfotboll-06].",
-    "price_band": "Free for clubs; youth viewer pass SEK 59 per 30 days for all youth matches; senior PPV set by the club; club replay package SEK 2,000 per year; 50 percent of revenue after VAT to the chosen club",
-    "price_band_source": "minfotboll-01",
-    "italy": {
-     "presence": "none",
-     "note": "Min Fotboll is a Swedish federation service available only for Swedish competitions and has no presence outside Sweden [minfotboll-01, minfotboll-03]."
-    },
-    "evidence_grade": "A",
-    "evidence_note": "Viewer price, revenue share, replay package and camera integrations verified from the Swedish FA's own livestreaming page; usage numbers from SvFF articles; Veo partnership from the SvFF press release; launch year inferred from SvFF's 2023 article and flagged in unverified.",
-    "entry_cost": "viewer",
-    "sport": "football"
-   },
-   "sources": [
-    {
-     "id": "minfotboll-01",
-     "title": "Livestreaming i Min Fotboll (pricing, revenue share, camera partners)",
-     "url": "https://www.svenskfotboll.se/serier-cuper/min-fotboll/livestreaming/",
-     "publisher": "Svenska Fotbollförbundet",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "minfotboll-02",
-     "title": "Min Fotboll overview page",
-     "url": "https://www.svenskfotboll.se/serier-cuper/min-fotboll/",
-     "publisher": "Svenska Fotbollförbundet",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "minfotboll-03",
-     "title": "Över 600 000 användare i Min Fotboll",
-     "url": "https://aktiva.svenskfotboll.se/nyheter/2023/04/min-fotboll-600-000/",
-     "publisher": "Svenska Fotbollförbundet",
-     "date": "2023-04-18",
-     "type": "primary"
-    },
-    {
-     "id": "minfotboll-04",
-     "title": "Sweden: 500,000 landmark for grassroots app",
-     "url": "https://www.uefa.com/news-media/news/0279-160385cfec56-d5a47e63bfb0-1000--sweden-500-000-landmark-for-grassroots-app",
-     "publisher": "UEFA",
-     "date": "2022-09-02",
-     "type": "press"
-    },
-    {
-     "id": "minfotboll-05",
-     "title": "Det här kan ditt lag eller förening göra i Min Fotboll (2024 usage figures)",
-     "url": "https://aktiva.svenskfotboll.se/nyheter/2025/04/min-fotboll-tips-till-foreningar/",
-     "publisher": "Svenska Fotbollförbundet",
-     "date": "2025-04-29",
-     "type": "primary"
-    },
-    {
-     "id": "minfotboll-06",
-     "title": "Veo och SvFF i partnerskap – ökar streamingmöjligheterna i Min Fotboll",
-     "url": "https://www.mynewsdesk.com/se/svenska_fotbollforbundet/pressreleases/veo-och-svff-i-partnerskap-oekar-streamingmoejligheterna-i-min-fotboll-3231162",
-     "publisher": "Svenska Fotbollförbundet via Mynewsdesk",
-     "date": "2022-11-25",
-     "type": "press"
-    },
-    {
-     "id": "minfotboll-07",
-     "title": "Scheduling a broadcast to Min Fotboll",
-     "url": "https://support.spiideo.com/en/articles/5609992-scheduling-a-broadcast-to-min-fotboll",
-     "publisher": "Spiideo Help Center",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "minfotboll-08",
-     "title": "Min Fotboll (officiell) on the Swedish App Store",
-     "url": "https://apps.apple.com/se/app/min-fotboll-officiell/id1454359432",
-     "publisher": "Apple App Store",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "minfotboll-09",
-     "title": "1,2 miljoner till föreningarna genom Min Fotboll",
-     "url": "https://aktiva.svenskfotboll.se/nyheter/2020/10/12-mkr-genom-min-fotboll/",
-     "publisher": "Svenska Fotbollförbundet",
-     "date": "2020-10-01",
-     "type": "primary"
-    },
-    {
-     "id": "minfotboll-10",
-     "title": "SvFF och analys- och livestreamingtjänsten Spiideo i nytt samarbete",
-     "url": "https://aktiva.svenskfotboll.se/nyheter/2021/08/svff-och-analys-och-livestreamingtjansten-spiideo-i-nytt-samarbete/",
-     "publisher": "Svenska Fotbollförbundet",
-     "date": "2021-08-01",
-     "type": "primary"
-    }
-   ]
-  },
-  {
-   "id": "solidsport",
-   "last_verified": "2026-09-19",
-   "adjacent": true,
-   "free": {
-    "name": "Solidsport",
-    "hq": "Stockholm, Sweden",
-    "founded": 2016,
-    "website": "https://www.solidsport.com",
-    "status": "active",
-    "layers": [
-     "platform",
-     "distribution"
-    ],
-    "hardware_class": "software-only",
-    "payer_model": "D",
-    "payer_model_label": "Distribution layer, club and viewer split",
-    "one_line": "Solidsport is a Swedish streaming platform that lets clubs, leagues and federations broadcast matches from any camera, including Veo, and sell them to viewers on a 50/50 revenue split after VAT [solidsport-01, solidsport-02].",
-    "who_for": "Clubs and federations in the Nordics, Germany and Austria that want a free-to-join channel with pay-per-view, season passes and supporter subscriptions and are willing to trade half the gross for a turnkey platform [solidsport-01, solidsport-03]. It suits organisations that already own an automated camera and want a place to monetise the feed [solidsport-04].",
-    "why": "Solidsport exists because grassroots clubs had cameras and audiences but no way to charge for a stream, so it built a channel platform that costs the club nothing upfront and splits the gross [solidsport-01, solidsport-02]. It matters now because federation-wide deals such as SHFV in June 2025 and the Swedish Handball extension in September 2025 turn it into the default distribution layer that camera vendors plug into, and revenue grew 42 percent to SEK 85 million in 2025 on that model [solidsport-03, solidsport-05, solidsport-06]. It tells you that in Europe the money in automated match video is being made by whoever owns the checkout page, and that camera vendors without a monetisation layer end up as suppliers to platforms like this one [solidsport-04, solidsport-07].",
-    "price_band": "Free for the club to join; viewers pay club-set PPV or subscription prices above a Solidsport minimum; gross split 50/50 after VAT",
-    "price_band_source": "solidsport-02",
-    "italy": {
-     "presence": "none",
-     "note": "The site lists Sweden, Finland, Germany, Slovenia, Austria and Serbia as markets and no Italian federation, league or club partner was found [solidsport-01]."
-    },
-    "evidence_grade": "A",
-    "evidence_note": "Revenue split, price setting and payout terms verified from Solidsport's own terms, the Veo integration from Solidsport's guide, the SHFV deal from Solidsport's press release, and 2025 revenue from the Swedish company register via Allabolag.",
-    "entry_cost": "viewer",
-    "sport": "multi"
-   },
-   "sources": [
-    {
-     "id": "solidsport-01",
-     "title": "Solidsport home page: Stream. Own. Grow.",
-     "url": "https://www.solidsport.com/",
-     "publisher": "Solidsport AB",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "solidsport-02",
-     "title": "Solidsport terms for partners (50/50 revenue share after VAT)",
-     "url": "https://www.solidsport.com/our-terms",
-     "publisher": "Solidsport AB",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "solidsport-03",
-     "title": "Schleswig-Holsteinischer Fussballverband und Solidsport schliessen langfristige Partnerschaft",
-     "url": "https://press.solidsport.com/posts/pressreleases/schleswig-holsteinischer-fuballverband-und-so",
-     "publisher": "Solidsport press room",
-     "date": "2025-06-05",
-     "type": "press"
-    },
-    {
-     "id": "solidsport-04",
-     "title": "Streaming Academy: add custom RTMP to Veo",
-     "url": "https://guide.solidsport.com/en/streaming-academy/veo",
-     "publisher": "Solidsport AB",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "solidsport-05",
-     "title": "Solidsport press room index (2025 and 2026 releases, company boilerplate)",
-     "url": "https://press.solidsport.com/",
-     "publisher": "Solidsport press room",
-     "date": "2026-09-19",
-     "type": "press"
-    },
-    {
-     "id": "solidsport-06",
-     "title": "Solidsport AB bokslut (annual accounts 2024 and 2025)",
-     "url": "https://www.allabolag.se/bokslut/solidsport-ab/stockholm/datacenters/2K2A18II5YDLG",
-     "publisher": "Allabolag",
-     "date": "2026-09-19",
-     "type": "registry"
-    },
-    {
-     "id": "solidsport-07",
-     "title": "Solidsport Sweden x Veo partnership page",
-     "url": "https://www.veo.com/partnership/solidsport",
-     "publisher": "Veo Technologies",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "solidsport-08",
-     "title": "Solidsport AB company record (556671-5586)",
-     "url": "https://www.merinfo.se/foretag/Solidsport-AB-5566715586/2k2a18i-hmjl",
-     "publisher": "Merinfo",
-     "date": "2026-09-19",
-     "type": "registry"
-    }
-   ]
-  },
-  {
-   "id": "staylive",
-   "last_verified": "2026-09-19",
-   "adjacent": true,
-   "free": {
-    "name": "Staylive (StayLive AB, part of Two Circles)",
-    "hq": "Stockholm, Sweden",
-    "founded": 2013,
-    "website": "https://www.staylive.io",
-    "status": "acquired",
-    "layers": [
-     "platform",
-     "distribution"
-    ],
-    "hardware_class": "software-only",
-    "payer_model": "D",
-    "payer_model_label": "Distribution layer, club and viewer split",
-    "one_line": "Staylive is a Swedish white-label OTT platform, owned by Two Circles since its 2024 purchase of Spring Media Group, that gives leagues, federations and youth operators such as Minnesota's Youth Sports Plus a branded streaming service with payments and apps [staylive-01, staylive-02, staylive-03].",
-    "who_for": "Leagues, federations and aggregators that want their own branded streaming destination on iOS, Android and Apple TV with integrated payments under their own brand [staylive-01]. In youth sport it serves operators like Youth Sports Plus, which feeds Spiideo camera output into MNHockey.tv across 25,000 games a season [staylive-02, staylive-04].",
-    "why": "Staylive exists because Nordic leagues in hockey, bandy and basketball wanted to own their streaming product outright, with no rented channel, and Spring Media built it as the technology arm of a rights and production group [staylive-01, staylive-05]. It matters now because Two Circles bought the group in October 2024 and is pushing Staylive as a global platform provider, which puts a large agency behind a product that automated cameras feed into at youth level [staylive-03, staylive-06]. It tells you that distribution for automated match video is consolidating into agency-owned platforms, and that the camera vendor rarely owns the viewer relationship in these deals [staylive-02, staylive-04].",
-    "price_band": "White-label platform fees not published; viewer prices set by the rights holder; MNHockey.tv app reviews cite roughly $9 charges without an official price list",
-    "price_band_source": "staylive-07",
-    "italy": {
-     "presence": "none",
-     "note": "Named customers are Nordic leagues, INDYCAR Live, Eredivisie and European swimming bodies, with no Italian rights holder found [staylive-01]."
-    },
-    "evidence_grade": "C",
-    "evidence_note": "Ownership and the Youth Sports Plus deal are verified from Staylive's and SportsPro's pages, but no viewer prices, platform fees or revenue shares are published, and the Staylive news feed has no entries after October 2024.",
-    "entry_cost": "viewer",
-    "sport": "multi"
-   },
-   "sources": [
-    {
-     "id": "staylive-01",
-     "title": "Staylive home page: white-label streaming platform and customers",
-     "url": "https://www.staylive.io/",
-     "publisher": "StayLive AB",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "staylive-02",
-     "title": "Youth Sports Plus and Staylive enter long term agreement",
-     "url": "https://www.staylive.io/post/youth-sports-plus-and-staylive-enter-long-term-agreement",
-     "publisher": "StayLive AB",
-     "date": "2023-11-01",
-     "type": "press"
-    },
-    {
-     "id": "staylive-03",
-     "title": "Two Circles acquires Spring Media to expand broadcast offering",
-     "url": "https://www.sportspro.com/news/two-circles-spring-media-acquisition-broadcast/",
-     "publisher": "SportsPro",
-     "date": "2024-10-28",
-     "type": "press"
-    },
-    {
-     "id": "staylive-04",
-     "title": "Youth Sports Plus home page (Spiideo-powered live streaming, MNHockey.TV)",
-     "url": "https://www.youthsportsplus.com/",
-     "publisher": "Youth Sports Plus",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "staylive-05",
-     "title": "Two Circles expands into media rights, live production and streaming with agreement to acquire Spring Media Group",
-     "url": "https://www.staylive.io/post/two-circles-expands-into-media-rights-live-production-and-streaming-with-agreement-to-acquire-spring-media-group",
-     "publisher": "StayLive AB",
-     "date": "2024-10-28",
-     "type": "press"
-    },
-    {
-     "id": "staylive-06",
-     "title": "Staylive news index",
-     "url": "https://www.staylive.io/news",
-     "publisher": "StayLive AB",
-     "date": "2026-09-19",
-     "type": "primary"
-    },
-    {
-     "id": "staylive-07",
-     "title": "MNHockey TV on the App Store (developer StayLive AB)",
-     "url": "https://apps.apple.com/us/app/mnhockey-tv/id6473491120",
-     "publisher": "Apple App Store",
-     "date": "2026-09-19",
-     "type": "third-party"
-    },
-    {
-     "id": "staylive-08",
-     "title": "Two Circles' StayLive ups new OTT business push",
-     "url": "https://www.sportbusiness.com/news/two-circles-staylive-ups-new-ott-business-push/",
-     "publisher": "SportBusiness",
-     "date": "2026-09-19",
-     "type": "press"
     }
    ]
   }
