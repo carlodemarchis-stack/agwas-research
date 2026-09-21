@@ -6,6 +6,11 @@
 <meta name="theme-color" content="#1C1B19">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Narrow:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+.crumb{font-family:"Archivo Narrow",sans-serif;font-size:13px;letter-spacing:.03em;color:var(--slate);margin:0 0 22px}
+.crumb a{color:var(--granata);text-decoration:none;font-weight:600}
+.crumb a:hover{text-decoration:underline}
+.crumb span{margin:0 7px;color:#C9C3B9}
+
 :root{color-scheme:light}
 :root{--ground:#FBFAF7;--ink:#1C1B19;--slate:#5B6169;--rule:#E2DFD8;--granata:#B05708;--wash:#FBEAD9}
 body{margin:0;background:var(--ground);color:var(--ink);font-family:"Archivo",system-ui,sans-serif;
@@ -31,7 +36,7 @@ footer{margin-top:44px;color:var(--slate);font-size:14px}
 footer a{color:var(--granata)}
 </style>
 <div class="wrap">
-<a class="back" href="../">Back to the scan</a>
+<p class="crumb"><a href="/">Research Hub</a><span>/</span><a href="../">IBC2026 vendor scan</a><span>/</span>What changed</p>
 <p class="kicker">A Guy With A Scarf</p>
 <h1>IBC2026 vendor scan: what changed</h1>
 <p class="lede">Every version as it went live, newest first.</p>

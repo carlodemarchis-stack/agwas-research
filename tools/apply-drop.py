@@ -52,12 +52,40 @@ def drop_records(h):
             h = h.replace(w + ' cloud and platform companies', words[n] + ' cloud and platform companies')
     return h
 
+
+CRUMB_CSS = ('.crumb{font-family:"Archivo Narrow",sans-serif;font-size:13px;letter-spacing:.03em;'
+             'color:var(--slate);margin:0 0 22px}\n'
+             '.crumb a{color:var(--granata);text-decoration:none;font-weight:600}\n'
+             '.crumb a:hover{text-decoration:underline}\n'
+             '.crumb span{margin:0 7px;color:#C9C3B9}\n')
+
+CRUMBS = {
+    'ibc2026/index.html':         ('./',  'Database', '<div class="wrap" id="top">\n<div class="col">\n'),
+    'ibc2026/sources/index.html': ('../', 'Sources',  '<div class="wrap">\n'),
+}
+
+def add_crumb(rel, h):
+    """Research Hub / IBC2026 vendor scan / <leaf>, matching the automated-video pages."""
+    if rel not in CRUMBS or 'class="crumb"' in h:
+        return h
+    href, leaf, anchor = CRUMBS[rel]
+    if anchor not in h:
+        print('  !! could not place the crumb in', rel)
+        return h
+    if '.crumb{' not in h:
+        h = h.replace('<style>', '<style>\n' + CRUMB_CSS, 1)
+    crumb = ('<p class="crumb"><a href="/">Research Hub</a><span>/</span>'
+             '<a href="%s">IBC2026 vendor scan</a><span>/</span>%s</p>\n' % (href, leaf))
+    h = h.replace(anchor, anchor + crumb, 1)
+    return re.sub(r'<a class="back" href="\.\./">Back to the scan</a>\n', '', h, count=1)
+
 def fix(rel, fn):
     p = repo / rel
     h = p.read_text(); before = h
     h = fn(h)
     if 'cloudflareinsights' not in h:
         h = h.rstrip('\n') + '\n' + BEACON + '\n'
+    h = add_crumb(rel, h)
     if rel == 'ibc2026/index.html' and WHATSNEW not in h:
         h = h.rstrip('\n') + '\n' + WHATSNEW + '\n'
     # light only: drop dark blocks, force light UA controls
