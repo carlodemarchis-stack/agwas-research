@@ -145,3 +145,7 @@ if _dp.exists():
 
 fix('ibc2026/index.html', scan)
 fix('ibc2026/sources/index.html', lambda h: h)
+
+# social meta: the generated pages arrive without og:image, so re-add the whole block
+import subprocess
+subprocess.run(['python3', str(pathlib.Path(__file__).parent / 'og-apply.py')], cwd=str(repo), check=False)
