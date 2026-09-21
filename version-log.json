@@ -88,5 +88,15 @@
   "version": "1.5.0",
   "date": "2026-09-19",
   "note": "1 Legion dropped, wrapper close fixed, promo split into book and course, light only"
+ },
+ {
+  "version": "1.5.1",
+  "date": "2026-09-21",
+  "note": "method tile rewritten shorter; contact and stand counts corrected after the 1 Legion and Stream Republic changes"
+ },
+ {
+  "version": "1.5.2",
+  "date": "2026-09-21",
+  "note": "method and copy reframed: Hall 5 is the measuring stick, the scan covers eight halls"
  }
 ]
