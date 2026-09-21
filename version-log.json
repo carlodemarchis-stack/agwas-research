@@ -98,5 +98,20 @@
   "version": "1.5.2",
   "date": "2026-09-21",
   "note": "method and copy reframed: Hall 5 is the measuring stick, the scan covers eight halls"
+ },
+ {
+  "version": "1.5.3",
+  "date": "2026-09-21",
+  "note": "share description matches the article subtitle"
+ },
+ {
+  "version": "1.5.4",
+  "date": "2026-09-21",
+  "note": "subtitle wording"
+ },
+ {
+  "version": "1.6.0",
+  "date": "2026-09-21",
+  "note": "hall filter covers every hall in the scan; stand count corrected to seventy-five"
  }
 ]
