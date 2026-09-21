@@ -113,5 +113,10 @@
   "version": "1.6.0",
   "date": "2026-09-21",
   "note": "hall filter covers every hall in the scan; stand count corrected to seventy-five"
+ },
+ {
+  "version": "1.7.0",
+  "date": "2026-09-21",
+  "note": "filter bar collapses to a single sticky search line on small screens"
  }
 ]

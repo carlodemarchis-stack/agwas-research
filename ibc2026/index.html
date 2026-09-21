@@ -58,6 +58,25 @@ p.lede{margin:0 0 26px;max-width:68ch;color:var(--slate);font-size:16px}
 .jump a::after{content:" \2193";color:var(--slate)}
 .jump a[href^="s"]::after{content:" \2197"}
 html{scroll-behavior:smooth}
+#ftoggle{display:none}
+@media (max-width:760px){
+ .controls{padding:9px 10px;border-radius:0;margin-left:-16px;margin-right:-16px;border-left:0;border-right:0}
+ .controls .row{gap:10px}
+ .controls .grp{display:none}
+ .controls .grp.searchgrp{display:flex;flex-wrap:nowrap;gap:6px;width:100%}
+ .controls .searchgrp input[type=search]{flex:1 1 auto;min-width:0;padding:7px 10px}
+ .controls .searchgrp #reset{display:none}
+ #ftoggle{display:inline-block;flex:0 0 auto;white-space:nowrap}
+ #ftoggle.active{background:var(--fill);border-color:var(--fill);color:#fff}
+ .controls .count{display:none}
+ .controls.open{max-height:78vh;overflow-y:auto}
+ .controls.open .grp{display:flex}
+ .controls.open .searchgrp #reset{display:inline-block}
+ .controls.open .count{display:block}
+ .controls.open .grp.searchgrp{order:-1}
+ .controls.open .row{display:flex;flex-direction:column;align-items:stretch}
+}
+
 .controls.stuck{box-shadow:0 6px 16px rgba(120,80,30,.10)}
 #totop{position:fixed;right:22px;bottom:22px;z-index:40;border:1px solid #E7C9A6;background:#FDF0E2;
  color:var(--ink);font-family:"Archivo Narrow",sans-serif;font-size:12px;font-weight:700;letter-spacing:.07em;
@@ -231,7 +250,7 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);color:v
 </nav>
 <p class="stripnote">Eighteen make an agentic claim, thirty-two build AI into the product, sixteen mention it in passing and thirty-four use no AI language at all.</p>
 <p class="stripnote halls">Seventy-five of the companies here have a confirmed stand, spread across eight halls: Hall 5 Content Everywhere holds forty-four, Hall 1 holds ten, Hall 7 holds nine, Hall 8 holds five, and the rest are scattered across Halls 2, 6, 10 and 14. One exhibited from a partner lounge, twenty-four took no stand of their own, and each of those records says why. Twenty-one further companies reached me that I consider out of scope; they are named in a note at the foot of the page and left out of every figure here. Seven cloud and platform companies, among them AWS, Google Cloud and Microsoft, sit in a separate section at the end, because they sell the infrastructure the others build on and counting them alongside a multiview specialist would distort every number. Everything the scan was built from is listed on the sources page, including the three attempts that failed.</p>
-<p class="version" id="version">v. 1.6.0 · updated 21 September 2026</p>
+<p class="version" id="version">v. 1.7.0 · updated 21 September 2026</p>
 <section class="method">
 <h2>What this is, and what it is not</h2>
 <p>This is a scan of one show, dated and bounded. Each record comes from a pitch that reached me before IBC2026, from the official exhibitor directory, or from research on companies across the show floor that I thought belonged here. Seventy-one of the hundred contacted me, twenty-eight did not and are included for comparison, and one is an advisory client.</p>
@@ -266,8 +285,9 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);color:v
    <button class="f" data-x="post" aria-pressed="false">Post-IBC</button>
    <button class="f" data-x="newprod" aria-pressed="false">New product or version</button>
    <button class="f" data-x="acc" aria-pressed="false">High confidence only</button></div>
-  <div class="grp">
+  <div class="grp searchgrp">
    <input type="search" id="q" placeholder="Search vendor or message">
+   <button class="f" id="ftoggle" type="button" aria-expanded="false" aria-controls="database">Filters</button>
    <button class="f" id="reset">Clear all</button></div>
  </div>
  <div class="count" id="count"></div>
@@ -403,6 +423,29 @@ document.getElementById("reset").onclick=()=>{T.clear();P.clear();X.clear();HL.c
  document.querySelectorAll("button.f[data-t],button.f[data-p],button.f[data-x],button.f[data-h]")
   .forEach(b=>b.setAttribute("aria-pressed","false"));render()};
 q.oninput=render;render();
+
+// on small screens the filter bar collapses to a single search line
+(function(){
+ const bar=document.getElementById('database'), t=document.getElementById('ftoggle');
+ if(!bar||!t)return;
+ function active(){
+  return document.querySelectorAll('.controls button.f[aria-pressed="true"]').length;
+ }
+ function label(){
+  const n=active();
+  t.textContent=bar.classList.contains('open')?'Done':(n?'Filters \u00b7 '+n:'Filters');
+  t.classList.toggle('active',n>0&&!bar.classList.contains('open'));
+ }
+ t.addEventListener('click',()=>{
+  const open=bar.classList.toggle('open');
+  t.setAttribute('aria-expanded',open);
+  label();
+  if(!open) bar.scrollTop=0;
+ });
+ bar.addEventListener('click',e=>{ if(e.target.matches('button.f')&&e.target!==t) setTimeout(label,0); });
+ label();
+})();
+
 
 // shadow on the filter bar once it sticks
 (function(){
