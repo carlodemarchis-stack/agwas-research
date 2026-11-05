@@ -183,6 +183,62 @@ data = {
 }
 (OUT/"data.json").write_text(json.dumps(data,ensure_ascii=False,indent=1))
 
+# ---------- MAP ----------
+import math
+MAP=json.load(open("map.json"))
+TOWN_KEY={"Aarau and Zurich":"Zurich","Corgémont and Biel":"Corgémont","Lausanne and Madrid":"Lausanne","Maloja to S-chanf":"Engadin"}
+TOWN_CANTON={"Aigle":"VD","Basel":"BS","Bern":"BE","Biel/Bienne":"BE","Bütschwil":"SG","Cham":"ZG","Corgémont":"BE","Corsier-sur-Vevey":"VD","Crans-Montana":"VS","Davos":"GR","Dürnten":"ZH","Ebnat-Kappel":"SG","Effretikon":"ZH","Epalinges":"VD","Frauenfeld":"TG","Fribourg":"FR","Geneva":"GE","Glattbrugg":"ZH","Grenchen":"SO","Gstaad":"BE","Hünenberg":"ZG","Hüttwilen":"TG","Ittigen":"BE","Kradolf":"TG","Lausanne":"VD","Lucerne":"LU","Magglingen":"BE","Engadin":"GR","Malters":"LU","Mies":"VD","Muri bei Bern":"BE","Nyon":"VD","Obergerlafingen":"SO","Oberhofen":"BE","Olten":"SO","Pontresina":"GR","Pratteln":"BL","Pully":"VD","Rolle":"VD","Romanshorn":"TG","Rothenburg":"LU","Rümlang":"ZH","Schaffhausen":"SH","Schlieren":"ZH","Sion":"VS","St. Gallen":"SG","Steinhausen":"ZG","Tägerwilen":"TG","Wengen":"BE","Winterthur":"ZH","Wollerau":"SZ","Wängi":"TG","Zug":"ZG","Zurich":"ZH"}
+CANTON_NAME={"ZH":"Zurich","BE":"Bern","LU":"Lucerne","UR":"Uri","SZ":"Schwyz","OW":"Obwalden","NW":"Nidwalden","GL":"Glarus","ZG":"Zug","FR":"Fribourg","SO":"Solothurn","BS":"Basel-Stadt","BL":"Basel-Landschaft","SH":"Schaffhausen","AR":"Appenzell Ausserrhoden","AI":"Appenzell Innerrhoden","SG":"St. Gallen","GR":"Graubünden","AG":"Aargau","TG":"Thurgau","TI":"Ticino","VD":"Vaud","VS":"Valais","NE":"Neuchâtel","GE":"Geneva","JU":"Jura"}
+# Swiss SportsTech Report 2026, p.12: companies by canton of headquarters (402 in total)
+REPORT_COUNT={"ZH":96,"VD":77,"BE":34,"LU":25,"SG":23,"VS":17,"ZG":17,"GR":16,"TG":12,"GE":11,"AG":9,"SO":9,"FR":8,"SZ":8,"TI":7,"BS":6,"SH":6,"NE":4,"BL":3,"GL":3,"OW":3,"AI":2,"AR":2,"NW":2,"JU":1,"UR":1}
+assert sum(REPORT_COUNT.values())==402
+def town_key(t): return TOWN_KEY.get(t,t)
+def canton_of(t): return TOWN_CANTON.get(town_key(t),"")
+def fill_class(n):
+    return "f4" if n>=40 else "f3" if n>=20 else "f2" if n>=10 else "f1" if n>=5 else "f0"
+
+def build_map():
+    W,H=MAP["w"],MAP["h"]
+    out=[f'<svg class="chmap" viewBox="0 0 {W} {H}" role="img" aria-labelledby="maptitle" xmlns="http://www.w3.org/2000/svg">']
+    out.append('<title id="maptitle">Switzerland by canton: companies counted by the Swiss SportsTech Report 2026, with the directory entries placed on their towns</title>')
+    out.append('<g class="cantons">')
+    for c in MAP["cantons"]:
+        n=REPORT_COUNT[c["code"]]
+        out.append(f'<path class="ct {fill_class(n)}" data-c="{c["code"]}" d="{c["d"]}"><title>{CANTON_NAME[c["code"]]}: {n} companies in the report</title></path>')
+    out.append('</g>')
+    out.append(f'<path class="lakes" d="{MAP["lakes"]}"/>')
+    # labels: count for cantons with 8 or more
+    out.append('<g class="lab">')
+    nudge={"ZH":(22,-20),"BE":(-8,10),"VD":(-34,-34),"GR":(0,6),"VS":(6,8),"TG":(0,-2),"SG":(4,8),"LU":(-6,6),"ZG":(14,-8),"GE":(-16,12),"FR":(-4,10),"SO":(-6,-4),"AG":(0,0),"SZ":(0,0)}
+    for c in MAP["cantons"]:
+        n=REPORT_COUNT[c["code"]]
+        if n<8: continue
+        dx,dy=nudge.get(c["code"],(0,0))
+        cls=' class="dark"' if n>=40 else ''
+        out.append(f'<text{cls} x="{c["cx"]+dx}" y="{c["cy"]+dy}" text-anchor="middle">{n}</text>')
+    out.append('</g>')
+    # entries as dots, grouped by town, sunflower layout
+    groups={}
+    for n,w,t,ca,s,_ in companies: groups.setdefault(town_key(t),[]).append(("co",n))
+    for n,a,r,t,ad,s,_ in federations: groups.setdefault(town_key(t),[]).append(("fe",n))
+    for n,r,t,ad,s,_ in entities: groups.setdefault(town_key(t),[]).append(("en",n))
+    out.append('<g class="dots">')
+    order={"fe":0,"en":1,"co":2}
+    for town,items in groups.items():
+        if town not in MAP["towns"]: continue
+        x0,y0=MAP["towns"][town]
+        items.sort(key=lambda i:order[i[0]])
+        for i,(kind,name) in enumerate(items):
+            r=3.4*math.sqrt(i); th=i*2.399963
+            x=round(x0+r*math.cos(th),1); y=round(y0+r*math.sin(th),1)
+            out.append(f'<circle class="{kind}" cx="{x}" cy="{y}" r="2.7" data-n="{esc(name)}"><title>{esc(name)} · {esc(town)}</title></circle>')
+    out.append('</g></svg>')
+    return "\n".join(out)
+
+def canton_table():
+    items=sorted(REPORT_COUNT.items(), key=lambda kv:-kv[1])
+    return " · ".join(f'<button type="button" class="cb" data-c="{k}"><b>{k}</b> {v}</button>' for k,v in items)
+
 # ---------- HTML ----------
 def esc(s): return html.escape(s or "")
 def site(s):
@@ -193,7 +249,7 @@ def table_companies(seg):
     rows=[c for c in companies if c[5]==seg]
     out=['<table class="db"><thead><tr><th>Company</th><th>What they do</th><th>Town</th><th>Canton</th><th>Website</th></tr></thead><tbody>']
     for n,w,t,ca,s,_ in rows:
-        out.append(f'<tr data-k="{esc((n+" "+w+" "+t+" "+ca).lower())}"><td class="n" data-l="">{esc(n)}</td><td data-l="">{esc(w)}</td><td data-l="Town">{esc(t)}</td><td data-l="Canton">{esc(ca)}</td><td data-l="Web">{site(s)}</td></tr>')
+        out.append(f'<tr data-c="{canton_of(t)}" data-k="{esc((n+" "+w+" "+t+" "+ca).lower())}"><td class="n" data-l="">{esc(n)}</td><td data-l="">{esc(w)}</td><td data-l="Town">{esc(t)}</td><td data-l="Canton">{esc(ca)}</td><td data-l="Web">{site(s)}</td></tr>')
     out.append('</tbody></table>'); return "\n".join(out)
 
 def table_feds(group, with_addr=True):
@@ -202,7 +258,7 @@ def table_feds(group, with_addr=True):
     out=[f'<table class="db"><thead><tr>{head}</tr></thead><tbody>']
     for n,a,r,t,ad,s,_ in rows:
         addr=f'<td data-l="Address">{esc(ad)}</td>' if with_addr else ''
-        out.append(f'<tr data-k="{esc((n+" "+a+" "+r+" "+t+" "+ad).lower())}"><td class="n" data-l="">{esc(n)}</td><td data-l="">{esc(a)}</td><td data-l="">{esc(r)}</td>{addr}<td data-l="Web">{site(s)}</td></tr>')
+        out.append(f'<tr data-c="{canton_of(t)}" data-k="{esc((n+" "+a+" "+r+" "+t+" "+ad).lower())}"><td class="n" data-l="">{esc(n)}</td><td data-l="">{esc(a)}</td><td data-l="">{esc(r)}</td>{addr}<td data-l="Web">{site(s)}</td></tr>')
     out.append('</tbody></table>'); return "\n".join(out)
 
 def table_ents(group):
@@ -210,7 +266,7 @@ def table_ents(group):
     out=['<table class="db"><thead><tr><th>Organisation</th><th>Role</th><th>Where</th><th>Website</th></tr></thead><tbody>']
     for n,r,t,ad,s,_ in rows:
         where=esc(ad) if ad else esc(t)
-        out.append(f'<tr data-k="{esc((n+" "+r+" "+t+" "+ad).lower())}"><td class="n" data-l="">{esc(n)}</td><td data-l="">{esc(r)}</td><td data-l="Where">{where}</td><td data-l="Web">{site(s)}</td></tr>')
+        out.append(f'<tr data-c="{canton_of(t)}" data-k="{esc((n+" "+r+" "+t+" "+ad).lower())}"><td class="n" data-l="">{esc(n)}</td><td data-l="">{esc(r)}</td><td data-l="Where">{where}</td><td data-l="Web">{site(s)}</td></tr>')
     out.append('</tbody></table>'); return "\n".join(out)
 
 ICON="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%231C1B19%22%2F%3E%3Crect%20x%3D%226%22%20%20y%3D%229%22%20%20width%3D%224%22%20height%3D%2214%22%20rx%3D%221%22%20fill%3D%22%23E2DED6%22%2F%3E%3Crect%20x%3D%2212%22%20y%3D%229%22%20%20width%3D%224%22%20height%3D%2214%22%20rx%3D%221%22%20fill%3D%22%23F6CFA8%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%229%22%20%20width%3D%224%22%20height%3D%2214%22%20rx%3D%221%22%20fill%3D%22%23EE9A55%22%2F%3E%3Crect%20x%3D%2224%22%20y%3D%229%22%20%20width%3D%224%22%20height%3D%2214%22%20rx%3D%221%22%20fill%3D%22%23C25C06%22%2F%3E%3C%2Fsvg%3E"
@@ -235,8 +291,8 @@ page=f'''<!doctype html>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{TITLE}">
 <meta name="twitter:description" content="{esc(DESC)}">
-<link rel="icon" href="{ICON}">
-<link rel="apple-touch-icon" href="{ICON}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#1C1B19">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -250,7 +306,7 @@ body{{margin:0;background:var(--ground);color:var(--ink);font-family:"Archivo",s
 .col{{max-width:760px}}
 .crumb{{font-family:"Archivo Narrow",sans-serif;font-size:13px;letter-spacing:.03em;color:var(--slate);margin:0 0 22px}}
 .crumb a{{color:var(--slate);text-decoration:none}}.crumb a:hover{{color:var(--granata)}}.crumb span{{margin:0 8px;color:#B8B3AA}}
-.kicker{{font-family:"Archivo Narrow",sans-serif;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--granata);margin:0 0 6px}}
+.kicker{{font-family:"Archivo Narrow",sans-serif;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--granata);margin:0 0 6px}}.kicker a{{color:inherit;text-decoration:none}}.kicker a:hover{{text-decoration:underline}}
 h1{{font-size:clamp(25px,3.5vw,37px);font-weight:700;letter-spacing:-.022em;line-height:1.1;margin:0 0 14px;max-width:24ch;text-wrap:balance}}
 p.lede{{margin:0 0 20px;max-width:68ch;color:var(--slate);font-size:16px}}
 .version{{margin:0 0 22px;font-family:"Archivo Narrow",sans-serif;font-size:12px;letter-spacing:.04em;color:#A8A29A}}
@@ -263,6 +319,28 @@ p.lede{{margin:0 0 20px;max-width:68ch;color:var(--slate);font-size:16px}}
 .method h2{{font-size:19px;font-weight:700;letter-spacing:-.012em;margin:0 0 12px;color:var(--ink)}}
 .method p{{margin:0 0 11px;font-size:13.5px;line-height:1.62;color:#5B5850}}
 .method p:last-child{{margin-bottom:0}}
+.mapbox{{margin:30px 0 8px;max-width:760px}}
+.mapbox h2{{font-size:19px;font-weight:700;letter-spacing:-.012em;margin:0 0 6px}}
+.mapbox p.cap{{margin:0 0 14px;font-size:13.5px;line-height:1.6;color:var(--slate);max-width:72ch}}
+svg.chmap{{display:block;width:100%;height:auto;background:#fff;border:1px solid var(--rule);border-radius:3px}}
+.ct{{stroke:#FBFAF7;stroke-width:1;cursor:pointer;transition:filter .15s}}
+.ct:hover{{filter:brightness(.93)}}
+.ct.on{{stroke:var(--ink);stroke-width:1.6}}
+.f0{{fill:#EFEBE3}}.f1{{fill:#F6DFC6}}.f2{{fill:#F0BE8E}}.f3{{fill:#E9955A}}.f4{{fill:#C25C06}}
+.lakes{{fill:#D8E1E6;pointer-events:none}}
+.lab text{{font-family:"Archivo Narrow",sans-serif;font-size:14px;font-weight:700;fill:var(--ink);pointer-events:none}}
+.lab text.dark{{fill:#fff}}
+.dots circle{{stroke:#fff;stroke-width:.8;cursor:pointer}}
+.dots .co{{fill:var(--granata)}}.dots .fe{{fill:var(--ink)}}.dots .en{{fill:var(--slate)}}
+.dots circle:hover{{r:4.2}}
+.maplegend{{display:flex;flex-wrap:wrap;gap:10px 18px;margin:12px 0 0;font-family:"Archivo Narrow",sans-serif;font-size:13px;color:var(--slate);align-items:center}}
+.maplegend i{{display:inline-block;width:11px;height:11px;margin-right:6px;border-radius:50%;vertical-align:-1px}}
+.maplegend i.sq{{border-radius:1px}}
+.maplegend .gap{{flex-basis:100%;height:0}}
+.cantons-all{{margin:12px 0 0;font-family:"Archivo Narrow",sans-serif;font-size:13px;line-height:2;color:var(--slate)}}
+.cb{{font:inherit;border:0;background:none;padding:0 2px;color:var(--slate);cursor:pointer;border-radius:2px}}
+.cb b{{color:var(--ink);font-weight:600}}
+.cb:hover,.cb.on{{background:#FDF0E2;color:var(--granata)}}.cb.on b{{color:var(--granata)}}
 .jump{{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 26px}}
 .jump a{{font-family:"Archivo Narrow",sans-serif;font-size:13px;font-weight:600;letter-spacing:.03em;text-decoration:none;color:var(--ink);border:1px solid var(--rule);border-radius:2px;padding:7px 13px;background:#fff}}
 .jump a:hover{{border-color:var(--granata);color:var(--granata)}}
@@ -321,6 +399,7 @@ footer a{{color:var(--granata)}}
  table.db td.n{{white-space:normal;font-size:15px;margin-bottom:2px}}
  table.db td[data-l]:not([data-l=""])::before{{content:attr(data-l) " ";font-family:"Archivo Narrow",sans-serif;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#9A958B;margin-right:4px}}
  .rail{{display:block}}.promo{{margin:0 0 14px}}
+ .dots circle{{r:4}}.lab text{{font-size:16px}}
 }}
 </style>
 </head>
@@ -328,7 +407,7 @@ footer a{{color:var(--granata)}}
 <div class="wrap" id="top">
 <div class="col">
 <p class="crumb"><a href="/">Research Hub</a><span>/</span>Swiss sportstech</p>
-<p class="kicker">A Guy With A Scarf</p>
+<p class="kicker"><a href="https://aguywithascarf.com/">A Guy With A Scarf</a></p>
 <h1>Swiss sportstech and sport governance: the directory</h1>
 <p class="lede">Three lists built around the Swiss SportsTech Report 2026: the {nC} companies the report names, with segment, town and website; the {nF} international federations and sport governance bodies based in Switzerland, with street address; and the {nE} national federations, leagues, event owners, broadcasters, betting operators and agencies that make up the rest of the Swiss sports economy. Addresses checked in November 2026 against each organisation's own pages.</p>
 <p class="version">Edition 1 · November 2026 · data.json alongside this page</p>
@@ -348,7 +427,20 @@ footer a{{color:var(--granata)}}
  <p>The third list exists because the buyers a Swiss sportstech company meets first are usually a national federation, a league, an event with a broadcast contract, or one of the agencies that sell rights for all of them. Federations move more often than people assume. Check before you post a letter.</p>
 </div>
 
+<div class="mapbox" id="map">
+ <h2>Where it all sits</h2>
+ <p class="cap">Cantons are shaded by the number of sportstech companies the report counts there, 402 in all, with the figure shown for every canton with eight or more. The dots are the {nC+nF+nE} entries in this directory, placed on their towns. Tap a canton to filter the lists to it, tap a dot to look that entry up.</p>
+ {build_map()}
+ <div class="maplegend">
+  <span><i class="sq" style="background:#EFEBE3"></i>under 5</span><span><i class="sq" style="background:#F6DFC6"></i>5 to 9</span><span><i class="sq" style="background:#F0BE8E"></i>10 to 19</span><span><i class="sq" style="background:#E9955A"></i>20 to 39</span><span><i class="sq" style="background:#C25C06"></i>40 and more</span>
+  <span class="gap"></span>
+  <span><i style="background:var(--granata)"></i>Sportstech company</span><span><i style="background:var(--ink)"></i>International federation or sport body</span><span><i style="background:var(--slate)"></i>National body, league, event, broadcaster or agency</span>
+ </div>
+ <p class="cantons-all">All 26 cantons, report count: {canton_table()}</p>
+</div>
+
 <nav class="jump">
+ <a href="#map">Map</a>
  <a href="#companies">Companies</a>
  <a href="#federations">International federations</a>
  <a href="#national">National bodies and leagues</a>
@@ -426,6 +518,7 @@ footer a{{color:var(--granata)}}
   <li>Infront: <a href="https://www.infront.sport/contact">infront.sport</a> · TEAM Marketing: <a href="https://team.ch/media/uploads/TEAM-Corporate-Factsheet_July2024.pdf">team.ch (PDF)</a> · Highlight on the UEFA tender: <a href="https://images.finanzen.ch/nachrichten/aktien/teams-bid-in-the-tender-process-for-the-uefa-club-competitions-for-the-2027-2033-seasons-remains-unconsidered-1034341430">finanzen.ch</a></li>
   <li>Swiss Football Association: <a href="https://inside.fifa.com/associations/SUI/organisation">inside.fifa.com</a> and the Thun move: <a href="https://www.bluewin.ch/en/sport/football/thun-new-location-for-the-association-center-li.2842616">bluewin.ch</a> · Swiss Ice Hockey Federation: <a href="https://canada-central.iihf.com/fr_ca/associations/1370/switzerland">iihf.com</a></li>
   <li>Company details beyond the report: Bearmind and Bauer (<a href="https://nsga.org/?p=17110">nsga.org</a>), Equip Sport (<a href="https://vancouver.ca/news-calendar/new-sports-equipment-lockers-roll-out-mar-2026.aspx">vancouver.ca</a>), MUUVR (<a href="https://finder.techleap.nl/news/feed/muuvr-secures-chf-4m-for-app-upgrade">techleap.nl</a>), TUUS (<a href="https://www.venturekick.ch/tuus-solutions">venturekick.ch</a>), VitalizedX (<a href="https://bioalps.org/?p=26977">bioalps.org</a>), Bleiker (<a href="https://www.iwa.info/en/exhibitors/bleiker-precision-engineering-ag-2623032">iwa.info</a>), De Martin (<a href="https://www.swissmem.ch/de/zmis/firmenportraits/unsere-mitglieder/de-martin-ag.html">swissmem.ch</a>), Humbel (<a href="https://www.hermle.de/en/industries-solutions/user-reports/detail/getting-the-ratio-right/">hermle.de</a>), fundoo (<a href="https://www.esb-online.com/fileadmin/user_upload/06_News/2021/News_August_2021/2108_Medienmitteilung_fundooExpansion.pdf">esb-online.com (PDF)</a>), KITRIS (<a href="https://onlineinfo.ch/firma/kitris-sports-ag---che-214-466-274/pdf">onlineinfo.ch</a>)</li>
+  <li>Map: companies by canton of headquarters from page 12 of the report; canton and lake boundaries from the <a href="https://github.com/interactivethings/swiss-maps">swiss-maps</a> package (swisstopo data), simplified; directory entries placed on their town, grouped where several share one.</li>
  </ol>
 </section>
 
@@ -450,7 +543,7 @@ footer a{{color:var(--granata)}}
 </div>
 </aside>
 
-<footer>Carlo De Marchis · <a href="https://aguywithascarf.com/">A Guy With A Scarf</a> · Directory published with the article "10 things to consider about the Swiss SportsTech Report". If you spot a wrong address or a missing body, tell me and I will fix it in the next edition.</footer>
+<footer>Carlo De Marchis · <a href="https://aguywithascarf.substack.com">A Guy With A Scarf</a> · Directory published with the article "10 things to consider about the Swiss SportsTech Report". If you spot a wrong address or a missing body, tell me and I will fix it in the next edition.</footer>
 <button id="totop" type="button" aria-label="Back to top">Top ↑</button>
 </div>
 <script>
@@ -459,17 +552,23 @@ footer a{{color:var(--granata)}}
  var rows=[].slice.call(document.querySelectorAll('table.db tbody tr'));
  var subs=[].slice.call(document.querySelectorAll('h3.sub'));
  var total=rows.length;
+ var canton='';var NAMES={json.dumps(CANTON_NAME)};
  function apply(){{
   var t=q.value.trim().toLowerCase(),n=0;
-  rows.forEach(function(r){{var ok=!t||r.getAttribute('data-k').indexOf(t)>-1;r.classList.toggle('hide',!ok);if(ok)n++;}});
+  rows.forEach(function(r){{var ok=(!t||r.getAttribute('data-k').indexOf(t)>-1)&&(!canton||r.getAttribute('data-c')===canton);r.classList.toggle('hide',!ok);if(ok)n++;}});
+  document.querySelectorAll('.ct,.cb').forEach(function(el){{el.classList.toggle('on',!!canton&&el.getAttribute('data-c')===canton);}});
   document.querySelectorAll('table.db').forEach(function(tb){{
    var vis=tb.querySelectorAll('tbody tr:not(.hide)').length;tb.style.display=vis?'':'none';
    var h=tb.previousElementSibling;while(h&&!h.classList.contains('sub'))h=h.previousElementSibling;
    if(h)h.style.display=vis?'':'none';
   }});
-  count.textContent=t?n+' of '+total+' entries':total+' entries';
+  var lab=(canton?NAMES[canton]+(t?' + "'+t+'"':''):(t?'"'+t+'"':''));
+  count.textContent=lab?lab+': '+n+' of '+total+' entries':total+' entries';
  }}
- q.addEventListener('input',apply);reset.addEventListener('click',function(){{q.value='';apply();q.focus();}});
+ q.addEventListener('input',apply);reset.addEventListener('click',function(){{q.value='';canton='';apply();q.focus();}});
+ function setCanton(c){{canton=(canton===c)?'':c;apply();var ctl=document.getElementById('controls');if(canton&&ctl.getBoundingClientRect().top<0)ctl.scrollIntoView();}}
+ document.querySelectorAll('.ct,.cb').forEach(function(el){{el.addEventListener('click',function(){{setCanton(el.getAttribute('data-c'));}});}});
+ document.querySelectorAll('.dots circle').forEach(function(d){{d.addEventListener('click',function(ev){{ev.stopPropagation();canton='';q.value=d.getAttribute('data-n');apply();document.getElementById('controls').scrollIntoView();}});}});
  apply();
  var c=document.getElementById('controls'),tt=document.getElementById('totop');
  window.addEventListener('scroll',function(){{
