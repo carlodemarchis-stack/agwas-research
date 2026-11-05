@@ -10,7 +10,7 @@ outside it and are maintained separately, so nothing here writes to the repo roo
 /ibc2026/data.json         the underlying records
 /ibc2026/hall5.json        the official Hall 5 exhibitor list used for cross-referencing
 /ibc2026/sources/index.html  every source, organised by what it was used for
-/favicon.svg               the four-bar mark, also inlined in each page
+/favicon.svg               the dissolve mark (brand study 2026-11-05), linked from every page
 /bump.py                   version stamp tool
 /version-log.json          history of stamped versions
 ```
