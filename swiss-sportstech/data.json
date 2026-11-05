@@ -1,0 +1,1320 @@
+{
+ "title": "Swiss sportstech and sport governance: the directory",
+ "edition": "November 2026",
+ "publisher": "A Guy With A Scarf",
+ "url": "https://research.aguywithascarf.com/swiss-sportstech/",
+ "licence": "CC BY 4.0, cite the page",
+ "companies": [
+  {
+   "name": "On",
+   "what": "Running footwear and apparel; CHF 3.0bn revenue in 2025, NYSE listed, LightSpray production facility opened in Zurich in 2025",
+   "town": "Zurich",
+   "canton": "ZH",
+   "site": "on.com",
+   "segment": "Big two"
+  },
+  {
+   "name": "Sportradar",
+   "what": "Sports and betting data, NASDAQ listed; CHF 1.2bn attributed by the report",
+   "town": "St. Gallen",
+   "canton": "SG",
+   "site": "sportradar.com",
+   "segment": "Big two"
+  },
+  {
+   "name": "AIM Sport Vision",
+   "what": "Patented digital overlay technology for virtual advertising in sports TV",
+   "town": "Lucerne",
+   "canton": "LU",
+   "site": "aimsport.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "uniqFEED",
+   "what": "AI-based virtual advertising for live sports broadcasts",
+   "town": "Zurich",
+   "canton": "ZH",
+   "site": "uniqfeed.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "KITRIS Sports",
+   "what": "Livestream, live scoring and video analysis for youth, school, recreational and elite sport; myKITRIS app for tennis and padel courts",
+   "town": "Dürnten",
+   "canton": "ZH",
+   "site": "",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "Geobrugg",
+   "what": "High-security race-track fencing, including for Formula 1",
+   "town": "Romanshorn",
+   "canton": "TG",
+   "site": "geobrugg.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "Swiss Timing",
+   "what": "Sports timing technology, part of the Swatch Group, 40+ years at Olympic Games",
+   "town": "Corgémont",
+   "canton": "BE",
+   "site": "swisstiming.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "SIUS",
+   "what": "Electronic target systems for shooting sports, official ISSF results provider",
+   "town": "Effretikon",
+   "canton": "ZH",
+   "site": "sius.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "Datasport",
+   "what": "Timing and results for Swiss running and endurance sport, 1,000+ events a year",
+   "town": "Obergerlafingen",
+   "canton": "SO",
+   "site": "datasport.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "Technis",
+   "what": "Real-time data analytics platform for sporting events",
+   "town": "Lausanne",
+   "canton": "VD",
+   "site": "technis.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "Wiz-Team",
+   "what": "Event management software for the Olympic Games and Commonwealth Games",
+   "town": "Lausanne",
+   "canton": "VD",
+   "site": "wiz-team.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "Blocksport",
+   "what": "Web3 and blockchain fan apps and fan tokens for clubs",
+   "town": "Zug",
+   "canton": "ZG",
+   "site": "blocksport.io",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "FANtium",
+   "what": "Platform for fans to invest directly in athletes",
+   "town": "Zug",
+   "canton": "ZG",
+   "site": "fantium.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "Fundoo",
+   "what": "Sponsored runs and fundraising campaigns for clubs and schools; CHF 5m raised across 300 projects by 2021",
+   "town": "St. Gallen",
+   "canton": "SG",
+   "site": "fundoo.ch",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "Logitech",
+   "what": "Gaming peripherals, partner of esports teams",
+   "town": "Lausanne",
+   "canton": "VD",
+   "site": "logitech.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "NÜSSLI",
+   "what": "Temporary structures for sport and events; 18 Olympic Games since 1964, Big Air jump at Milano Cortina 2026",
+   "town": "Hüttwilen",
+   "canton": "TG",
+   "site": "nussli.com",
+   "segment": "Business of sport"
+  },
+  {
+   "name": "greenTEG (CORE)",
+   "what": "Wearable core body temperature sensor for athletes",
+   "town": "Rümlang",
+   "canton": "ZH",
+   "site": "corebodytemp.com",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "Dartfish",
+   "what": "Video analysis and performance software for coaches, federations and Olympic teams",
+   "town": "Fribourg",
+   "canton": "FR",
+   "site": "dartfish.com",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "Myotest",
+   "what": "Portable biomechanical measurement devices for federations and teams",
+   "town": "Sion",
+   "canton": "VS",
+   "site": "myotest.com",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "Bearmind",
+   "what": "EPFL spin-off, helmet-integrated head impact sensors; licensing deal with Bauer Hockey for a CSA-certified helmet in 2026/27",
+   "town": "Lausanne",
+   "canton": "VD",
+   "site": "",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "VitalizedX",
+   "what": "Saliva diagnostics and biomarker analytics for athletes",
+   "town": "Epalinges",
+   "canton": "VD",
+   "site": "vitalizedx.ch",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "Storz Medical",
+   "what": "Shockwave therapy, developed for clinical use, now standard in sports medicine",
+   "town": "Tägerwilen",
+   "canton": "TG",
+   "site": "storzmedical.com",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "Bleiker Precision Engineering",
+   "what": "Precision sport rifles for ISSF and CISM shooters",
+   "town": "Bütschwil",
+   "canton": "SG",
+   "site": "bleiker.ch",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "De Martin",
+   "what": "Functional surface coatings, including for Formula 1; 250 staff across Swiss and German plants",
+   "town": "Wängi",
+   "canton": "TG",
+   "site": "demartin.com",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "Humbel Gear Technology",
+   "what": "Precision gears and drivetrains since 1928, active in motorsport and aerospace",
+   "town": "Kradolf",
+   "canton": "TG",
+   "site": "humbel-gears.com",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "Kistler",
+   "what": "Piezoelectric measurement; force plates in elite sport, also automotive testing and industrial process control",
+   "town": "Winterthur",
+   "canton": "ZH",
+   "site": "kistler.com",
+   "segment": "Elite sport"
+  },
+  {
+   "name": "BreezeLabs",
+   "what": "Measures breathing rate through standard headphones",
+   "town": "Zurich",
+   "canton": "ZH",
+   "site": "breezelabs.ai",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Equip Sport",
+   "what": "App-connected self-service lockers for sports equipment; 400+ stations in Europe and North America",
+   "town": "Rolle",
+   "canton": "VD",
+   "site": "equip.sport",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "MUUVR",
+   "what": "Loyalty programme for active people, rewards for tracked activity; CHF 4m pre-Series A in 2025, Sport1 shareholder",
+   "town": "Zurich",
+   "canton": "ZH",
+   "site": "muuvr.io",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Azum",
+   "what": "Coaching platform for training and nutrition",
+   "town": "Zurich",
+   "canton": "ZH",
+   "site": "azum.com",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "coachbetter",
+   "what": "Digital coaching platform for coaches and federations",
+   "town": "Frauenfeld",
+   "canton": "TG",
+   "site": "coachbetter.com",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Running.Coach (Quevita)",
+   "what": "AI-driven personalised running plans",
+   "town": "Olten",
+   "canton": "SO",
+   "site": "running.coach",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "LeeGroup (Lee-Sport)",
+   "what": "Locally produced protein powders and supplements, direct to consumer",
+   "town": "Rothenburg",
+   "canton": "LU",
+   "site": "whey-protein.ch",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Sponser",
+   "what": "Sports nutrition for professional and amateur athletes",
+   "town": "Wollerau",
+   "canton": "SZ",
+   "site": "sponser.ch",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "TUUS Solutions",
+   "what": "EPFL spin-off, plant-based hydrogel platform for steady-release energy gels; Venture Kick CHF 150k in May 2026",
+   "town": "Lausanne",
+   "canton": "VD",
+   "site": "tuusnutrition.ch",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "CONICA",
+   "what": "Sports surfaces such as running tracks and artificial turf",
+   "town": "Schaffhausen",
+   "canton": "SH",
+   "site": "conica.com",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Glice",
+   "what": "Water- and electricity-free synthetic ice rinks",
+   "town": "Lucerne",
+   "canton": "LU",
+   "site": "glice.com",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "ALLEGRA",
+   "what": "Trail-based tourism, mountain bike and hiking trail design and construction since 2003, NOMAD trail counters",
+   "town": "Pontresina",
+   "canton": "GR",
+   "site": "helloallegra.com",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "BMC Switzerland",
+   "what": "Premium road, mountain and e-bikes for UCI WorldTour teams",
+   "town": "Grenchen",
+   "canton": "SO",
+   "site": "bmc-switzerland.com",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Alder + Eisenhut",
+   "what": "Gymnasium equipment and facility fit-out since 1891",
+   "town": "Ebnat-Kappel",
+   "canton": "SG",
+   "site": "alder-eisenhut.ch",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Stöckli",
+   "what": "Skis, snowboards and e-bikes, hand-made in Switzerland since 1935",
+   "town": "Malters",
+   "canton": "LU",
+   "site": "stoeckli.ch",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Odlo",
+   "what": "Base layers and outdoor apparel since 1946",
+   "town": "Hünenberg",
+   "canton": "ZG",
+   "site": "odlo.com",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "HeiQ Materials",
+   "what": "ETH spin-off, functional textile technologies",
+   "town": "Schlieren",
+   "canton": "ZH",
+   "site": "heiq.com",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "X-Bionic",
+   "what": "Sportswear with structures for body thermoregulation",
+   "town": "Wollerau",
+   "canton": "SZ",
+   "site": "x-bionic.com",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Sphery",
+   "what": "Interactive training hardware for gyms and rehabilitation (ExerCube)",
+   "town": "Zurich",
+   "canton": "ZH",
+   "site": "sphery.ch",
+   "segment": "Mass participation"
+  },
+  {
+   "name": "Schweiter Technologies",
+   "what": "Composite materials for racing and high-performance equipment; most demand from aerospace, transport and construction",
+   "town": "Steinhausen",
+   "canton": "ZG",
+   "site": "schweiter.com",
+   "segment": "Mass participation"
+  }
+ ],
+ "federations": [
+  {
+   "name": "World Archery",
+   "acronym": "WA",
+   "role": "Archery (Olympic)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "worldarchery.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "International Canoe Federation",
+   "acronym": "ICF",
+   "role": "Canoeing (Olympic)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "canoeicf.com",
+   "group": "MSI"
+  },
+  {
+   "name": "International Fencing Federation",
+   "acronym": "FIE",
+   "role": "Fencing (Olympic)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "fie.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Golf Federation",
+   "acronym": "IGF",
+   "role": "Golf (Olympic)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "igfgolf.org",
+   "group": "MSI"
+  },
+  {
+   "name": "World Rowing",
+   "acronym": "FISA",
+   "role": "Rowing (Olympic)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "worldrowing.com",
+   "group": "MSI"
+  },
+  {
+   "name": "World Skate",
+   "acronym": "WS",
+   "role": "Roller sports, skateboarding (Olympic)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "worldskate.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Table Tennis Federation",
+   "acronym": "ITTF",
+   "role": "Table tennis (Olympic)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "ittf.com",
+   "group": "MSI"
+  },
+  {
+   "name": "World Triathlon",
+   "acronym": "TRI",
+   "role": "Triathlon (Olympic)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "triathlon.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Weightlifting Federation",
+   "acronym": "IWF",
+   "role": "Weightlifting (Olympic)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "iwf.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "World Climbing",
+   "acronym": "WC",
+   "role": "Sport climbing (Olympic); registered here, operational office in Turin",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "worldclimbing.com",
+   "group": "MSI"
+  },
+  {
+   "name": "World Taekwondo",
+   "acronym": "WT",
+   "role": "Taekwondo (Olympic); Lausanne office, main HQ Seoul",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "worldtaekwondo.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Bobsleigh and Skeleton Federation",
+   "acronym": "IBSF",
+   "role": "Bobsleigh and skeleton (Olympic winter)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "ibsf.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Ski Mountaineering Federation",
+   "acronym": "ISMF",
+   "role": "Ski mountaineering (Olympic winter from 2026)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "ismf-ski.com",
+   "group": "MSI"
+  },
+  {
+   "name": "World Air Sports Federation",
+   "acronym": "FAI",
+   "role": "Air sports (IOC recognised)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "fai.org",
+   "group": "MSI"
+  },
+  {
+   "name": "World Confederation of Billiards Sports",
+   "acronym": "WCBS",
+   "role": "Cue sports (IOC recognised)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "wcbs.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "World Bridge Federation",
+   "acronym": "WBF",
+   "role": "Bridge (IOC recognised)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "worldbridge.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Chess Federation",
+   "acronym": "FIDE",
+   "role": "Chess (IOC recognised)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "fide.com",
+   "group": "MSI"
+  },
+  {
+   "name": "World DanceSport Federation",
+   "acronym": "WDSF",
+   "role": "Dancesport (IOC recognised)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "worlddancesport.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Federation of Muaythai Associations",
+   "acronym": "IFMA",
+   "role": "Muaythai (IOC recognised)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "muaythai.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "International Sambo Federation",
+   "acronym": "FIAS",
+   "role": "Sambo (IOC recognised)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "sambo.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "International Federation of American Football",
+   "acronym": "IFAF",
+   "role": "American football (ASOIF associate)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "americanfootball.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "International Boxing Association",
+   "acronym": "IBA",
+   "role": "Boxing (no longer IOC recognised)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "iba.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "International Bowling Federation",
+   "acronym": "IBF",
+   "role": "Bowling (IOC recognised)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "bowling.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "International Committee of Sports for the Deaf",
+   "acronym": "ICSD",
+   "role": "Deaflympics",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "ciss.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Padel Federation",
+   "acronym": "IPF",
+   "role": "Padel",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "padelfip.com",
+   "group": "MSI"
+  },
+  {
+   "name": "International School Sport Federation",
+   "acronym": "ISF",
+   "role": "School sport",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "isfsports.org",
+   "group": "MSI"
+  },
+  {
+   "name": "World Billiard Union",
+   "acronym": "UMB",
+   "role": "Carom billiards",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "umb-carom.org",
+   "group": "MSI"
+  },
+  {
+   "name": "European Cycling Union",
+   "acronym": "UEC",
+   "role": "Continental confederation",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "uec.ch",
+   "group": "MSI"
+  },
+  {
+   "name": "European Golf Association",
+   "acronym": "EGA",
+   "role": "Continental confederation",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "ega-golf.ch",
+   "group": "MSI"
+  },
+  {
+   "name": "European Bridge League",
+   "acronym": "EBL",
+   "role": "Continental confederation",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "eurobridge.org",
+   "group": "MSI"
+  },
+  {
+   "name": "Confédération Européenne de Billard",
+   "acronym": "CEB",
+   "role": "Continental confederation",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "eurobillard.org",
+   "group": "MSI"
+  },
+  {
+   "name": "Association of Summer Olympic International Federations",
+   "acronym": "ASOIF",
+   "role": "Umbrella body, Building A, 2nd floor",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "asoif.com",
+   "group": "MSI"
+  },
+  {
+   "name": "Association of IOC Recognised International Sports Federations",
+   "acronym": "ARISF",
+   "role": "Umbrella body",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "arisf.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "SportAccord",
+   "acronym": "",
+   "role": "IF convention and umbrella services, Building D, 4th floor",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "sportaccord.sport",
+   "group": "MSI"
+  },
+  {
+   "name": "World Anti-Doping Agency, European office",
+   "acronym": "WADA",
+   "role": "Anti-doping (HQ Montreal)",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "wada-ama.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Federation of Sports Medicine",
+   "acronym": "FIMS",
+   "role": "Sports medicine",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "fims.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Masters Games Association",
+   "acronym": "IMGA",
+   "role": "Masters Games",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "imga.ch",
+   "group": "MSI"
+  },
+  {
+   "name": "ThinkSport",
+   "acronym": "",
+   "role": "Lausanne region sport innovation network",
+   "town": "Lausanne",
+   "address": "Maison du Sport International, Avenue de Rhodanie 54, 1007 Lausanne",
+   "site": "thinksport.org",
+   "group": "MSI"
+  },
+  {
+   "name": "International Olympic Committee",
+   "acronym": "IOC",
+   "role": "Olympic Movement",
+   "town": "Lausanne",
+   "address": "Olympic House, Route de Vidy 9, 1007 Lausanne",
+   "site": "olympics.com",
+   "group": "Lausanne"
+  },
+  {
+   "name": "Court of Arbitration for Sport",
+   "acronym": "CAS",
+   "role": "Sports arbitration",
+   "town": "Lausanne",
+   "address": "Palais de Beaulieu, Avenue des Bergières 10, 1004 Lausanne (moved from Château de Béthusy in 2022)",
+   "site": "tas-cas.org",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International Testing Agency",
+   "acronym": "ITA",
+   "role": "Independent anti-doping",
+   "town": "Lausanne",
+   "address": "Avenue de Rhodanie 58, 1007 Lausanne",
+   "site": "ita.sport",
+   "group": "Lausanne"
+  },
+  {
+   "name": "World Aquatics",
+   "acronym": "",
+   "role": "Aquatics (Olympic); HQ relocating to Budapest, target 2027; foundation and Aquatics Integrity Unit stay in Lausanne",
+   "town": "Lausanne",
+   "address": "Chemin de Bellevue 24a/24b, 1005 Lausanne",
+   "site": "worldaquatics.com",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International Federation for Equestrian Sports",
+   "acronym": "FEI",
+   "role": "Equestrian (Olympic)",
+   "town": "Lausanne",
+   "address": "HM King Hussein I Building, Chemin de la Joliette 8, 1006 Lausanne",
+   "site": "fei.org",
+   "group": "Lausanne"
+  },
+  {
+   "name": "World Gymnastics (formerly FIG)",
+   "acronym": "",
+   "role": "Gymnastics (Olympic); renamed December 2025",
+   "town": "Lausanne",
+   "address": "Avenue de la Gare 12A, 1003 Lausanne",
+   "site": "gymnastics.sport",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International Hockey Federation",
+   "acronym": "FIH",
+   "role": "Field hockey (Olympic)",
+   "town": "Lausanne",
+   "address": "Rue du Valentin 61, 1004 Lausanne",
+   "site": "fih.hockey",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International Volleyball Federation",
+   "acronym": "FIVB",
+   "role": "Volleyball (Olympic)",
+   "town": "Lausanne",
+   "address": "Château Les Tourelles, Chemin Edouard-Sandoz 2-4, 1006 Lausanne",
+   "site": "fivb.com",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International Skating Union",
+   "acronym": "ISU",
+   "role": "Skating (Olympic winter); new Home of Skating HQ opened October 2025",
+   "town": "Lausanne",
+   "address": "Chemin de Brillancourt 4, 1006 Lausanne (previously Avenue Juste-Olivier 17)",
+   "site": "isu.org",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International University Sports Federation",
+   "acronym": "FISU",
+   "role": "University sport",
+   "town": "Lausanne",
+   "address": "Synathlon, Quartier UNIL-Centre, 1015 Lausanne",
+   "site": "fisu.net",
+   "group": "Lausanne"
+  },
+  {
+   "name": "European Athletics",
+   "acronym": "EA",
+   "role": "Continental association",
+   "town": "Lausanne",
+   "address": "Avenue Louis-Ruchonnet 16, 1003 Lausanne",
+   "site": "european-athletics.com",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International World Games Association",
+   "acronym": "IWGA",
+   "role": "The World Games",
+   "town": "Lausanne",
+   "address": "Lausanne",
+   "site": "theworldgames.org",
+   "group": "Lausanne"
+  },
+  {
+   "name": "Winter Olympic Federations (formerly AIOWF)",
+   "acronym": "WOF",
+   "role": "Umbrella body",
+   "town": "Lausanne",
+   "address": "Lausanne",
+   "site": "olympics.com",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International Judo Federation",
+   "acronym": "IJF",
+   "role": "Judo (Olympic); Lausanne seat, head office Budapest",
+   "town": "Lausanne",
+   "address": "Lausanne (registered seat)",
+   "site": "ijf.org",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International Wushu Federation",
+   "acronym": "IWUF",
+   "role": "Wushu (IOC recognised); operations in Beijing",
+   "town": "Lausanne",
+   "address": "Lausanne (registered seat)",
+   "site": "iwuf.org",
+   "group": "Lausanne"
+  },
+  {
+   "name": "International Waterski and Wakeboard Federation",
+   "acronym": "IWWF",
+   "role": "Water skiing (IOC recognised)",
+   "town": "Lausanne",
+   "address": "Lausanne (registered seat)",
+   "site": "iwwf.sport",
+   "group": "Lausanne"
+  },
+  {
+   "name": "World Boxing",
+   "acronym": "WB",
+   "role": "Boxing (ASOIF associate, IOC provisional recognition)",
+   "town": "Lausanne",
+   "address": "Lausanne (registered seat)",
+   "site": "worldboxing.org",
+   "group": "Lausanne"
+  },
+  {
+   "name": "UEFA",
+   "acronym": "",
+   "role": "European football",
+   "town": "Nyon",
+   "address": "Route de Genève 46, 1260 Nyon",
+   "site": "uefa.com",
+   "group": "Vaud"
+  },
+  {
+   "name": "European Aquatics (formerly LEN)",
+   "acronym": "",
+   "role": "Continental confederation; agreement signed January 2026 to move HQ to Belgrade",
+   "town": "Nyon",
+   "address": "Nyon",
+   "site": "european-aquatics.org",
+   "group": "Vaud"
+  },
+  {
+   "name": "Union Cycliste Internationale",
+   "acronym": "UCI",
+   "role": "Cycling (Olympic), with the World Cycling Centre velodrome",
+   "town": "Aigle",
+   "address": "Chemin de la Mêlée 12, 1860 Aigle",
+   "site": "uci.org",
+   "group": "Vaud"
+  },
+  {
+   "name": "International Basketball Federation",
+   "acronym": "FIBA",
+   "role": "Basketball (Olympic); Patrick Baumann House of Basketball",
+   "town": "Mies",
+   "address": "Chemin de la FIBA 1 (formerly Route Suisse 5), 1295 Mies",
+   "site": "fiba.basketball",
+   "group": "Vaud"
+  },
+  {
+   "name": "Fédération Internationale de Motocyclisme",
+   "acronym": "FIM",
+   "role": "Motorcycling (IOC recognised); new HQ opened October 2024",
+   "town": "Mies",
+   "address": "Route de Suisse 11, 1295 Mies",
+   "site": "fim-moto.com",
+   "group": "Vaud"
+  },
+  {
+   "name": "World Baseball Softball Confederation",
+   "acronym": "WBSC",
+   "role": "Baseball and softball",
+   "town": "Pully",
+   "address": "Avenue Général-Guisan 45, 1009 Pully",
+   "site": "wbsc.org",
+   "group": "Vaud"
+  },
+  {
+   "name": "United World Wrestling",
+   "acronym": "UWW",
+   "role": "Wrestling (Olympic)",
+   "town": "Corsier-sur-Vevey",
+   "address": "Rue du Château 6, 1804 Corsier-sur-Vevey",
+   "site": "uww.org",
+   "group": "Vaud"
+  },
+  {
+   "name": "FIFA",
+   "acronym": "",
+   "role": "Football (Olympic)",
+   "town": "Zurich",
+   "address": "FIFA-Strasse 20, 8044 Zurich",
+   "site": "fifa.com",
+   "group": "Rest of Switzerland"
+  },
+  {
+   "name": "International Ice Hockey Federation",
+   "acronym": "IIHF",
+   "role": "Ice hockey (Olympic winter)",
+   "town": "Zurich",
+   "address": "Brandschenkestrasse 50, 8002 Zurich",
+   "site": "iihf.com",
+   "group": "Rest of Switzerland"
+  },
+  {
+   "name": "International Handball Federation",
+   "acronym": "IHF",
+   "role": "Handball (Olympic); new IHF House opened 7 May 2026 near the old town",
+   "town": "Basel",
+   "address": "Basel (previous address Peter Merian-Strasse 23; confirm the new one)",
+   "site": "ihf.info",
+   "group": "Rest of Switzerland"
+  },
+  {
+   "name": "International Ski and Snowboard Federation",
+   "acronym": "FIS",
+   "role": "Skiing and snowboarding (Olympic winter)",
+   "town": "Oberhofen",
+   "address": "Marc Hodler House, Blochstrasse 2, 3653 Oberhofen am Thunersee",
+   "site": "fis-ski.com",
+   "group": "Rest of Switzerland"
+  },
+  {
+   "name": "International Climbing and Mountaineering Federation",
+   "acronym": "UIAA",
+   "role": "Mountaineering (IOC recognised)",
+   "town": "Bern",
+   "address": "c/o Swiss Alpine Club, Monbijoustrasse 61, 3007 Bern",
+   "site": "theuiaa.org",
+   "group": "Rest of Switzerland"
+  }
+ ],
+ "entities": [
+  {
+   "name": "Swiss Olympic",
+   "role": "National Olympic committee, umbrella body for 81 federations, publisher of the report; runs the Swiss Olympic Innovation Hub",
+   "town": "Ittigen",
+   "address": "Haus des Sports, Talgut-Zentrum 27, 3063 Ittigen",
+   "site": "swissolympic.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Swiss Football Association (SFV/ASF)",
+   "role": "Governs football; quoted in the report on its dependence on foreign data providers; a new Swiss Football Home in Thun announced August 2025",
+   "town": "Muri bei Bern",
+   "address": "Haus des Schweizer Fussballs, Worbstrasse 48, 3074 Muri bei Bern",
+   "site": "football.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Swiss Football League (SFL)",
+   "role": "Runs the Super League and Challenge League, 20 clubs",
+   "town": "Bern",
+   "address": "Maulbeerstrasse 10, 3011 Bern",
+   "site": "sfl.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Swiss Ice Hockey Federation (SIHF)",
+   "role": "Governs ice hockey; the National League and Swiss League run from the same address",
+   "town": "Glattbrugg",
+   "address": "Flughofstrasse 50, 8152 Glattbrugg",
+   "site": "sihf.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Swiss-Ski",
+   "role": "Governs skiing and snowboarding; host federation for the 2027 Alpine World Championships in Crans-Montana",
+   "town": "Muri bei Bern",
+   "address": "Muri bei Bern",
+   "site": "swiss-ski.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Swiss Tennis",
+   "role": "Governs tennis, national centre in Biel",
+   "town": "Biel/Bienne",
+   "address": "Biel/Bienne",
+   "site": "swisstennis.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Swiss Athletics",
+   "role": "Governs athletics",
+   "town": "Ittigen",
+   "address": "Haus des Sports, Ittigen",
+   "site": "swiss-athletics.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Swiss Cycling",
+   "role": "Governs cycling",
+   "town": "Grenchen",
+   "address": "Grenchen",
+   "site": "swiss-cycling.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Federal Office of Sport (BASPO/OFSPO)",
+   "role": "Federal sport agency, national training centre, home of the EHSM sport university",
+   "town": "Magglingen",
+   "address": "Hauptstrasse 247, 2532 Magglingen",
+   "site": "baspo.admin.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Swiss Sport Integrity",
+   "role": "National anti-doping and ethics body",
+   "town": "Bern",
+   "address": "Bern",
+   "site": "sportintegrity.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Switzerland 2038",
+   "role": "Association preparing the Winter Games bid, founded 2023 by the winter sports federations, Swiss Olympic and Swiss Paralympic",
+   "town": "Ittigen",
+   "address": "Ittigen",
+   "site": "switzerland2038.ch",
+   "group": "National bodies and leagues"
+  },
+  {
+   "name": "Weltklasse Zürich",
+   "role": "Diamond League athletics meeting, Letzigrund",
+   "town": "Zurich",
+   "address": "",
+   "site": "weltklassezuerich.ch",
+   "group": "Events"
+  },
+  {
+   "name": "Athletissima",
+   "role": "Diamond League athletics meeting, Stade de la Pontaise",
+   "town": "Lausanne",
+   "address": "",
+   "site": "athletissima.ch",
+   "group": "Events"
+  },
+  {
+   "name": "Lauberhorn races",
+   "role": "FIS Alpine World Cup, the longest downhill on the circuit",
+   "town": "Wengen",
+   "address": "",
+   "site": "lauberhorn.ch",
+   "group": "Events"
+  },
+  {
+   "name": "Spengler Cup",
+   "role": "Invitational club ice hockey tournament since 1923, owned by HC Davos",
+   "town": "Davos",
+   "address": "",
+   "site": "spenglercup.ch",
+   "group": "Events"
+  },
+  {
+   "name": "Tour de Suisse",
+   "role": "UCI WorldTour stage race, run by Cycling Unlimited",
+   "town": "Zurich",
+   "address": "",
+   "site": "tourdesuisse.ch",
+   "group": "Events"
+  },
+  {
+   "name": "Swiss Indoors Basel",
+   "role": "ATP 500 tennis tournament, St. Jakobshalle",
+   "town": "Basel",
+   "address": "",
+   "site": "swissindoorsbasel.ch",
+   "group": "Events"
+  },
+  {
+   "name": "Omega European Masters",
+   "role": "DP World Tour golf",
+   "town": "Crans-Montana",
+   "address": "",
+   "site": "omegaeuropeanmasters.com",
+   "group": "Events"
+  },
+  {
+   "name": "Gonet Geneva Open",
+   "role": "ATP 250 tennis tournament",
+   "town": "Geneva",
+   "address": "",
+   "site": "genevaopen.com",
+   "group": "Events"
+  },
+  {
+   "name": "EFG Swiss Open Gstaad",
+   "role": "ATP 250 tennis tournament",
+   "town": "Gstaad",
+   "address": "",
+   "site": "swissopengstaad.ch",
+   "group": "Events"
+  },
+  {
+   "name": "Engadin Skimarathon",
+   "role": "Mass participation cross-country ski race, around 14,000 starters",
+   "town": "Maloja to S-chanf",
+   "address": "",
+   "site": "engadin-skimarathon.ch",
+   "group": "Events"
+  },
+  {
+   "name": "Olympic Museum",
+   "role": "IOC museum and events venue",
+   "town": "Lausanne",
+   "address": "Quai d'Ouchy 1, 1006 Lausanne",
+   "site": "olympics.com/museum",
+   "group": "Events"
+  },
+  {
+   "name": "SRG SSR",
+   "role": "Public broadcaster, holds most national-team and Olympic rights; SRF in Zurich, RTS in Geneva, RSI in Lugano",
+   "town": "Bern",
+   "address": "Giacomettistrasse 1, 3000 Bern",
+   "site": "srgssr.ch",
+   "group": "Media and betting"
+  },
+  {
+   "name": "blue Sport (Swisscom)",
+   "role": "Pay-TV sports channel, Swiss football rights",
+   "town": "Zurich",
+   "address": "",
+   "site": "blue.ch",
+   "group": "Media and betting"
+  },
+  {
+   "name": "MySports (Sunrise)",
+   "role": "Pay-TV sports channel, National League ice hockey rights",
+   "town": "Zurich",
+   "address": "",
+   "site": "mysports.ch",
+   "group": "Media and betting"
+  },
+  {
+   "name": "Ringier (Blick)",
+   "role": "Largest private media group, Blick sport desk; past joint ventures with Infront",
+   "town": "Zurich",
+   "address": "",
+   "site": "ringier.com",
+   "group": "Media and betting"
+  },
+  {
+   "name": "CH Media",
+   "role": "Private TV (3+, TV24) and regional press, carries some sport",
+   "town": "Aarau and Zurich",
+   "address": "",
+   "site": "chmedia.ch",
+   "group": "Media and betting"
+  },
+  {
+   "name": "Keystone-SDA",
+   "role": "National news and photo agency, supplied the images in the report",
+   "town": "Bern",
+   "address": "",
+   "site": "keystone-sda.ch",
+   "group": "Media and betting"
+  },
+  {
+   "name": "Swisslos",
+   "role": "Licensed lottery and sports betting operator (Sporttip) for German-speaking Switzerland and Ticino, buyer of data and streaming",
+   "town": "Basel",
+   "address": "",
+   "site": "swisslos.ch",
+   "group": "Media and betting"
+  },
+  {
+   "name": "Loterie Romande",
+   "role": "Licensed lottery and sports betting operator (Jouez Sport) for French-speaking Switzerland",
+   "town": "Lausanne",
+   "address": "",
+   "site": "loro.ch",
+   "group": "Media and betting"
+  },
+  {
+   "name": "Infront Sports & Media",
+   "role": "Largest sports marketing company headquartered in Switzerland: media and marketing rights for 200+ events and federations, 1,000+ staff, owned by Wanda; co-funded the report",
+   "town": "Zug",
+   "address": "Grafenauweg 2, 6302 Zug",
+   "site": "infront.sport",
+   "group": "Agencies"
+  },
+  {
+   "name": "Host Broadcast Services (HBS)",
+   "role": "Host broadcaster of the FIFA World Cup and other events, Infront subsidiary",
+   "town": "Zug",
+   "address": "Grafenauweg 2, 6304 Zug",
+   "site": "hbs.tv",
+   "group": "Agencies"
+  },
+  {
+   "name": "FIBA Marketing",
+   "role": "FIBA's commercial arm, run with Infront from the same building",
+   "town": "Zug",
+   "address": "Grafenauweg 2, 6304 Zug",
+   "site": "fiba.basketball",
+   "group": "Agencies"
+  },
+  {
+   "name": "TEAM Marketing",
+   "role": "Full-service agency, commercial partner of UEFA for the Champions League and Europa League since 1992; mandate runs to 2027, after which Relevent Sports takes the global rights for 2027 to 2033",
+   "town": "Lucerne",
+   "address": "Alpenquai 30, 6005 Lucerne",
+   "site": "team.ch",
+   "group": "Agencies"
+  },
+  {
+   "name": "Highlight Event and Entertainment / Highlight Communications",
+   "role": "Listed holding that owns TEAM Marketing, Sport1 and the World Boxing Super Series; markets the Eurovision Song Contest and the Vienna Philharmonic",
+   "town": "Pratteln",
+   "address": "Netzibodenstrasse 23b, 4133 Pratteln",
+   "site": "hlee.ch",
+   "group": "Agencies"
+  },
+  {
+   "name": "Swiss Timing and Omega Timing",
+   "role": "Official timekeeping for the Olympic Games and many federations, part of the Swatch Group",
+   "town": "Corgémont and Biel",
+   "address": "",
+   "site": "swisstiming.com",
+   "group": "Agencies"
+  },
+  {
+   "name": "IOC Television and Marketing Services",
+   "role": "The IOC's commercial company, manages TOP partners and broadcast agreements",
+   "town": "Lausanne",
+   "address": "",
+   "site": "olympics.com",
+   "group": "Agencies"
+  },
+  {
+   "name": "Olympic Broadcasting Services",
+   "role": "Host broadcaster of the Olympic Games; OBS SA is registered in Lausanne, operations in Madrid",
+   "town": "Lausanne and Madrid",
+   "address": "",
+   "site": "obs.tv",
+   "group": "Agencies"
+  },
+  {
+   "name": "AISTS",
+   "role": "International Academy of Sport Science and Technology, master's programme and applied research, founded by the IOC and the Lausanne universities",
+   "town": "Lausanne",
+   "address": "Synathlon, 1015 Lausanne",
+   "site": "aists.org",
+   "group": "Agencies"
+  },
+  {
+   "name": "Lausanne Olympic Capital Foundation",
+   "role": "Promotes Lausanne to federations and sports companies, co-funded the report",
+   "town": "Lausanne",
+   "address": "",
+   "site": "olympiccapital.ch",
+   "group": "Agencies"
+  },
+  {
+   "name": "SpArk",
+   "role": "Sport innovation campus in Valais, named in the report",
+   "town": "Sion",
+   "address": "",
+   "site": "sparklab.ch",
+   "group": "Agencies"
+  },
+  {
+   "name": "OYM",
+   "role": "On Your Marks, private elite training and sports science centre, named in the report's ecosystem map",
+   "town": "Cham",
+   "address": "",
+   "site": "oym.ch",
+   "group": "Agencies"
+  }
+ ]
+}
