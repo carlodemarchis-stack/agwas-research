@@ -288,9 +288,14 @@ page=f'''<!doctype html>
 <meta property="og:title" content="{TITLE}">
 <meta property="og:description" content="{esc(DESC)}">
 <meta property="og:url" content="https://research.aguywithascarf.com/swiss-sportstech/">
+<meta property="og:image" content="https://research.aguywithascarf.com/swiss-sportstech/og.png?v=1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{TITLE}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{TITLE}">
 <meta name="twitter:description" content="{esc(DESC)}">
+<meta name="twitter:image" content="https://research.aguywithascarf.com/swiss-sportstech/og.png?v=1">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#1C1B19">
